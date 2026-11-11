@@ -1,0 +1,7 @@
+{
+  "connects_multiplier": 1.0,
+  "max_proposal_words": 400,
+  "min_proposal_words": 20,
+  "banned_phrases": ["guarantee", "100% success", "whatsapp", "telegram", "paypal"],
+  "max_bids_per_day": 20
+}
