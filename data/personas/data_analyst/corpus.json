@@ -1,0 +1,3503 @@
+[
+ {
+  "evidence_id": "data_analyst-cs-00",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "sales_dashboard",
+  "title": "Sales performance dashboard (retail)",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-09-03",
+  "outcome": "gave regional managers self-serve reporting and retired three spreadsheets",
+  "text": "For a retail client, I modelled a star schema and built an interactive sales dashboard with row-level security. Outcome: gave regional managers self-serve reporting and retired three spreadsheets. Stack: Power BI, SQL, DAX, data modeling.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-01",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "dbt_pipeline",
+  "title": "dbt analytics pipeline (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2024-09-24",
+  "outcome": "cut broken-report incidents by 60%",
+  "text": "For a healthcare client, I set up a dbt project with staging and mart layers, tests and documentation. Outcome: cut broken-report incidents by 60%. Stack: dbt, SQL, BigQuery, ETL, data testing.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-02",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "ab_test",
+  "title": "A/B test analysis (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2024-06-01",
+  "outcome": "identified a variant that lifted sign-ups by 9% with a clear confidence interval",
+  "text": "- Project: A/B test analysis (fintech)\n- Delivered: designed and analysed A/B tests with power calculations and sequential checks\n- Result: identified a variant that lifted sign-ups by 9% with a clear confidence interval",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-03",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "survey_cleaning",
+  "title": "Survey data cleaning and modelling (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2024-11-04",
+  "outcome": "delivered a report the client reused for its board pack",
+  "text": "Delivered a report the client reused for its board pack. I cleaned a messy 12,000-response survey and built weighted summary tables.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-04",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "cohort_retention",
+  "title": "Cohort retention analysis (education)",
+  "industry": "education",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2025-02-28",
+  "outcome": "pinpointed a week-two churn spike that product then fixed",
+  "text": "Pinpointed a week-two churn spike that product then fixed. I built cohort retention queries and a Tableau view showing drop-off by acquisition channel.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-05",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "finance_report",
+  "title": "Monthly finance reporting (real estate)",
+  "industry": "real estate",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2024-12-29",
+  "outcome": "saved about 12 analyst hours every month",
+  "text": "- Project: Monthly finance reporting (real estate)\n- Delivered: automated month-end reporting from three source systems into one reconciled view\n- Result: saved about 12 analyst hours every month",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-06",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "excel_automation",
+  "title": "Excel reporting automation (SaaS)",
+  "industry": "SaaS",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2024-06-08",
+  "outcome": "removed a four-hour weekly manual task",
+  "text": "For a SaaS client, I automated recurring Excel reports with Python and scheduled delivery. Outcome: removed a four-hour weekly manual task. Stack: Excel, Python, openpyxl, automation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-07",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "sales_dashboard",
+  "title": "Sales performance dashboard (retail)",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-12-08",
+  "outcome": "gave regional managers self-serve reporting and retired three spreadsheets",
+  "text": "Gave regional managers self-serve reporting and retired three spreadsheets. I modelled a star schema and built an interactive sales dashboard with row-level security.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-08",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "dbt_pipeline",
+  "title": "dbt analytics pipeline (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2024-12-23",
+  "outcome": "cut broken-report incidents by 60%",
+  "text": "Cut broken-report incidents by 60%. I set up a dbt project with staging and mart layers, tests and documentation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-09",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "ab_test",
+  "title": "A/B test analysis (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2024-11-05",
+  "outcome": "identified a variant that lifted sign-ups by 9% with a clear confidence interval",
+  "text": "Identified a variant that lifted sign-ups by 9% with a clear confidence interval. I designed and analysed A/B tests with power calculations and sequential checks.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-10",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "survey_cleaning",
+  "title": "Survey data cleaning and modelling (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2024-06-02",
+  "outcome": "delivered a report the client reused for its board pack",
+  "text": "For a logistics client, I cleaned a messy 12,000-response survey and built weighted summary tables. Outcome: delivered a report the client reused for its board pack. Stack: pandas, Python, statistics, data cleaning.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-11",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "cohort_retention",
+  "title": "Cohort retention analysis (education)",
+  "industry": "education",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2024-11-26",
+  "outcome": "pinpointed a week-two churn spike that product then fixed",
+  "text": "For a education client, I built cohort retention queries and a Tableau view showing drop-off by acquisition channel. Outcome: pinpointed a week-two churn spike that product then fixed. Stack: SQL, cohort analysis, Tableau, Python.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-12",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "finance_report",
+  "title": "Monthly finance reporting (real estate)",
+  "industry": "real estate",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-01-04",
+  "outcome": "saved about 12 analyst hours every month",
+  "text": "For a real estate client, I automated month-end reporting from three source systems into one reconciled view. Outcome: saved about 12 analyst hours every month. Stack: Tableau, SQL, Excel, ETL.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-13",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "excel_automation",
+  "title": "Excel reporting automation (SaaS)",
+  "industry": "SaaS",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-07-15",
+  "outcome": "removed a four-hour weekly manual task",
+  "text": "- Project: Excel reporting automation (SaaS)\n- Delivered: automated recurring Excel reports with Python and scheduled delivery\n- Result: removed a four-hour weekly manual task",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-14",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "sales_dashboard",
+  "title": "Sales performance dashboard (retail)",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-12-06",
+  "outcome": "gave regional managers self-serve reporting and retired three spreadsheets",
+  "text": "- Project: Sales performance dashboard (retail)\n- Delivered: modelled a star schema and built an interactive sales dashboard with row-level security\n- Result: gave regional managers self-serve reporting and retired three spreadsheets",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-15",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "dbt_pipeline",
+  "title": "dbt analytics pipeline (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2025-01-17",
+  "outcome": "cut broken-report incidents by 60%",
+  "text": "Cut broken-report incidents by 60%. I set up a dbt project with staging and mart layers, tests and documentation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-16",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "ab_test",
+  "title": "A/B test analysis (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-07-14",
+  "outcome": "identified a variant that lifted sign-ups by 9% with a clear confidence interval",
+  "text": "- Project: A/B test analysis (fintech)\n- Delivered: designed and analysed A/B tests with power calculations and sequential checks\n- Result: identified a variant that lifted sign-ups by 9% with a clear confidence interval",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-cs-17",
+  "persona_id": "data_analyst",
+  "type": "case_study",
+  "project": "survey_cleaning",
+  "title": "Survey data cleaning and modelling (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2026-02-16",
+  "outcome": "delivered a report the client reused for its board pack",
+  "text": "- Project: Survey data cleaning and modelling (logistics)\n- Delivered: cleaned a messy 12,000-response survey and built weighted summary tables\n- Result: delivered a report the client reused for its board pack",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-readme-0",
+  "persona_id": "data_analyst",
+  "type": "repo_readme",
+  "project": "sales_dashboard",
+  "title": "sales_dashboard README",
+  "industry": null,
+  "skills": [
+   "Power BI",
+   "SQL"
+  ],
+  "date": "2024-10-22",
+  "outcome": null,
+  "text": "# sales_dashboard\n\nSales performance dashboard.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-code-0",
+  "persona_id": "data_analyst",
+  "type": "repo_code",
+  "project": "sales_dashboard",
+  "title": "sales_dashboard core module",
+  "industry": null,
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-10-23",
+  "outcome": null,
+  "text": "# sales_dashboard/core.py\n# implements: Power BI, SQL, DAX, data modeling\ndef run(config):\n    # modelled a star schema and built an interactive sales dashboard with row-level security\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-readme-1",
+  "persona_id": "data_analyst",
+  "type": "repo_readme",
+  "project": "dbt_pipeline",
+  "title": "dbt_pipeline README",
+  "industry": null,
+  "skills": [
+   "dbt",
+   "SQL"
+  ],
+  "date": "2025-01-16",
+  "outcome": null,
+  "text": "# dbt_pipeline\n\ndbt analytics pipeline.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-code-1",
+  "persona_id": "data_analyst",
+  "type": "repo_code",
+  "project": "dbt_pipeline",
+  "title": "dbt_pipeline core module",
+  "industry": null,
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2026-05-15",
+  "outcome": null,
+  "text": "# dbt_pipeline/core.py\n# implements: dbt, SQL, BigQuery, ETL, data testing\ndef run(config):\n    # set up a dbt project with staging and mart layers, tests and documentation\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-readme-2",
+  "persona_id": "data_analyst",
+  "type": "repo_readme",
+  "project": "ab_test",
+  "title": "ab_test README",
+  "industry": null,
+  "skills": [
+   "statistics",
+   "Python"
+  ],
+  "date": "2026-02-08",
+  "outcome": null,
+  "text": "# ab_test\n\nA/B test analysis.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-code-2",
+  "persona_id": "data_analyst",
+  "type": "repo_code",
+  "project": "ab_test",
+  "title": "ab_test core module",
+  "industry": null,
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2024-06-05",
+  "outcome": null,
+  "text": "# ab_test/core.py\n# implements: statistics, Python, A/B testing, pandas\ndef run(config):\n    # designed and analysed A/B tests with power calculations and sequential checks\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-readme-3",
+  "persona_id": "data_analyst",
+  "type": "repo_readme",
+  "project": "survey_cleaning",
+  "title": "survey_cleaning README",
+  "industry": null,
+  "skills": [
+   "pandas",
+   "Python"
+  ],
+  "date": "2025-08-15",
+  "outcome": null,
+  "text": "# survey_cleaning\n\nSurvey data cleaning and modelling.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-code-3",
+  "persona_id": "data_analyst",
+  "type": "repo_code",
+  "project": "survey_cleaning",
+  "title": "survey_cleaning core module",
+  "industry": null,
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-06-15",
+  "outcome": null,
+  "text": "# survey_cleaning/core.py\n# implements: pandas, Python, statistics, data cleaning\ndef run(config):\n    # cleaned a messy 12,000-response survey and built weighted summary tables\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-readme-4",
+  "persona_id": "data_analyst",
+  "type": "repo_readme",
+  "project": "cohort_retention",
+  "title": "cohort_retention README",
+  "industry": null,
+  "skills": [
+   "SQL",
+   "cohort analysis"
+  ],
+  "date": "2025-07-13",
+  "outcome": null,
+  "text": "# cohort_retention\n\nCohort retention analysis.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-code-4",
+  "persona_id": "data_analyst",
+  "type": "repo_code",
+  "project": "cohort_retention",
+  "title": "cohort_retention core module",
+  "industry": null,
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2026-10-02",
+  "outcome": null,
+  "text": "# cohort_retention/core.py\n# implements: SQL, cohort analysis, Tableau, Python\ndef run(config):\n    # built cohort retention queries and a Tableau view showing drop-off by acquisition channel\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-rev-0",
+  "persona_id": "data_analyst",
+  "type": "review",
+  "project": "sales_dashboard",
+  "title": "Client review: Sales performance dashboard",
+  "industry": "SaaS",
+  "skills": [
+   "Power BI",
+   "SQL"
+  ],
+  "date": "2025-05-10",
+  "outcome": null,
+  "rating": 5.0,
+  "text": "Delivered sales performance dashboard on time and communicated clearly. Gave regional managers self-serve reporting and retired three spreadsheets.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-rev-1",
+  "persona_id": "data_analyst",
+  "type": "review",
+  "project": "dbt_pipeline",
+  "title": "Client review: dbt analytics pipeline",
+  "industry": "fintech",
+  "skills": [
+   "dbt",
+   "SQL"
+  ],
+  "date": "2024-12-21",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered dbt analytics pipeline on time and communicated clearly. Cut broken-report incidents by 60%.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-rev-2",
+  "persona_id": "data_analyst",
+  "type": "review",
+  "project": "ab_test",
+  "title": "Client review: A/B test analysis",
+  "industry": "retail",
+  "skills": [
+   "statistics",
+   "Python"
+  ],
+  "date": "2025-09-19",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered a/b test analysis on time and communicated clearly. Identified a variant that lifted sign-ups by 9% with a clear confidence interval.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-rev-3",
+  "persona_id": "data_analyst",
+  "type": "review",
+  "project": "survey_cleaning",
+  "title": "Client review: Survey data cleaning and modelling",
+  "industry": "healthcare",
+  "skills": [
+   "pandas",
+   "Python"
+  ],
+  "date": "2026-09-13",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered survey data cleaning and modelling on time and communicated clearly. Delivered a report the client reused for its board pack.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-rev-4",
+  "persona_id": "data_analyst",
+  "type": "review",
+  "project": "cohort_retention",
+  "title": "Client review: Cohort retention analysis",
+  "industry": "logistics",
+  "skills": [
+   "SQL",
+   "cohort analysis"
+  ],
+  "date": "2026-05-11",
+  "outcome": null,
+  "rating": 5.0,
+  "text": "Delivered cohort retention analysis on time and communicated clearly. Pinpointed a week-two churn spike that product then fixed.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-rev-5",
+  "persona_id": "data_analyst",
+  "type": "review",
+  "project": "finance_report",
+  "title": "Client review: Monthly finance reporting",
+  "industry": "logistics",
+  "skills": [
+   "Tableau",
+   "SQL"
+  ],
+  "date": "2025-05-09",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered monthly finance reporting on time and communicated clearly. Saved about 12 analyst hours every month.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-rev-6",
+  "persona_id": "data_analyst",
+  "type": "review",
+  "project": "excel_automation",
+  "title": "Client review: Excel reporting automation",
+  "industry": "healthcare",
+  "skills": [
+   "Excel",
+   "Python"
+  ],
+  "date": "2024-06-07",
+  "outcome": null,
+  "rating": 5.0,
+  "text": "Delivered excel reporting automation on time and communicated clearly. Removed a four-hour weekly manual task.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-rev-7",
+  "persona_id": "data_analyst",
+  "type": "review",
+  "project": "sales_dashboard",
+  "title": "Client review: Sales performance dashboard",
+  "industry": "travel",
+  "skills": [
+   "Power BI",
+   "SQL"
+  ],
+  "date": "2025-04-16",
+  "outcome": null,
+  "rating": 4.5,
+  "text": "Delivered sales performance dashboard on time and communicated clearly. Gave regional managers self-serve reporting and retired three spreadsheets.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-000",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "travel",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2024-06-26",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Tableau, SQL, Excel. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-001",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "real estate",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-03-21",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently designed and analysed A/B tests with power calculations and sequential checks for a real estate client, which identified a variant that lifted sign-ups by 9% with a clear confidence interval. Your job needs statistics, Python, A/B testing, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-002",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "fintech",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2026-06-19",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a fintech client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-003",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "real estate",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-09-26",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Tableau, SQL, Excel. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-004",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "retail",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-08-18",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently cleaned a messy 12,000-response survey and built weighted summary tables for a retail client, which delivered a report the client reused for its board pack. Your job needs pandas, Python, statistics, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-005",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "real estate",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-12-16",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Tableau, SQL, Excel. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-006",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "SaaS",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2026-03-12",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-007",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "SaaS",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2024-08-18",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-008",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "logistics",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2026-03-05",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-009",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "fintech",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2024-07-06",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a fintech client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-010",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "SaaS",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-04-09",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-011",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "fintech",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2024-08-11",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-012",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "logistics",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-02-05",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a logistics client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-013",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "fintech",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2024-07-26",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with pandas, Python, statistics. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-014",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "real estate",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2025-06-18",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed and analysed A/B tests with power calculations and sequential checks for a real estate client, which identified a variant that lifted sign-ups by 9% with a clear confidence interval. Your job needs statistics, Python, A/B testing, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-015",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "SaaS",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-10-16",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with pandas, Python, statistics. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-016",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "education",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2024-06-27",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-017",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "real estate",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2024-06-23",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-018",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "retail",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-08-10",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with statistics, Python, A/B testing. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-019",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "education",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2026-05-29",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a education client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-020",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "logistics",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2024-08-10",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a logistics client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-021",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "logistics",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2026-05-04",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-022",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "healthcare",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2024-08-07",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with SQL, cohort analysis, Tableau. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-023",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "education",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-04-27",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a education client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-024",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "travel",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2026-06-23",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-025",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "SaaS",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2025-06-05",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently designed and analysed A/B tests with power calculations and sequential checks for a SaaS client, which identified a variant that lifted sign-ups by 9% with a clear confidence interval. Your job needs statistics, Python, A/B testing, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-026",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "retail",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2024-11-04",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with SQL, cohort analysis, Tableau. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-027",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "logistics",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2024-09-30",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with pandas, Python, statistics. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-028",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "fintech",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-03-25",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-029",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "education",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-08-20",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-030",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "healthcare",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2024-12-29",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a healthcare client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-031",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-11-18",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-032",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "healthcare",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-05-28",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-033",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "logistics",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-11-10",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-034",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "real estate",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-04-03",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently modelled a star schema and built an interactive sales dashboard with row-level security for a real estate client, which gave regional managers self-serve reporting and retired three spreadsheets. Your job needs Power BI, SQL, DAX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-035",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "logistics",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-02-07",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a logistics client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-036",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "retail",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2024-06-27",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-037",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "SaaS",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-05-22",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently cleaned a messy 12,000-response survey and built weighted summary tables for a SaaS client, which delivered a report the client reused for its board pack. Your job needs pandas, Python, statistics, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-038",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "logistics",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2025-11-18",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with statistics, Python, A/B testing. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-039",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "real estate",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2025-01-10",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with dbt, SQL, BigQuery. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-040",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-09-02",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently modelled a star schema and built an interactive sales dashboard with row-level security for a retail client, which gave regional managers self-serve reporting and retired three spreadsheets. Your job needs Power BI, SQL, DAX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-041",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "retail",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2026-09-05",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built cohort retention queries and a Tableau view showing drop-off by acquisition channel for a retail client, which pinpointed a week-two churn spike that product then fixed. Your job needs SQL, cohort analysis, Tableau, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-042",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "travel",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2024-08-06",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with dbt, SQL, BigQuery. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-043",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "SaaS",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2024-11-08",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with SQL, cohort analysis, Tableau. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-044",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "healthcare",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-07-11",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a healthcare client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-045",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "fintech",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2026-09-15",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a fintech client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-046",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "healthcare",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-10-10",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-047",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "fintech",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-01-31",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-048",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "education",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-10-02",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a education client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-049",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "retail",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2024-06-30",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with pandas, Python, statistics. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-050",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "SaaS",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-07-22",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-051",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-12-16",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-052",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "travel",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2026-07-30",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-053",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "travel",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2026-10-07",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a travel client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-054",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "retail",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2024-05-26",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently cleaned a messy 12,000-response survey and built weighted summary tables for a retail client, which delivered a report the client reused for its board pack. Your job needs pandas, Python, statistics, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-055",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "logistics",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2026-10-04",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-056",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "logistics",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-09-01",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with statistics, Python, A/B testing. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-057",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "fintech",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2025-01-17",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with statistics, Python, A/B testing. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-058",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "travel",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2026-02-04",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with SQL, cohort analysis, Tableau. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-059",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-12-25",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently modelled a star schema and built an interactive sales dashboard with row-level security for a retail client, which gave regional managers self-serve reporting and retired three spreadsheets. Your job needs Power BI, SQL, DAX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-060",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "healthcare",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-02-15",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a healthcare client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-061",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "travel",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2025-03-13",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with dbt, SQL, BigQuery. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-062",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "travel",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2024-07-28",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Tableau, SQL, Excel. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-063",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "real estate",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-07-23",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-064",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "travel",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2026-01-17",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently cleaned a messy 12,000-response survey and built weighted summary tables for a travel client, which delivered a report the client reused for its board pack. Your job needs pandas, Python, statistics, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-065",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "real estate",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2024-12-25",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a real estate client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-066",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "real estate",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2026-10-07",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-067",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "fintech",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-08-10",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-068",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "SaaS",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2024-08-24",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently set up a dbt project with staging and mart layers, tests and documentation for a SaaS client, which cut broken-report incidents by 60%. Your job needs dbt, SQL, BigQuery, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-069",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "travel",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2026-01-26",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently set up a dbt project with staging and mart layers, tests and documentation for a travel client, which cut broken-report incidents by 60%. Your job needs dbt, SQL, BigQuery, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-070",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "SaaS",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2024-09-01",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently designed and analysed A/B tests with power calculations and sequential checks for a SaaS client, which identified a variant that lifted sign-ups by 9% with a clear confidence interval. Your job needs statistics, Python, A/B testing, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-071",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "retail",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-03-16",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a retail client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-072",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "education",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2025-04-10",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-073",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "travel",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-04-04",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a travel client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-074",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "SaaS",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2026-02-25",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently cleaned a messy 12,000-response survey and built weighted summary tables for a SaaS client, which delivered a report the client reused for its board pack. Your job needs pandas, Python, statistics, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-075",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "retail",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-03-25",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with statistics, Python, A/B testing. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-076",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "retail",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-07-25",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-077",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "real estate",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2025-03-08",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-078",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "education",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2025-06-21",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-079",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "logistics",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2026-04-20",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built cohort retention queries and a Tableau view showing drop-off by acquisition channel for a logistics client, which pinpointed a week-two churn spike that product then fixed. Your job needs SQL, cohort analysis, Tableau, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-080",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "education",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-09-05",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a education client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-081",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "fintech",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-06-04",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a fintech client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-082",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "healthcare",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-07-31",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed and analysed A/B tests with power calculations and sequential checks for a healthcare client, which identified a variant that lifted sign-ups by 9% with a clear confidence interval. Your job needs statistics, Python, A/B testing, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-083",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "real estate",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2025-05-09",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with dbt, SQL, BigQuery. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-084",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "retail",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2025-03-22",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built cohort retention queries and a Tableau view showing drop-off by acquisition channel for a retail client, which pinpointed a week-two churn spike that product then fixed. Your job needs SQL, cohort analysis, Tableau, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-085",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "logistics",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-08-12",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently cleaned a messy 12,000-response survey and built weighted summary tables for a logistics client, which delivered a report the client reused for its board pack. Your job needs pandas, Python, statistics, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-086",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "travel",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2026-06-10",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-087",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "retail",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2025-09-30",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently designed and analysed A/B tests with power calculations and sequential checks for a retail client, which identified a variant that lifted sign-ups by 9% with a clear confidence interval. Your job needs statistics, Python, A/B testing, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-088",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-10-30",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently modelled a star schema and built an interactive sales dashboard with row-level security for a retail client, which gave regional managers self-serve reporting and retired three spreadsheets. Your job needs Power BI, SQL, DAX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-089",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "travel",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2026-08-18",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-090",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "SaaS",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-07-22",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-091",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "real estate",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2024-12-06",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with statistics, Python, A/B testing. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-092",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "SaaS",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2025-10-08",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built cohort retention queries and a Tableau view showing drop-off by acquisition channel for a SaaS client, which pinpointed a week-two churn spike that product then fixed. Your job needs SQL, cohort analysis, Tableau, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-093",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "logistics",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2025-10-27",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently set up a dbt project with staging and mart layers, tests and documentation for a logistics client, which cut broken-report incidents by 60%. Your job needs dbt, SQL, BigQuery, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-094",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-08-08",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-095",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "travel",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2024-09-09",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built cohort retention queries and a Tableau view showing drop-off by acquisition channel for a travel client, which pinpointed a week-two churn spike that product then fixed. Your job needs SQL, cohort analysis, Tableau, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-096",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "logistics",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-02-24",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-097",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "healthcare",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-09-18",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with pandas, Python, statistics. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-098",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "real estate",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2026-02-20",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-099",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "fintech",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-06-30",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-100",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "logistics",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2024-06-22",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-101",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "healthcare",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2024-09-15",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-102",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "travel",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2025-09-23",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-103",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "retail",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-11-09",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-104",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "logistics",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-05-29",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with statistics, Python, A/B testing. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-105",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "logistics",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2025-07-17",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with statistics, Python, A/B testing. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-106",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "fintech",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2025-08-20",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built cohort retention queries and a Tableau view showing drop-off by acquisition channel for a fintech client, which pinpointed a week-two churn spike that product then fixed. Your job needs SQL, cohort analysis, Tableau, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-107",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "logistics",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2024-06-15",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently cleaned a messy 12,000-response survey and built weighted summary tables for a logistics client, which delivered a report the client reused for its board pack. Your job needs pandas, Python, statistics, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-108",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "real estate",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-07-03",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-109",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "travel",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2025-05-15",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-110",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "logistics",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2026-06-22",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-111",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "logistics",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-01-28",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-112",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "logistics",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2026-05-09",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently set up a dbt project with staging and mart layers, tests and documentation for a logistics client, which cut broken-report incidents by 60%. Your job needs dbt, SQL, BigQuery, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-113",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "education",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-07-27",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently modelled a star schema and built an interactive sales dashboard with row-level security for a education client, which gave regional managers self-serve reporting and retired three spreadsheets. Your job needs Power BI, SQL, DAX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-114",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "real estate",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2024-08-05",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-115",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "education",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-08-30",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a education client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-116",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "education",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2026-04-21",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with dbt, SQL, BigQuery. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-117",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "logistics",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2026-08-02",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with SQL, cohort analysis, Tableau. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-118",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "healthcare",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2024-09-03",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-119",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "fintech",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2024-10-28",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently designed and analysed A/B tests with power calculations and sequential checks for a fintech client, which identified a variant that lifted sign-ups by 9% with a clear confidence interval. Your job needs statistics, Python, A/B testing, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-120",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "logistics",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2026-08-16",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Tableau, SQL, Excel. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-121",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "SaaS",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-05-10",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-122",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "real estate",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-06-05",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a real estate client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-123",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2026-06-08",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently modelled a star schema and built an interactive sales dashboard with row-level security for a retail client, which gave regional managers self-serve reporting and retired three spreadsheets. Your job needs Power BI, SQL, DAX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-124",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "education",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-10-12",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a education client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-125",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "fintech",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-05-27",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-126",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "real estate",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-05-12",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Power BI, SQL, DAX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-127",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "healthcare",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2024-06-25",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently modelled a star schema and built an interactive sales dashboard with row-level security for a healthcare client, which gave regional managers self-serve reporting and retired three spreadsheets. Your job needs Power BI, SQL, DAX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-128",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "real estate",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-03-11",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-129",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "retail",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2024-10-04",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated recurring Excel reports with Python and scheduled delivery for a retail client, which removed a four-hour weekly manual task. Your job needs Excel, Python, openpyxl, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-130",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "travel",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-04-20",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with pandas, Python, statistics. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-131",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "retail",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2025-01-27",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently set up a dbt project with staging and mart layers, tests and documentation for a retail client, which cut broken-report incidents by 60%. Your job needs dbt, SQL, BigQuery, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-132",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "dbt_pipeline",
+  "title": "Past proposal: dbt analytics pipeline",
+  "industry": "fintech",
+  "skills": [
+   "dbt",
+   "SQL",
+   "BigQuery",
+   "ETL",
+   "data testing"
+  ],
+  "date": "2024-07-08",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently set up a dbt project with staging and mart layers, tests and documentation for a fintech client, which cut broken-report incidents by 60%. Your job needs dbt, SQL, BigQuery, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-133",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "retail",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2026-04-06",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently modelled a star schema and built an interactive sales dashboard with row-level security for a retail client, which gave regional managers self-serve reporting and retired three spreadsheets. Your job needs Power BI, SQL, DAX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-134",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "retail",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2025-07-04",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-135",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "logistics",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2026-07-18",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with SQL, cohort analysis, Tableau. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-136",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "fintech",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-06-04",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a fintech client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-137",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "education",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2026-06-04",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built cohort retention queries and a Tableau view showing drop-off by acquisition channel for a education client, which pinpointed a week-two churn spike that product then fixed. Your job needs SQL, cohort analysis, Tableau, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-138",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "logistics",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2025-03-15",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-139",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "SaaS",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2025-01-10",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently cleaned a messy 12,000-response survey and built weighted summary tables for a SaaS client, which delivered a report the client reused for its board pack. Your job needs pandas, Python, statistics, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-140",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "SaaS",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2026-09-15",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with pandas, Python, statistics. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-141",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "survey_cleaning",
+  "title": "Past proposal: Survey data cleaning and modelling",
+  "industry": "retail",
+  "skills": [
+   "pandas",
+   "Python",
+   "statistics",
+   "data cleaning"
+  ],
+  "date": "2026-02-18",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-142",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "real estate",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2025-03-24",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-143",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "real estate",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-08-29",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-144",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "ab_test",
+  "title": "Past proposal: A/B test analysis",
+  "industry": "fintech",
+  "skills": [
+   "statistics",
+   "Python",
+   "A/B testing",
+   "pandas"
+  ],
+  "date": "2026-02-09",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-145",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "SaaS",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-07-03",
+  "outcome": "won",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-146",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "cohort_retention",
+  "title": "Past proposal: Cohort retention analysis",
+  "industry": "fintech",
+  "skills": [
+   "SQL",
+   "cohort analysis",
+   "Tableau",
+   "Python"
+  ],
+  "date": "2025-05-24",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built cohort retention queries and a Tableau view showing drop-off by acquisition channel for a fintech client, which pinpointed a week-two churn spike that product then fixed. Your job needs SQL, cohort analysis, Tableau, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-147",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "finance_report",
+  "title": "Past proposal: Monthly finance reporting",
+  "industry": "retail",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel",
+   "ETL"
+  ],
+  "date": "2025-09-11",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently automated month-end reporting from three source systems into one reconciled view for a retail client, which saved about 12 analyst hours every month. Your job needs Tableau, SQL, Excel, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-148",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "excel_automation",
+  "title": "Past proposal: Excel reporting automation",
+  "industry": "travel",
+  "skills": [
+   "Excel",
+   "Python",
+   "openpyxl",
+   "automation"
+  ],
+  "date": "2026-09-11",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Excel, Python, openpyxl. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "data_analyst-pr-149",
+  "persona_id": "data_analyst",
+  "type": "past_proposal",
+  "project": "sales_dashboard",
+  "title": "Past proposal: Sales performance dashboard",
+  "industry": "education",
+  "skills": [
+   "Power BI",
+   "SQL",
+   "DAX",
+   "data modeling"
+  ],
+  "date": "2025-01-17",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ }
+]

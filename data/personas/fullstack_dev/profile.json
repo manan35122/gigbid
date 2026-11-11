@@ -1,0 +1,30 @@
+{
+ "persona_id": "fullstack_dev",
+ "name": "Bilal Ahmed",
+ "headline": "Full-stack web developer: React, Next.js, FastAPI, PostgreSQL",
+ "hourly_floor_usd": 30,
+ "category": "web_dev",
+ "skills": [
+  "CI/CD",
+  "Docker",
+  "FastAPI",
+  "GitHub Actions",
+  "JWT",
+  "Next.js",
+  "Nginx",
+  "Node.js",
+  "PostgreSQL",
+  "REST API",
+  "React",
+  "Redis",
+  "Stripe",
+  "Tailwind",
+  "TypeScript",
+  "WebSockets",
+  "Webpack",
+  "migration",
+  "performance",
+  "rate limiting"
+ ],
+ "data_origin": "synthetic"
+}

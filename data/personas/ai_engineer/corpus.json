@@ -1,0 +1,3580 @@
+[
+ {
+  "evidence_id": "ai_engineer-cs-00",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "rag_support",
+  "title": "RAG assistant over support documents (retail)",
+  "industry": "retail",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-11-25",
+  "outcome": "cut average ticket handling time by 31%",
+  "text": "For a retail client, I built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker. Outcome: cut average ticket handling time by 31%. Stack: RAG, LangChain, FastAPI, pgvector, reranking.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-01",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "churn_model",
+  "title": "Customer churn prediction model (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2025-09-13",
+  "outcome": "lifted recall at fixed precision from 0.52 to 0.68",
+  "text": "Lifted recall at fixed precision from 0.52 to 0.68. I trained and calibrated a gradient boosting churn model with a leakage-safe validation split.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-02",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "defect_vision",
+  "title": "Visual defect detection pipeline (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-09-03",
+  "outcome": "reached 94% defect recall on a held-out line",
+  "text": "For a fintech client, I trained a CNN to flag surface defects and exported it to ONNX for edge inference. Outcome: reached 94% defect recall on a held-out line. Stack: PyTorch, computer vision, ONNX, OpenCV.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-03",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "llm_finetune",
+  "title": "Fine-tuned LLM for domain Q&A (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2024-07-04",
+  "outcome": "raised answer accuracy from 61% to 79% on an internal test set",
+  "text": "Raised answer accuracy from 61% to 79% on an internal test set. I fine-tuned a 7B model with LoRA on curated question-answer pairs.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-04",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "ticket_nlp",
+  "title": "Support ticket classification (education)",
+  "industry": "education",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2026-07-18",
+  "outcome": "routed 82% of tickets correctly without manual triage",
+  "text": "- Project: Support ticket classification (education)\n- Delivered: built a multi-label ticket classifier on top of a transformer encoder\n- Result: routed 82% of tickets correctly without manual triage",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-05",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "mlops_deploy",
+  "title": "Model deployment with MLOps tooling (real estate)",
+  "industry": "real estate",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-03-05",
+  "outcome": "shortened release cycles from two weeks to two days",
+  "text": "For a real estate client, I containerised models, tracked experiments in MLflow and added CI checks before release. Outcome: shortened release cycles from two weeks to two days. Stack: MLOps, MLflow, Docker, GitHub Actions, FastAPI.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-06",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "demand_forecast",
+  "title": "Demand forecasting service (SaaS)",
+  "industry": "SaaS",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-05-21",
+  "outcome": "reduced forecast error (MAPE) by 18%",
+  "text": "For a SaaS client, I built a weekly demand forecaster with backtesting across 40 product groups. Outcome: reduced forecast error (MAPE) by 18%. Stack: Python, LightGBM, time series, pandas.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-07",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "rag_support",
+  "title": "RAG assistant over support documents (retail)",
+  "industry": "retail",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-09-14",
+  "outcome": "cut average ticket handling time by 31%",
+  "text": "For a retail client, I built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker. Outcome: cut average ticket handling time by 31%. Stack: RAG, LangChain, FastAPI, pgvector, reranking.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-08",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "churn_model",
+  "title": "Customer churn prediction model (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2025-08-04",
+  "outcome": "lifted recall at fixed precision from 0.52 to 0.68",
+  "text": "- Project: Customer churn prediction model (healthcare)\n- Delivered: trained and calibrated a gradient boosting churn model with a leakage-safe validation split\n- Result: lifted recall at fixed precision from 0.52 to 0.68",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-09",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "defect_vision",
+  "title": "Visual defect detection pipeline (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-08-12",
+  "outcome": "reached 94% defect recall on a held-out line",
+  "text": "For a fintech client, I trained a CNN to flag surface defects and exported it to ONNX for edge inference. Outcome: reached 94% defect recall on a held-out line. Stack: PyTorch, computer vision, ONNX, OpenCV.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-10",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "llm_finetune",
+  "title": "Fine-tuned LLM for domain Q&A (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-07-22",
+  "outcome": "raised answer accuracy from 61% to 79% on an internal test set",
+  "text": "Raised answer accuracy from 61% to 79% on an internal test set. I fine-tuned a 7B model with LoRA on curated question-answer pairs.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-11",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "ticket_nlp",
+  "title": "Support ticket classification (education)",
+  "industry": "education",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2025-08-14",
+  "outcome": "routed 82% of tickets correctly without manual triage",
+  "text": "For a education client, I built a multi-label ticket classifier on top of a transformer encoder. Outcome: routed 82% of tickets correctly without manual triage. Stack: NLP, transformers, Python, text classification.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-12",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "mlops_deploy",
+  "title": "Model deployment with MLOps tooling (real estate)",
+  "industry": "real estate",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2024-06-28",
+  "outcome": "shortened release cycles from two weeks to two days",
+  "text": "Shortened release cycles from two weeks to two days. I containerised models, tracked experiments in MLflow and added CI checks before release.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-13",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "demand_forecast",
+  "title": "Demand forecasting service (SaaS)",
+  "industry": "SaaS",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-06-18",
+  "outcome": "reduced forecast error (MAPE) by 18%",
+  "text": "For a SaaS client, I built a weekly demand forecaster with backtesting across 40 product groups. Outcome: reduced forecast error (MAPE) by 18%. Stack: Python, LightGBM, time series, pandas.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-14",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "rag_support",
+  "title": "RAG assistant over support documents (retail)",
+  "industry": "retail",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-01-15",
+  "outcome": "cut average ticket handling time by 31%",
+  "text": "Cut average ticket handling time by 31%. I built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-15",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "churn_model",
+  "title": "Customer churn prediction model (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2025-03-05",
+  "outcome": "lifted recall at fixed precision from 0.52 to 0.68",
+  "text": "For a healthcare client, I trained and calibrated a gradient boosting churn model with a leakage-safe validation split. Outcome: lifted recall at fixed precision from 0.52 to 0.68. Stack: Python, scikit-learn, XGBoost, classification, model evaluation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-16",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "defect_vision",
+  "title": "Visual defect detection pipeline (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-03-11",
+  "outcome": "reached 94% defect recall on a held-out line",
+  "text": "Reached 94% defect recall on a held-out line. I trained a CNN to flag surface defects and exported it to ONNX for edge inference.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-cs-17",
+  "persona_id": "ai_engineer",
+  "type": "case_study",
+  "project": "llm_finetune",
+  "title": "Fine-tuned LLM for domain Q&A (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2025-09-11",
+  "outcome": "raised answer accuracy from 61% to 79% on an internal test set",
+  "text": "For a logistics client, I fine-tuned a 7B model with LoRA on curated question-answer pairs. Outcome: raised answer accuracy from 61% to 79% on an internal test set. Stack: LLM, LoRA, PEFT, Hugging Face, PyTorch.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-readme-0",
+  "persona_id": "ai_engineer",
+  "type": "repo_readme",
+  "project": "rag_support",
+  "title": "rag_support README",
+  "industry": null,
+  "skills": [
+   "RAG",
+   "LangChain"
+  ],
+  "date": "2026-03-10",
+  "outcome": null,
+  "text": "# rag_support\n\nRAG assistant over support documents.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-code-0",
+  "persona_id": "ai_engineer",
+  "type": "repo_code",
+  "project": "rag_support",
+  "title": "rag_support core module",
+  "industry": null,
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-09-05",
+  "outcome": null,
+  "text": "# rag_support/core.py\n# implements: RAG, LangChain, FastAPI, pgvector, reranking\ndef run(config):\n    # built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-readme-1",
+  "persona_id": "ai_engineer",
+  "type": "repo_readme",
+  "project": "churn_model",
+  "title": "churn_model README",
+  "industry": null,
+  "skills": [
+   "Python",
+   "scikit-learn"
+  ],
+  "date": "2025-03-31",
+  "outcome": null,
+  "text": "# churn_model\n\nCustomer churn prediction model.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-code-1",
+  "persona_id": "ai_engineer",
+  "type": "repo_code",
+  "project": "churn_model",
+  "title": "churn_model core module",
+  "industry": null,
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2024-05-26",
+  "outcome": null,
+  "text": "# churn_model/core.py\n# implements: Python, scikit-learn, XGBoost, classification, model evaluation\ndef run(config):\n    # trained and calibrated a gradient boosting churn model with a leakage-safe validation split\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-readme-2",
+  "persona_id": "ai_engineer",
+  "type": "repo_readme",
+  "project": "defect_vision",
+  "title": "defect_vision README",
+  "industry": null,
+  "skills": [
+   "PyTorch",
+   "computer vision"
+  ],
+  "date": "2026-06-08",
+  "outcome": null,
+  "text": "# defect_vision\n\nVisual defect detection pipeline.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-code-2",
+  "persona_id": "ai_engineer",
+  "type": "repo_code",
+  "project": "defect_vision",
+  "title": "defect_vision core module",
+  "industry": null,
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-12-30",
+  "outcome": null,
+  "text": "# defect_vision/core.py\n# implements: PyTorch, computer vision, ONNX, OpenCV\ndef run(config):\n    # trained a CNN to flag surface defects and exported it to ONNX for edge inference\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-readme-3",
+  "persona_id": "ai_engineer",
+  "type": "repo_readme",
+  "project": "llm_finetune",
+  "title": "llm_finetune README",
+  "industry": null,
+  "skills": [
+   "LLM",
+   "LoRA"
+  ],
+  "date": "2025-08-19",
+  "outcome": null,
+  "text": "# llm_finetune\n\nFine-tuned LLM for domain Q&A.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-code-3",
+  "persona_id": "ai_engineer",
+  "type": "repo_code",
+  "project": "llm_finetune",
+  "title": "llm_finetune core module",
+  "industry": null,
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-05-28",
+  "outcome": null,
+  "text": "# llm_finetune/core.py\n# implements: LLM, LoRA, PEFT, Hugging Face, PyTorch\ndef run(config):\n    # fine-tuned a 7B model with LoRA on curated question-answer pairs\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-readme-4",
+  "persona_id": "ai_engineer",
+  "type": "repo_readme",
+  "project": "ticket_nlp",
+  "title": "ticket_nlp README",
+  "industry": null,
+  "skills": [
+   "NLP",
+   "transformers"
+  ],
+  "date": "2025-04-17",
+  "outcome": null,
+  "text": "# ticket_nlp\n\nSupport ticket classification.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-code-4",
+  "persona_id": "ai_engineer",
+  "type": "repo_code",
+  "project": "ticket_nlp",
+  "title": "ticket_nlp core module",
+  "industry": null,
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2026-06-24",
+  "outcome": null,
+  "text": "# ticket_nlp/core.py\n# implements: NLP, transformers, Python, text classification\ndef run(config):\n    # built a multi-label ticket classifier on top of a transformer encoder\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-rev-0",
+  "persona_id": "ai_engineer",
+  "type": "review",
+  "project": "rag_support",
+  "title": "Client review: RAG assistant over support documents",
+  "industry": "education",
+  "skills": [
+   "RAG",
+   "LangChain"
+  ],
+  "date": "2025-03-28",
+  "outcome": null,
+  "rating": 5.0,
+  "text": "Delivered rag assistant over support documents on time and communicated clearly. Cut average ticket handling time by 31%.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-rev-1",
+  "persona_id": "ai_engineer",
+  "type": "review",
+  "project": "churn_model",
+  "title": "Client review: Customer churn prediction model",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "scikit-learn"
+  ],
+  "date": "2026-07-09",
+  "outcome": null,
+  "rating": 5.0,
+  "text": "Delivered customer churn prediction model on time and communicated clearly. Lifted recall at fixed precision from 0.52 to 0.68.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-rev-2",
+  "persona_id": "ai_engineer",
+  "type": "review",
+  "project": "defect_vision",
+  "title": "Client review: Visual defect detection pipeline",
+  "industry": "logistics",
+  "skills": [
+   "PyTorch",
+   "computer vision"
+  ],
+  "date": "2025-10-06",
+  "outcome": null,
+  "rating": 4.5,
+  "text": "Delivered visual defect detection pipeline on time and communicated clearly. Reached 94% defect recall on a held-out line.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-rev-3",
+  "persona_id": "ai_engineer",
+  "type": "review",
+  "project": "llm_finetune",
+  "title": "Client review: Fine-tuned LLM for domain Q&A",
+  "industry": "healthcare",
+  "skills": [
+   "LLM",
+   "LoRA"
+  ],
+  "date": "2025-03-24",
+  "outcome": null,
+  "rating": 4.5,
+  "text": "Delivered fine-tuned llm for domain q&a on time and communicated clearly. Raised answer accuracy from 61% to 79% on an internal test set.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-rev-4",
+  "persona_id": "ai_engineer",
+  "type": "review",
+  "project": "ticket_nlp",
+  "title": "Client review: Support ticket classification",
+  "industry": "logistics",
+  "skills": [
+   "NLP",
+   "transformers"
+  ],
+  "date": "2025-06-01",
+  "outcome": null,
+  "rating": 5.0,
+  "text": "Delivered support ticket classification on time and communicated clearly. Routed 82% of tickets correctly without manual triage.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-rev-5",
+  "persona_id": "ai_engineer",
+  "type": "review",
+  "project": "mlops_deploy",
+  "title": "Client review: Model deployment with MLOps tooling",
+  "industry": "SaaS",
+  "skills": [
+   "MLOps",
+   "MLflow"
+  ],
+  "date": "2024-08-18",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered model deployment with mlops tooling on time and communicated clearly. Shortened release cycles from two weeks to two days.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-rev-6",
+  "persona_id": "ai_engineer",
+  "type": "review",
+  "project": "demand_forecast",
+  "title": "Client review: Demand forecasting service",
+  "industry": "travel",
+  "skills": [
+   "Python",
+   "LightGBM"
+  ],
+  "date": "2025-03-02",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered demand forecasting service on time and communicated clearly. Reduced forecast error (mape) by 18%.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-rev-7",
+  "persona_id": "ai_engineer",
+  "type": "review",
+  "project": "rag_support",
+  "title": "Client review: RAG assistant over support documents",
+  "industry": "real estate",
+  "skills": [
+   "RAG",
+   "LangChain"
+  ],
+  "date": "2025-12-20",
+  "outcome": null,
+  "rating": 4.5,
+  "text": "Delivered rag assistant over support documents on time and communicated clearly. Cut average ticket handling time by 31%.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-000",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-03-13",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-001",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "travel",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-01-01",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-002",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "healthcare",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2024-09-07",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a healthcare client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-003",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "fintech",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2024-12-07",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-004",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "real estate",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-06-01",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a real estate client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-005",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "travel",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2026-01-19",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a travel client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-006",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "healthcare",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2024-12-29",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a healthcare client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-007",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "travel",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2024-12-07",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a travel client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-008",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "retail",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-02-04",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-009",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "travel",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-06-12",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a travel client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-010",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "logistics",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-06-01",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a logistics client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-011",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "fintech",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-06-04",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a fintech client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-012",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "SaaS",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-08-23",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-013",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "SaaS",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-04-25",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-014",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "logistics",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2024-06-23",
+  "outcome": "won",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, scikit-learn, XGBoost. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-015",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "fintech",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2025-08-19",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a fintech client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-016",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "real estate",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2026-06-16",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with NLP, transformers, Python. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-017",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "retail",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2024-11-25",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with MLOps, MLflow, Docker. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-018",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "SaaS",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-06-16",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a SaaS client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-019",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "SaaS",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2026-03-23",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a SaaS client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-020",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "fintech",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-07-10",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a fintech client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-021",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "fintech",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-02-01",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with RAG, LangChain, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-022",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "healthcare",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-05-23",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-023",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "education",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-06-24",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-024",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "healthcare",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-07-02",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-025",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "travel",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2024-09-15",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a travel client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-026",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "education",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-05-12",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with PyTorch, computer vision, ONNX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-027",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "logistics",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-05-25",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-028",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "retail",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-01-02",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-029",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "healthcare",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-10-12",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-030",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "real estate",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2024-08-16",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-031",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "real estate",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2024-08-06",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with NLP, transformers, Python. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-032",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "logistics",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2024-09-25",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-033",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "logistics",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2024-10-04",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a logistics client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-034",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "retail",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-04-07",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-035",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "real estate",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-10-30",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a real estate client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-036",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "healthcare",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-04-04",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently trained a CNN to flag surface defects and exported it to ONNX for edge inference for a healthcare client, which reached 94% defect recall on a held-out line. Your job needs PyTorch, computer vision, ONNX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-037",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "logistics",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-02-05",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with PyTorch, computer vision, ONNX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-038",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "retail",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2024-07-26",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-039",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "healthcare",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-09-20",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-040",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "logistics",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2024-08-05",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-041",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "real estate",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2024-10-13",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a real estate client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-042",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "travel",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2024-10-10",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a travel client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-043",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2025-02-25",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-044",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "fintech",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2025-06-24",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with LLM, LoRA, PEFT. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-045",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "real estate",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2026-10-01",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a real estate client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-046",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "healthcare",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-08-04",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with RAG, LangChain, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-047",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "logistics",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-02-07",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-048",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "education",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2025-11-23",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, scikit-learn, XGBoost. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-049",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "SaaS",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2024-09-25",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-050",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "travel",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-05-11",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with PyTorch, computer vision, ONNX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-051",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "fintech",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-10-03",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with LLM, LoRA, PEFT. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-052",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "travel",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2024-08-19",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-053",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2024-10-10",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a fintech client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-054",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "retail",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-04-02",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a retail client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-055",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "healthcare",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-04-10",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-056",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "retail",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-03-26",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-057",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "healthcare",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-05-23",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a healthcare client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-058",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "logistics",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2025-04-24",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with NLP, transformers, Python. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-059",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "travel",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-05-05",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-060",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "logistics",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-06-20",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-061",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "travel",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2025-08-10",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a travel client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-062",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "logistics",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2024-08-18",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with RAG, LangChain, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-063",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "real estate",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2025-07-01",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently trained and calibrated a gradient boosting churn model with a leakage-safe validation split for a real estate client, which lifted recall at fixed precision from 0.52 to 0.68. Your job needs Python, scikit-learn, XGBoost, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-064",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "healthcare",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2024-12-08",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently trained and calibrated a gradient boosting churn model with a leakage-safe validation split for a healthcare client, which lifted recall at fixed precision from 0.52 to 0.68. Your job needs Python, scikit-learn, XGBoost, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-065",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "logistics",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-05-13",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a logistics client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-066",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "real estate",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-07-20",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a real estate client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-067",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "real estate",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-07-28",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a real estate client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-068",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "retail",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-12-24",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a retail client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-069",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "healthcare",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2026-03-02",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a healthcare client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-070",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "healthcare",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2024-08-16",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a healthcare client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-071",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "education",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2024-06-05",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-072",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "education",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-05-13",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a education client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-073",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "travel",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2026-08-25",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with NLP, transformers, Python. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-074",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-10-05",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a fintech client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-075",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "healthcare",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2024-05-29",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-076",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "healthcare",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2026-10-11",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently trained and calibrated a gradient boosting churn model with a leakage-safe validation split for a healthcare client, which lifted recall at fixed precision from 0.52 to 0.68. Your job needs Python, scikit-learn, XGBoost, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-077",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "SaaS",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-06-12",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-078",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "logistics",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-01-27",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-079",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "fintech",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-12-14",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a fintech client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-080",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "logistics",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2026-04-23",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a logistics client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-081",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "real estate",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-09-15",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-082",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "retail",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-04-11",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with RAG, LangChain, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-083",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "travel",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2024-12-17",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a travel client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-084",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "SaaS",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-09-15",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-085",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "education",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2025-11-06",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with NLP, transformers, Python. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-086",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2026-08-28",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently trained and calibrated a gradient boosting churn model with a leakage-safe validation split for a fintech client, which lifted recall at fixed precision from 0.52 to 0.68. Your job needs Python, scikit-learn, XGBoost, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-087",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-02-03",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a fintech client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-088",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "fintech",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2025-09-27",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a fintech client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-089",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "education",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-09-06",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-090",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "fintech",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-01-26",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a fintech client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-091",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "real estate",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-02-14",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-092",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "education",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-11-13",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a education client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-093",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "healthcare",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-03-31",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with LLM, LoRA, PEFT. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-094",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "retail",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2026-05-28",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently trained and calibrated a gradient boosting churn model with a leakage-safe validation split for a retail client, which lifted recall at fixed precision from 0.52 to 0.68. Your job needs Python, scikit-learn, XGBoost, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-095",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "retail",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2025-01-16",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a retail client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-096",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "healthcare",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2024-09-14",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, scikit-learn, XGBoost. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-097",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "SaaS",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2025-06-03",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-098",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "education",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2026-09-08",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, scikit-learn, XGBoost. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-099",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "SaaS",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-06-02",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-100",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "retail",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2024-10-24",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-101",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "logistics",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-01-08",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a logistics client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-102",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "healthcare",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-09-01",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently trained a CNN to flag surface defects and exported it to ONNX for edge inference for a healthcare client, which reached 94% defect recall on a held-out line. Your job needs PyTorch, computer vision, ONNX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-103",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "retail",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-06-08",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with MLOps, MLflow, Docker. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-104",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "retail",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-05-25",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with PyTorch, computer vision, ONNX. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-105",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "healthcare",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2024-09-28",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with NLP, transformers, Python. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-106",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "education",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-02-24",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-107",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "logistics",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-07-08",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a logistics client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-108",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "SaaS",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-01-01",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a SaaS client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-109",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "retail",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-08-04",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, LightGBM, time series. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-110",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "fintech",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2024-11-12",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a fintech client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-111",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "fintech",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-01-20",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently trained a CNN to flag surface defects and exported it to ONNX for edge inference for a fintech client, which reached 94% defect recall on a held-out line. Your job needs PyTorch, computer vision, ONNX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-112",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "healthcare",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-12-29",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with MLOps, MLflow, Docker. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-113",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "education",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2026-06-23",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with MLOps, MLflow, Docker. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-114",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "logistics",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2025-06-25",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a logistics client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-115",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "education",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-07-19",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with RAG, LangChain, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-116",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "SaaS",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-03-21",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently trained a CNN to flag surface defects and exported it to ONNX for edge inference for a SaaS client, which reached 94% defect recall on a held-out line. Your job needs PyTorch, computer vision, ONNX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-117",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "healthcare",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2025-10-19",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a healthcare client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-118",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "education",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2026-02-28",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-119",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "travel",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2025-06-06",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a travel client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-120",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "travel",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-08-22",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a travel client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-121",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "SaaS",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-10-21",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently trained a CNN to flag surface defects and exported it to ONNX for edge inference for a SaaS client, which reached 94% defect recall on a held-out line. Your job needs PyTorch, computer vision, ONNX, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-122",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "real estate",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-04-05",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-123",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "retail",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-10-06",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-124",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "SaaS",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-08-05",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a SaaS client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-125",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "SaaS",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-01-08",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-126",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "retail",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-05-23",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-127",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "education",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2024-08-22",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently trained and calibrated a gradient boosting churn model with a leakage-safe validation split for a education client, which lifted recall at fixed precision from 0.52 to 0.68. Your job needs Python, scikit-learn, XGBoost, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-128",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "SaaS",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2025-01-14",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-129",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "logistics",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2024-10-03",
+  "outcome": "won",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with LLM, LoRA, PEFT. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-130",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "travel",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-01-02",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with LLM, LoRA, PEFT. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-131",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "retail",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-05-01",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-132",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "SaaS",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2024-09-26",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a SaaS client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-133",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "education",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2025-06-15",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a education client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-134",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "SaaS",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2026-08-07",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a SaaS client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-135",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "travel",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2025-11-16",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Python, scikit-learn, XGBoost. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-136",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "travel",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-02-15",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a travel client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-137",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "rag_support",
+  "title": "Past proposal: RAG assistant over support documents",
+  "industry": "fintech",
+  "skills": [
+   "RAG",
+   "LangChain",
+   "FastAPI",
+   "pgvector",
+   "reranking"
+  ],
+  "date": "2026-02-20",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a retrieval pipeline combining BM25 and dense search with a cross-encoder reranker for a fintech client, which cut average ticket handling time by 31%. Your job needs RAG, LangChain, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-138",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "defect_vision",
+  "title": "Past proposal: Visual defect detection pipeline",
+  "industry": "education",
+  "skills": [
+   "PyTorch",
+   "computer vision",
+   "ONNX",
+   "OpenCV"
+  ],
+  "date": "2026-10-02",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-139",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "mlops_deploy",
+  "title": "Past proposal: Model deployment with MLOps tooling",
+  "industry": "SaaS",
+  "skills": [
+   "MLOps",
+   "MLflow",
+   "Docker",
+   "GitHub Actions",
+   "FastAPI"
+  ],
+  "date": "2026-03-21",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised models, tracked experiments in MLflow and added CI checks before release for a SaaS client, which shortened release cycles from two weeks to two days. Your job needs MLOps, MLflow, Docker, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-140",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "education",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-01-11",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a education client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-141",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "ticket_nlp",
+  "title": "Past proposal: Support ticket classification",
+  "industry": "real estate",
+  "skills": [
+   "NLP",
+   "transformers",
+   "Python",
+   "text classification"
+  ],
+  "date": "2025-01-16",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a multi-label ticket classifier on top of a transformer encoder for a real estate client, which routed 82% of tickets correctly without manual triage. Your job needs NLP, transformers, Python, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-142",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "logistics",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2025-09-24",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a logistics client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-143",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "travel",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2024-07-11",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently fine-tuned a 7B model with LoRA on curated question-answer pairs for a travel client, which raised answer accuracy from 61% to 79% on an internal test set. Your job needs LLM, LoRA, PEFT, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-144",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "retail",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2024-08-31",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a retail client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-145",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "travel",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-08-09",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-146",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "llm_finetune",
+  "title": "Past proposal: Fine-tuned LLM for domain Q&A",
+  "industry": "travel",
+  "skills": [
+   "LLM",
+   "LoRA",
+   "PEFT",
+   "Hugging Face",
+   "PyTorch"
+  ],
+  "date": "2026-07-03",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-147",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "churn_model",
+  "title": "Past proposal: Customer churn prediction model",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "classification",
+   "model evaluation"
+  ],
+  "date": "2026-07-03",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently trained and calibrated a gradient boosting churn model with a leakage-safe validation split for a fintech client, which lifted recall at fixed precision from 0.52 to 0.68. Your job needs Python, scikit-learn, XGBoost, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-148",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "travel",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2026-10-21",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a travel client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "ai_engineer-pr-149",
+  "persona_id": "ai_engineer",
+  "type": "past_proposal",
+  "project": "demand_forecast",
+  "title": "Past proposal: Demand forecasting service",
+  "industry": "fintech",
+  "skills": [
+   "Python",
+   "LightGBM",
+   "time series",
+   "pandas"
+  ],
+  "date": "2024-12-31",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a weekly demand forecaster with backtesting across 40 product groups for a fintech client, which reduced forecast error (MAPE) by 18%. Your job needs Python, LightGBM, time series, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ }
+]

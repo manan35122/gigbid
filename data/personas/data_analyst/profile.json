@@ -1,0 +1,28 @@
+{
+ "persona_id": "data_analyst",
+ "name": "Sana Raza",
+ "headline": "Data analyst: SQL, dbt, Power BI and experimentation",
+ "hourly_floor_usd": 25,
+ "category": "data_analysis",
+ "skills": [
+  "A/B testing",
+  "BigQuery",
+  "DAX",
+  "ETL",
+  "Excel",
+  "Power BI",
+  "Python",
+  "SQL",
+  "Tableau",
+  "automation",
+  "cohort analysis",
+  "data cleaning",
+  "data modeling",
+  "data testing",
+  "dbt",
+  "openpyxl",
+  "pandas",
+  "statistics"
+ ],
+ "data_origin": "synthetic"
+}

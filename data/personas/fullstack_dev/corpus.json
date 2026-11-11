@@ -1,0 +1,3536 @@
+[
+ {
+  "evidence_id": "fullstack_dev-cs-00",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "analytics_dashboard",
+  "title": "Analytics dashboard web app (retail)",
+  "industry": "retail",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2024-10-20",
+  "outcome": "replaced manual weekly reporting for a team of 25",
+  "text": "- Project: Analytics dashboard web app (retail)\n- Delivered: built a role-based analytics dashboard with a typed API client generated from OpenAPI\n- Result: replaced manual weekly reporting for a team of 25",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-01",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "storefront",
+  "title": "Next.js storefront with payments (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-06-13",
+  "outcome": "improved mobile conversion by 22%",
+  "text": "Improved mobile conversion by 22%. I shipped a server-rendered storefront with Stripe checkout and image optimisation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-02",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "rest_api",
+  "title": "Secure REST API platform (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-02-07",
+  "outcome": "handled 3x traffic growth without downtime",
+  "text": "Handled 3x traffic growth without downtime. I designed a REST API with JWT auth, rate limiting and request validation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-03",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "realtime",
+  "title": "Realtime notifications service (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2025-01-09",
+  "outcome": "delivered updates in under 300 ms for 5,000 concurrent users",
+  "text": "- Project: Realtime notifications service (logistics)\n- Delivered: implemented live notifications over WebSockets with Redis pub/sub fan-out\n- Result: delivered updates in under 300 ms for 5,000 concurrent users",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-04",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "php_migration",
+  "title": "Legacy PHP to Next.js migration (education)",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2024-11-06",
+  "outcome": "cut page load time from 4.1 s to 1.3 s",
+  "text": "For a education client, I migrated a legacy PHP site to Next.js in stages while keeping the old URLs working. Outcome: cut page load time from 4.1 s to 1.3 s. Stack: Next.js, TypeScript, PostgreSQL, migration.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-05",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "ci_docker",
+  "title": "Dockerised deployment and CI/CD (real estate)",
+  "industry": "real estate",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2026-07-13",
+  "outcome": "removed manual deploy steps and cut failed releases to near zero",
+  "text": "For a real estate client, I containerised a multi-service app and automated tests and deploys with GitHub Actions. Outcome: removed manual deploy steps and cut failed releases to near zero. Stack: Docker, GitHub Actions, CI/CD, Nginx.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-06",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "react_perf",
+  "title": "React performance overhaul (SaaS)",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-12-19",
+  "outcome": "reduced time-to-interactive by 45%",
+  "text": "Reduced time-to-interactive by 45%. I profiled render bottlenecks, split bundles and memoised expensive components.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-07",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "analytics_dashboard",
+  "title": "Analytics dashboard web app (retail)",
+  "industry": "retail",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-03-05",
+  "outcome": "replaced manual weekly reporting for a team of 25",
+  "text": "For a retail client, I built a role-based analytics dashboard with a typed API client generated from OpenAPI. Outcome: replaced manual weekly reporting for a team of 25. Stack: React, TypeScript, FastAPI, PostgreSQL, REST API.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-08",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "storefront",
+  "title": "Next.js storefront with payments (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-09-20",
+  "outcome": "improved mobile conversion by 22%",
+  "text": "- Project: Next.js storefront with payments (healthcare)\n- Delivered: shipped a server-rendered storefront with Stripe checkout and image optimisation\n- Result: improved mobile conversion by 22%",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-09",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "rest_api",
+  "title": "Secure REST API platform (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-03-08",
+  "outcome": "handled 3x traffic growth without downtime",
+  "text": "Handled 3x traffic growth without downtime. I designed a REST API with JWT auth, rate limiting and request validation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-10",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "realtime",
+  "title": "Realtime notifications service (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-10-21",
+  "outcome": "delivered updates in under 300 ms for 5,000 concurrent users",
+  "text": "For a logistics client, I implemented live notifications over WebSockets with Redis pub/sub fan-out. Outcome: delivered updates in under 300 ms for 5,000 concurrent users. Stack: WebSockets, Node.js, Redis, React.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-11",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "php_migration",
+  "title": "Legacy PHP to Next.js migration (education)",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2025-04-20",
+  "outcome": "cut page load time from 4.1 s to 1.3 s",
+  "text": "- Project: Legacy PHP to Next.js migration (education)\n- Delivered: migrated a legacy PHP site to Next.js in stages while keeping the old URLs working\n- Result: cut page load time from 4.1 s to 1.3 s",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-12",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "ci_docker",
+  "title": "Dockerised deployment and CI/CD (real estate)",
+  "industry": "real estate",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-07-08",
+  "outcome": "removed manual deploy steps and cut failed releases to near zero",
+  "text": "- Project: Dockerised deployment and CI/CD (real estate)\n- Delivered: containerised a multi-service app and automated tests and deploys with GitHub Actions\n- Result: removed manual deploy steps and cut failed releases to near zero",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-13",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "react_perf",
+  "title": "React performance overhaul (SaaS)",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-12-03",
+  "outcome": "reduced time-to-interactive by 45%",
+  "text": "Reduced time-to-interactive by 45%. I profiled render bottlenecks, split bundles and memoised expensive components.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-14",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "analytics_dashboard",
+  "title": "Analytics dashboard web app (retail)",
+  "industry": "retail",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2024-06-15",
+  "outcome": "replaced manual weekly reporting for a team of 25",
+  "text": "For a retail client, I built a role-based analytics dashboard with a typed API client generated from OpenAPI. Outcome: replaced manual weekly reporting for a team of 25. Stack: React, TypeScript, FastAPI, PostgreSQL, REST API.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-15",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "storefront",
+  "title": "Next.js storefront with payments (healthcare)",
+  "industry": "healthcare",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-06-23",
+  "outcome": "improved mobile conversion by 22%",
+  "text": "Improved mobile conversion by 22%. I shipped a server-rendered storefront with Stripe checkout and image optimisation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-16",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "rest_api",
+  "title": "Secure REST API platform (fintech)",
+  "industry": "fintech",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-02-24",
+  "outcome": "handled 3x traffic growth without downtime",
+  "text": "Handled 3x traffic growth without downtime. I designed a REST API with JWT auth, rate limiting and request validation.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-cs-17",
+  "persona_id": "fullstack_dev",
+  "type": "case_study",
+  "project": "realtime",
+  "title": "Realtime notifications service (logistics)",
+  "industry": "logistics",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-02-12",
+  "outcome": "delivered updates in under 300 ms for 5,000 concurrent users",
+  "text": "For a logistics client, I implemented live notifications over WebSockets with Redis pub/sub fan-out. Outcome: delivered updates in under 300 ms for 5,000 concurrent users. Stack: WebSockets, Node.js, Redis, React.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-readme-0",
+  "persona_id": "fullstack_dev",
+  "type": "repo_readme",
+  "project": "analytics_dashboard",
+  "title": "analytics_dashboard README",
+  "industry": null,
+  "skills": [
+   "React",
+   "TypeScript"
+  ],
+  "date": "2025-08-27",
+  "outcome": null,
+  "text": "# analytics_dashboard\n\nAnalytics dashboard web app.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-code-0",
+  "persona_id": "fullstack_dev",
+  "type": "repo_code",
+  "project": "analytics_dashboard",
+  "title": "analytics_dashboard core module",
+  "industry": null,
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2024-10-31",
+  "outcome": null,
+  "text": "# analytics_dashboard/core.py\n# implements: React, TypeScript, FastAPI, PostgreSQL, REST API\ndef run(config):\n    # built a role-based analytics dashboard with a typed API client generated from OpenAPI\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-readme-1",
+  "persona_id": "fullstack_dev",
+  "type": "repo_readme",
+  "project": "storefront",
+  "title": "storefront README",
+  "industry": null,
+  "skills": [
+   "Next.js",
+   "TypeScript"
+  ],
+  "date": "2024-12-26",
+  "outcome": null,
+  "text": "# storefront\n\nNext.js storefront with payments.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-code-1",
+  "persona_id": "fullstack_dev",
+  "type": "repo_code",
+  "project": "storefront",
+  "title": "storefront core module",
+  "industry": null,
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-12-12",
+  "outcome": null,
+  "text": "# storefront/core.py\n# implements: Next.js, TypeScript, Stripe, Tailwind\ndef run(config):\n    # shipped a server-rendered storefront with Stripe checkout and image optimisation\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-readme-2",
+  "persona_id": "fullstack_dev",
+  "type": "repo_readme",
+  "project": "rest_api",
+  "title": "rest_api README",
+  "industry": null,
+  "skills": [
+   "Node.js",
+   "REST API"
+  ],
+  "date": "2026-08-27",
+  "outcome": null,
+  "text": "# rest_api\n\nSecure REST API platform.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-code-2",
+  "persona_id": "fullstack_dev",
+  "type": "repo_code",
+  "project": "rest_api",
+  "title": "rest_api core module",
+  "industry": null,
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-09-30",
+  "outcome": null,
+  "text": "# rest_api/core.py\n# implements: Node.js, REST API, PostgreSQL, JWT, rate limiting\ndef run(config):\n    # designed a REST API with JWT auth, rate limiting and request validation\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-readme-3",
+  "persona_id": "fullstack_dev",
+  "type": "repo_readme",
+  "project": "realtime",
+  "title": "realtime README",
+  "industry": null,
+  "skills": [
+   "WebSockets",
+   "Node.js"
+  ],
+  "date": "2026-04-07",
+  "outcome": null,
+  "text": "# realtime\n\nRealtime notifications service.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-code-3",
+  "persona_id": "fullstack_dev",
+  "type": "repo_code",
+  "project": "realtime",
+  "title": "realtime core module",
+  "industry": null,
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2025-05-30",
+  "outcome": null,
+  "text": "# realtime/core.py\n# implements: WebSockets, Node.js, Redis, React\ndef run(config):\n    # implemented live notifications over WebSockets with Redis pub/sub fan-out\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-readme-4",
+  "persona_id": "fullstack_dev",
+  "type": "repo_readme",
+  "project": "php_migration",
+  "title": "php_migration README",
+  "industry": null,
+  "skills": [
+   "Next.js",
+   "TypeScript"
+  ],
+  "date": "2024-12-01",
+  "outcome": null,
+  "text": "# php_migration\n\nLegacy PHP to Next.js migration.\n\n## Setup\nInstall requirements and run the entry script.\n\n## Usage\nSee the examples folder.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-code-4",
+  "persona_id": "fullstack_dev",
+  "type": "repo_code",
+  "project": "php_migration",
+  "title": "php_migration core module",
+  "industry": null,
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2024-12-29",
+  "outcome": null,
+  "text": "# php_migration/core.py\n# implements: Next.js, TypeScript, PostgreSQL, migration\ndef run(config):\n    # migrated a legacy PHP site to Next.js in stages while keeping the old URLs working\n    ...",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-rev-0",
+  "persona_id": "fullstack_dev",
+  "type": "review",
+  "project": "analytics_dashboard",
+  "title": "Client review: Analytics dashboard web app",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "TypeScript"
+  ],
+  "date": "2026-07-31",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered analytics dashboard web app on time and communicated clearly. Replaced manual weekly reporting for a team of 25.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-rev-1",
+  "persona_id": "fullstack_dev",
+  "type": "review",
+  "project": "storefront",
+  "title": "Client review: Next.js storefront with payments",
+  "industry": "logistics",
+  "skills": [
+   "Next.js",
+   "TypeScript"
+  ],
+  "date": "2024-12-08",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered next.js storefront with payments on time and communicated clearly. Improved mobile conversion by 22%.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-rev-2",
+  "persona_id": "fullstack_dev",
+  "type": "review",
+  "project": "rest_api",
+  "title": "Client review: Secure REST API platform",
+  "industry": "real estate",
+  "skills": [
+   "Node.js",
+   "REST API"
+  ],
+  "date": "2026-03-04",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered secure rest api platform on time and communicated clearly. Handled 3x traffic growth without downtime.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-rev-3",
+  "persona_id": "fullstack_dev",
+  "type": "review",
+  "project": "realtime",
+  "title": "Client review: Realtime notifications service",
+  "industry": "retail",
+  "skills": [
+   "WebSockets",
+   "Node.js"
+  ],
+  "date": "2024-11-09",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered realtime notifications service on time and communicated clearly. Delivered updates in under 300 ms for 5,000 concurrent users.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-rev-4",
+  "persona_id": "fullstack_dev",
+  "type": "review",
+  "project": "php_migration",
+  "title": "Client review: Legacy PHP to Next.js migration",
+  "industry": "SaaS",
+  "skills": [
+   "Next.js",
+   "TypeScript"
+  ],
+  "date": "2025-10-16",
+  "outcome": null,
+  "rating": 5.0,
+  "text": "Delivered legacy php to next.js migration on time and communicated clearly. Cut page load time from 4.1 s to 1.3 s.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-rev-5",
+  "persona_id": "fullstack_dev",
+  "type": "review",
+  "project": "ci_docker",
+  "title": "Client review: Dockerised deployment and CI/CD",
+  "industry": "SaaS",
+  "skills": [
+   "Docker",
+   "GitHub Actions"
+  ],
+  "date": "2026-04-03",
+  "outcome": null,
+  "rating": 4.5,
+  "text": "Delivered dockerised deployment and ci/cd on time and communicated clearly. Removed manual deploy steps and cut failed releases to near zero.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-rev-6",
+  "persona_id": "fullstack_dev",
+  "type": "review",
+  "project": "react_perf",
+  "title": "Client review: React performance overhaul",
+  "industry": "education",
+  "skills": [
+   "React",
+   "performance"
+  ],
+  "date": "2024-09-26",
+  "outcome": null,
+  "rating": 5.0,
+  "text": "Delivered react performance overhaul on time and communicated clearly. Reduced time-to-interactive by 45%.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-rev-7",
+  "persona_id": "fullstack_dev",
+  "type": "review",
+  "project": "analytics_dashboard",
+  "title": "Client review: Analytics dashboard web app",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "TypeScript"
+  ],
+  "date": "2026-03-26",
+  "outcome": null,
+  "rating": 4.8,
+  "text": "Delivered analytics dashboard web app on time and communicated clearly. Replaced manual weekly reporting for a team of 25.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-000",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-07-03",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-001",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-01-22",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-002",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "fintech",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2024-12-10",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-003",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "fintech",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-09-28",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-004",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "fintech",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2026-04-17",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a fintech client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-005",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "travel",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2024-10-02",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-006",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-04-16",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-007",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "travel",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-09-30",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a travel client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-008",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "real estate",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-07-03",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-009",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-06-18",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a healthcare client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-010",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "logistics",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2025-12-10",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a logistics client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-011",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-04-05",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a SaaS client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-012",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "travel",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2025-06-24",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a travel client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-013",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-09-03",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a SaaS client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-014",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-08-20",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a SaaS client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-015",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "logistics",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2025-11-09",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Node.js, REST API, PostgreSQL. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-016",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "education",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-09-08",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a education client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-017",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "real estate",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2024-10-14",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-018",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-06-23",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a healthcare client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-019",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "travel",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2026-02-07",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-020",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "travel",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-10-14",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a travel client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-021",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "education",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-02-08",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-022",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "real estate",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2024-08-11",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-023",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-05-12",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-024",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "SaaS",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-04-05",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a SaaS client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-025",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "real estate",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2026-07-07",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a real estate client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-026",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "education",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-08-17",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-027",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "travel",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2025-07-08",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a travel client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-028",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "logistics",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2024-12-11",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Next.js, TypeScript, PostgreSQL. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-029",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-01-09",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-030",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2026-04-02",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a education client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-031",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "logistics",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-01-07",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a logistics client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-032",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "logistics",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2026-02-13",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a logistics client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-033",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "logistics",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2025-07-04",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Next.js, TypeScript, PostgreSQL. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-034",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-02-28",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a healthcare client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-035",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "travel",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-12-26",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-036",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "healthcare",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2024-06-27",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a healthcare client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-037",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "logistics",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2026-04-23",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-038",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "education",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-10-16",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-039",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "real estate",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-05-31",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a real estate client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-040",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "logistics",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2024-10-03",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-041",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "logistics",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-08-30",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-042",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "real estate",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2026-03-28",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a real estate client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-043",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "travel",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-07-11",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-044",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-04-24",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-045",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "fintech",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-01-05",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a fintech client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-046",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "education",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2024-09-19",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a education client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-047",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "real estate",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2024-08-28",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a real estate client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-048",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "real estate",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-09-03",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-049",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "retail",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-06-28",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a retail client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-050",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-07-08",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a healthcare client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-051",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "fintech",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-05-30",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a fintech client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-052",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "SaaS",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-10-08",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a SaaS client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-053",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "fintech",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-05-07",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a fintech client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-054",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "healthcare",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2024-07-20",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a healthcare client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-055",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "logistics",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-09-08",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a logistics client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-056",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "real estate",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2025-09-20",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a real estate client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-057",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "fintech",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-01-25",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-058",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "logistics",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-03-13",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-059",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-10-20",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-060",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "fintech",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-04-08",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a fintech client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-061",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "retail",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-09-18",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-062",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "travel",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2025-12-13",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Next.js, TypeScript, PostgreSQL. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-063",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "SaaS",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-09-19",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a SaaS client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-064",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "real estate",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2026-09-29",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a real estate client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-065",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "travel",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-01-27",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-066",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "travel",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-09-08",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-067",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-07-21",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a healthcare client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-068",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "travel",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-09-11",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-069",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "fintech",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2024-08-17",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a fintech client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-070",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "healthcare",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-10-01",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a healthcare client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-071",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "fintech",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-02-01",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a fintech client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-072",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "healthcare",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-06-06",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a healthcare client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-073",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "fintech",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-03-10",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Node.js, REST API, PostgreSQL. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-074",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "real estate",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-11-25",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-075",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2026-02-04",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-076",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "travel",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2025-05-22",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a travel client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-077",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "real estate",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-09-04",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a real estate client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-078",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-05-03",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Next.js, TypeScript, Stripe. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-079",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "education",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-01-09",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a education client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-080",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "real estate",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-05-07",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-081",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "healthcare",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2024-05-28",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a healthcare client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-082",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "real estate",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2025-03-10",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a real estate client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-083",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "real estate",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-03-01",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a real estate client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-084",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "retail",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-12-09",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a retail client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-085",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "real estate",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2026-03-10",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Docker, GitHub Actions, CI/CD. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-086",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-05-16",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Next.js, TypeScript, Stripe. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-087",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "retail",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2024-12-23",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a retail client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-088",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "retail",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-12-15",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a retail client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-089",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "real estate",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-12-18",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-090",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "fintech",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2025-06-23",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a fintech client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-091",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "fintech",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2024-10-28",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a fintech client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-092",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "travel",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2024-12-10",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a travel client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-093",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "education",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-10-11",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a education client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-094",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "real estate",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-02-13",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-095",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "travel",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2026-09-07",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a travel client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-096",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "retail",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-08-24",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a retail client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-097",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-04-04",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a healthcare client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-098",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "SaaS",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-05-21",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a SaaS client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-099",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "SaaS",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-12-10",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-100",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "education",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2024-10-11",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-101",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "travel",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2024-06-10",
+  "outcome": "won",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-102",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "travel",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-04-26",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a travel client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-103",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "healthcare",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-06-18",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a healthcare client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-104",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "education",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2025-04-03",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Node.js, REST API, PostgreSQL. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-105",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "SaaS",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2026-01-24",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Docker, GitHub Actions, CI/CD. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-106",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "logistics",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-05-02",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a logistics client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-107",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "logistics",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-05-12",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-108",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "real estate",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2025-02-14",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently containerised a multi-service app and automated tests and deploys with GitHub Actions for a real estate client, which removed manual deploy steps and cut failed releases to near zero. Your job needs Docker, GitHub Actions, CI/CD, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-109",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "SaaS",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2024-11-12",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-110",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "travel",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2026-10-16",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Docker, GitHub Actions, CI/CD. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-111",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "retail",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-03-17",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently profiled render bottlenecks, split bundles and memoised expensive components for a retail client, which reduced time-to-interactive by 45%. Your job needs React, performance, Webpack, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-112",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "logistics",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2025-03-23",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a logistics client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-113",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "fintech",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-01-24",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a fintech client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-114",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "real estate",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-09-21",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-115",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "fintech",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2024-11-08",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-116",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "retail",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-10-15",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a retail client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-117",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "healthcare",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2024-10-24",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-118",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "healthcare",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-09-18",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a healthcare client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-119",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-01-01",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-120",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "healthcare",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2024-12-30",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a healthcare client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-121",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-10-01",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a education client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-122",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "education",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2024-09-04",
+  "outcome": "replied",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-123",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "real estate",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2025-06-22",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-124",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "education",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-08-26",
+  "outcome": "won",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-125",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "SaaS",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2025-06-29",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, TypeScript, FastAPI. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-126",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "retail",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2024-06-27",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Docker, GitHub Actions, CI/CD. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-127",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "analytics_dashboard",
+  "title": "Past proposal: Analytics dashboard web app",
+  "industry": "education",
+  "skills": [
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "PostgreSQL",
+   "REST API"
+  ],
+  "date": "2026-03-30",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently built a role-based analytics dashboard with a typed API client generated from OpenAPI for a education client, which replaced manual weekly reporting for a team of 25. Your job needs React, TypeScript, FastAPI, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-128",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "retail",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2025-06-06",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a retail client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-129",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "ci_docker",
+  "title": "Past proposal: Dockerised deployment and CI/CD",
+  "industry": "fintech",
+  "skills": [
+   "Docker",
+   "GitHub Actions",
+   "CI/CD",
+   "Nginx"
+  ],
+  "date": "2024-06-23",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-130",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2024-07-10",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Next.js, TypeScript, PostgreSQL. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-131",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "logistics",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-01-09",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Next.js, TypeScript, Stripe. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-132",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-03-27",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-133",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "healthcare",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2025-09-07",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-134",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "healthcare",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2025-10-07",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently implemented live notifications over WebSockets with Redis pub/sub fan-out for a healthcare client, which delivered updates in under 300 ms for 5,000 concurrent users. Your job needs WebSockets, Node.js, Redis, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-135",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "education",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-05-27",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a education client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-136",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "SaaS",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2025-07-08",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-137",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "retail",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-05-16",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently shipped a server-rendered storefront with Stripe checkout and image optimisation for a retail client, which improved mobile conversion by 22%. Your job needs Next.js, TypeScript, Stripe, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-138",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "travel",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2026-05-02",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-139",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "travel",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2026-02-28",
+  "outcome": "replied",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with WebSockets, Node.js, Redis. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-140",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "storefront",
+  "title": "Past proposal: Next.js storefront with payments",
+  "industry": "real estate",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "Stripe",
+   "Tailwind"
+  ],
+  "date": "2026-02-21",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with Next.js, TypeScript, Stripe. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-141",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "php_migration",
+  "title": "Past proposal: Legacy PHP to Next.js migration",
+  "industry": "logistics",
+  "skills": [
+   "Next.js",
+   "TypeScript",
+   "PostgreSQL",
+   "migration"
+  ],
+  "date": "2024-06-28",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently migrated a legacy PHP site to Next.js in stages while keeping the old URLs working for a logistics client, which cut page load time from 4.1 s to 1.3 s. Your job needs Next.js, TypeScript, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-142",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "react_perf",
+  "title": "Past proposal: React performance overhaul",
+  "industry": "fintech",
+  "skills": [
+   "React",
+   "performance",
+   "Webpack",
+   "TypeScript"
+  ],
+  "date": "2024-10-12",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with React, performance, Webpack. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-143",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "real estate",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-04-12",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a real estate client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-144",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "healthcare",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-04-05",
+  "outcome": "ignored",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a healthcare client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-145",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "fintech",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2024-10-02",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-146",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "SaaS",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-07-05",
+  "outcome": "won",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a SaaS client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-147",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "logistics",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2026-10-10",
+  "outcome": "ignored",
+  "style": "generic",
+  "text": "Dear Sir, I am the best freelancer for your project. I have many years of experience and will deliver quality work on time. Please hire me. I am hardworking and passionate.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-148",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "realtime",
+  "title": "Past proposal: Realtime notifications service",
+  "industry": "SaaS",
+  "skills": [
+   "WebSockets",
+   "Node.js",
+   "Redis",
+   "React"
+  ],
+  "date": "2025-01-13",
+  "outcome": "ignored",
+  "style": "medium",
+  "text": "Hello, I read your post and can help. I have experience with WebSockets, Node.js, Redis. I can start immediately. Let me know the next steps.",
+  "data_origin": "synthetic"
+ },
+ {
+  "evidence_id": "fullstack_dev-pr-149",
+  "persona_id": "fullstack_dev",
+  "type": "past_proposal",
+  "project": "rest_api",
+  "title": "Past proposal: Secure REST API platform",
+  "industry": "travel",
+  "skills": [
+   "Node.js",
+   "REST API",
+   "PostgreSQL",
+   "JWT",
+   "rate limiting"
+  ],
+  "date": "2024-09-27",
+  "outcome": "replied",
+  "style": "specific",
+  "text": "I recently designed a REST API with JWT auth, rate limiting and request validation for a travel client, which handled 3x traffic growth without downtime. Your job needs Node.js, REST API, PostgreSQL, and I have used them together on this kind of problem. What does your current setup look like?",
+  "data_origin": "synthetic"
+ }
+]
