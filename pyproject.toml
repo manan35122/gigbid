@@ -21,3 +21,10 @@ dev = ["pytest", "pytest-asyncio", "ruff", "mypy"]
 
 [tool.ruff]
 line-length = 100
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["agent*", "rag*", "mcp_servers*", "apps*", "evals*", "worker*"]
+namespaces = true
