@@ -1,0 +1,542 @@
+[
+ {
+  "client_id": "client-000",
+  "completed_projects": 8,
+  "average_rating": 4.87,
+  "payment_verified": true,
+  "total_spent": 34098,
+  "hire_rate": 0.6,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-001",
+  "completed_projects": 74,
+  "average_rating": 4.54,
+  "payment_verified": true,
+  "total_spent": 57302,
+  "hire_rate": 0.51,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-002",
+  "completed_projects": 0,
+  "average_rating": 3.57,
+  "payment_verified": true,
+  "total_spent": 718,
+  "hire_rate": 0.16,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-003",
+  "completed_projects": 5,
+  "average_rating": 4.88,
+  "payment_verified": true,
+  "total_spent": 22926,
+  "hire_rate": 0.81,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-004",
+  "completed_projects": 2,
+  "average_rating": 2.69,
+  "payment_verified": false,
+  "total_spent": 367,
+  "hire_rate": 0.25,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-005",
+  "completed_projects": 63,
+  "average_rating": 4.77,
+  "payment_verified": true,
+  "total_spent": 51615,
+  "hire_rate": 0.54,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-006",
+  "completed_projects": 51,
+  "average_rating": 4.79,
+  "payment_verified": true,
+  "total_spent": 11116,
+  "hire_rate": 0.52,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-007",
+  "completed_projects": 0,
+  "average_rating": 4.13,
+  "payment_verified": true,
+  "total_spent": 389,
+  "hire_rate": 0.08,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-008",
+  "completed_projects": 52,
+  "average_rating": 4.68,
+  "payment_verified": true,
+  "total_spent": 89841,
+  "hire_rate": 0.62,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-009",
+  "completed_projects": 26,
+  "average_rating": 4.77,
+  "payment_verified": true,
+  "total_spent": 34087,
+  "hire_rate": 0.57,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-010",
+  "completed_projects": 76,
+  "average_rating": 4.61,
+  "payment_verified": true,
+  "total_spent": 44504,
+  "hire_rate": 0.88,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-011",
+  "completed_projects": 0,
+  "average_rating": 4.03,
+  "payment_verified": false,
+  "total_spent": 67,
+  "hire_rate": 0.06,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-012",
+  "completed_projects": 45,
+  "average_rating": 4.61,
+  "payment_verified": true,
+  "total_spent": 67435,
+  "hire_rate": 0.68,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-013",
+  "completed_projects": 38,
+  "average_rating": 4.57,
+  "payment_verified": true,
+  "total_spent": 75579,
+  "hire_rate": 0.74,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-014",
+  "completed_projects": 79,
+  "average_rating": 4.7,
+  "payment_verified": true,
+  "total_spent": 30746,
+  "hire_rate": 0.95,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-015",
+  "completed_projects": 11,
+  "average_rating": 4.93,
+  "payment_verified": true,
+  "total_spent": 22033,
+  "hire_rate": 0.78,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-016",
+  "completed_projects": 13,
+  "average_rating": 4.69,
+  "payment_verified": true,
+  "total_spent": 80104,
+  "hire_rate": 0.95,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-017",
+  "completed_projects": 6,
+  "average_rating": 4.84,
+  "payment_verified": true,
+  "total_spent": 17014,
+  "hire_rate": 0.81,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-018",
+  "completed_projects": 2,
+  "average_rating": 2.71,
+  "payment_verified": false,
+  "total_spent": 464,
+  "hire_rate": 0.0,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-019",
+  "completed_projects": 69,
+  "average_rating": 4.88,
+  "payment_verified": true,
+  "total_spent": 68542,
+  "hire_rate": 0.91,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-020",
+  "completed_projects": 1,
+  "average_rating": 2.79,
+  "payment_verified": true,
+  "total_spent": 552,
+  "hire_rate": 0.29,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-021",
+  "completed_projects": 46,
+  "average_rating": 4.74,
+  "payment_verified": true,
+  "total_spent": 16662,
+  "hire_rate": 0.92,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-022",
+  "completed_projects": 44,
+  "average_rating": 4.62,
+  "payment_verified": true,
+  "total_spent": 33571,
+  "hire_rate": 0.9,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-023",
+  "completed_projects": 3,
+  "average_rating": 4.05,
+  "payment_verified": true,
+  "total_spent": 545,
+  "hire_rate": 0.23,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-024",
+  "completed_projects": 75,
+  "average_rating": 4.58,
+  "payment_verified": true,
+  "total_spent": 71163,
+  "hire_rate": 0.89,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-025",
+  "completed_projects": 1,
+  "average_rating": 3.85,
+  "payment_verified": false,
+  "total_spent": 687,
+  "hire_rate": 0.19,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-026",
+  "completed_projects": 20,
+  "average_rating": 4.62,
+  "payment_verified": true,
+  "total_spent": 10392,
+  "hire_rate": 0.65,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-027",
+  "completed_projects": 1,
+  "average_rating": 2.51,
+  "payment_verified": true,
+  "total_spent": 60,
+  "hire_rate": 0.07,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-028",
+  "completed_projects": 14,
+  "average_rating": 4.76,
+  "payment_verified": true,
+  "total_spent": 38500,
+  "hire_rate": 0.8,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-029",
+  "completed_projects": 3,
+  "average_rating": 2.96,
+  "payment_verified": false,
+  "total_spent": 416,
+  "hire_rate": 0.06,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-030",
+  "completed_projects": 59,
+  "average_rating": 4.71,
+  "payment_verified": true,
+  "total_spent": 9100,
+  "hire_rate": 0.8,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-031",
+  "completed_projects": 3,
+  "average_rating": 3.88,
+  "payment_verified": true,
+  "total_spent": 111,
+  "hire_rate": 0.07,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-032",
+  "completed_projects": 59,
+  "average_rating": 4.59,
+  "payment_verified": true,
+  "total_spent": 62637,
+  "hire_rate": 0.61,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-033",
+  "completed_projects": 75,
+  "average_rating": 4.55,
+  "payment_verified": true,
+  "total_spent": 87477,
+  "hire_rate": 0.95,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-034",
+  "completed_projects": 35,
+  "average_rating": 4.58,
+  "payment_verified": true,
+  "total_spent": 65653,
+  "hire_rate": 0.72,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-035",
+  "completed_projects": 26,
+  "average_rating": 4.69,
+  "payment_verified": true,
+  "total_spent": 53173,
+  "hire_rate": 0.62,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-036",
+  "completed_projects": 59,
+  "average_rating": 4.85,
+  "payment_verified": true,
+  "total_spent": 74845,
+  "hire_rate": 0.8,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-037",
+  "completed_projects": 1,
+  "average_rating": 4.34,
+  "payment_verified": false,
+  "total_spent": 555,
+  "hire_rate": 0.02,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-038",
+  "completed_projects": 3,
+  "average_rating": 3.46,
+  "payment_verified": true,
+  "total_spent": 161,
+  "hire_rate": 0.02,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-039",
+  "completed_projects": 13,
+  "average_rating": 4.8,
+  "payment_verified": true,
+  "total_spent": 32828,
+  "hire_rate": 0.68,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-040",
+  "completed_projects": 79,
+  "average_rating": 4.8,
+  "payment_verified": true,
+  "total_spent": 83183,
+  "hire_rate": 0.54,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-041",
+  "completed_projects": 45,
+  "average_rating": 4.97,
+  "payment_verified": true,
+  "total_spent": 28772,
+  "hire_rate": 0.8,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-042",
+  "completed_projects": 1,
+  "average_rating": 3.78,
+  "payment_verified": false,
+  "total_spent": 323,
+  "hire_rate": 0.28,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-043",
+  "completed_projects": 0,
+  "average_rating": 2.64,
+  "payment_verified": false,
+  "total_spent": 271,
+  "hire_rate": 0.04,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-044",
+  "completed_projects": 1,
+  "average_rating": 3.2,
+  "payment_verified": false,
+  "total_spent": 556,
+  "hire_rate": 0.21,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-045",
+  "completed_projects": 72,
+  "average_rating": 4.5,
+  "payment_verified": true,
+  "total_spent": 74692,
+  "hire_rate": 0.63,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-046",
+  "completed_projects": 22,
+  "average_rating": 4.63,
+  "payment_verified": true,
+  "total_spent": 16029,
+  "hire_rate": 0.83,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-047",
+  "completed_projects": 1,
+  "average_rating": 3.86,
+  "payment_verified": false,
+  "total_spent": 649,
+  "hire_rate": 0.26,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-048",
+  "completed_projects": 0,
+  "average_rating": 2.68,
+  "payment_verified": false,
+  "total_spent": 283,
+  "hire_rate": 0.01,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-049",
+  "completed_projects": 2,
+  "average_rating": 2.81,
+  "payment_verified": false,
+  "total_spent": 722,
+  "hire_rate": 0.13,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-050",
+  "completed_projects": 1,
+  "average_rating": 3.54,
+  "payment_verified": true,
+  "total_spent": 596,
+  "hire_rate": 0.17,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-051",
+  "completed_projects": 2,
+  "average_rating": 4.21,
+  "payment_verified": true,
+  "total_spent": 40,
+  "hire_rate": 0.27,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-052",
+  "completed_projects": 0,
+  "average_rating": 3.17,
+  "payment_verified": false,
+  "total_spent": 416,
+  "hire_rate": 0.29,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-053",
+  "completed_projects": 35,
+  "average_rating": 4.93,
+  "payment_verified": true,
+  "total_spent": 25206,
+  "hire_rate": 0.9,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-054",
+  "completed_projects": 47,
+  "average_rating": 4.89,
+  "payment_verified": true,
+  "total_spent": 55964,
+  "hire_rate": 0.86,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-055",
+  "completed_projects": 39,
+  "average_rating": 4.58,
+  "payment_verified": true,
+  "total_spent": 16168,
+  "hire_rate": 0.67,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-056",
+  "completed_projects": 30,
+  "average_rating": 4.91,
+  "payment_verified": true,
+  "total_spent": 62332,
+  "hire_rate": 0.66,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-057",
+  "completed_projects": 33,
+  "average_rating": 4.51,
+  "payment_verified": true,
+  "total_spent": 27313,
+  "hire_rate": 0.68,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-058",
+  "completed_projects": 2,
+  "average_rating": 3.17,
+  "payment_verified": false,
+  "total_spent": 695,
+  "hire_rate": 0.29,
+  "data_origin": "synthetic"
+ },
+ {
+  "client_id": "client-059",
+  "completed_projects": 19,
+  "average_rating": 4.94,
+  "payment_verified": true,
+  "total_spent": 36237,
+  "hire_rate": 0.58,
+  "data_origin": "synthetic"
+ }
+]

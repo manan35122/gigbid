@@ -1,0 +1,4798 @@
+[
+ {
+  "job_id": "hist-0000",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   528,
+   792
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0001",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   168,
+   252
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0002",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   736,
+   1104
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0003",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0004",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0005",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   560,
+   840
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0006",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   264,
+   396
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0007",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   336,
+   504
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0008",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   552,
+   828
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0009",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   728,
+   1092
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0010",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0011",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   648,
+   972
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0012",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   264,
+   396
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0013",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0014",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   432,
+   648
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0015",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   576,
+   864
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0016",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   200,
+   300
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0017",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   456,
+   684
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0018",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   608,
+   912
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0019",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0020",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   448,
+   672
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0021",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   912,
+   1368
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0022",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   792,
+   1188
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0023",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   336,
+   504
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0024",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0025",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   472,
+   708
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0026",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   216,
+   324
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0027",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   608,
+   912
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0028",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0029",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   632,
+   948
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0030",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   224,
+   336
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0031",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   424,
+   636
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0032",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   832,
+   1248
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0033",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0034",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   256,
+   384
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0035",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   552,
+   828
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0036",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   608,
+   912
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0037",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   856,
+   1284
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0038",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   928,
+   1392
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0039",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   920,
+   1380
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0040",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   784,
+   1176
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0041",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   272,
+   408
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0042",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   736,
+   1104
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0043",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   176,
+   264
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0044",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   904,
+   1356
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0045",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   400,
+   600
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0046",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   384,
+   576
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0047",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   568,
+   852
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0048",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0049",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   448,
+   672
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0050",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   184,
+   276
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0051",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0052",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   888,
+   1332
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0053",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0054",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   656,
+   984
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0055",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   296,
+   444
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0056",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   760,
+   1140
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0057",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   176,
+   264
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0058",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0059",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   272,
+   408
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0060",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   408,
+   612
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0061",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   608,
+   912
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0062",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   784,
+   1176
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0063",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   584,
+   876
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0064",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   632,
+   948
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0065",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   712,
+   1068
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0066",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   712,
+   1068
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0067",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0068",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0069",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   504,
+   756
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0070",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   784,
+   1176
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0071",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0072",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   168,
+   252
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0073",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0074",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   544,
+   816
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0075",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0076",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   184,
+   276
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0077",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0078",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   240,
+   360
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0079",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   512,
+   768
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0080",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   272,
+   408
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0081",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   304,
+   456
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0082",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   712,
+   1068
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0083",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0084",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   496,
+   744
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0085",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0086",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   408,
+   612
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0087",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   696,
+   1044
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0088",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   528,
+   792
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0089",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   472,
+   708
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0090",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   160,
+   240
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0091",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   240,
+   360
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0092",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0093",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   936,
+   1404
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0094",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   688,
+   1032
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0095",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   456,
+   684
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0096",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   440,
+   660
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0097",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   384,
+   576
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0098",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0099",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   264,
+   396
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0100",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0101",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0102",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   912,
+   1368
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0103",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   464,
+   696
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0104",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0105",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0106",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   240,
+   360
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0107",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   200,
+   300
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0108",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   744,
+   1116
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0109",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   408,
+   612
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0110",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   832,
+   1248
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0111",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   264,
+   396
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0112",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   448,
+   672
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0113",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   256,
+   384
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0114",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   376,
+   564
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0115",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   472,
+   708
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0116",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0117",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   576,
+   864
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0118",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   584,
+   876
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0119",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   840,
+   1260
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0120",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0121",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   496,
+   744
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0122",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0123",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   280,
+   420
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0124",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   384,
+   576
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0125",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0126",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   296,
+   444
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0127",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   256,
+   384
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0128",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   240,
+   360
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0129",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0130",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0131",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   192,
+   288
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0132",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   456,
+   684
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0133",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0134",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   536,
+   804
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0135",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   376,
+   564
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0136",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   824,
+   1236
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0137",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0138",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0139",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   144,
+   216
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0140",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   616,
+   924
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0141",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   528,
+   792
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0142",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   360,
+   540
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0143",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   520,
+   780
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0144",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   728,
+   1092
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0145",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0146",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0147",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   512,
+   768
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0148",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0149",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   648,
+   972
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0150",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0151",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   888,
+   1332
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0152",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   488,
+   732
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0153",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   560,
+   840
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0154",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   360,
+   540
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0155",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   592,
+   888
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0156",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   312,
+   468
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0157",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   360,
+   540
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0158",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0159",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   632,
+   948
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0160",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   560,
+   840
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0161",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   656,
+   984
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0162",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   488,
+   732
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0163",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   488,
+   732
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0164",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   728,
+   1092
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0165",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   872,
+   1308
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0166",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   408,
+   612
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0167",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   656,
+   984
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0168",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0169",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   704,
+   1056
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0170",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0171",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0172",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0173",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0174",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   576,
+   864
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0175",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   256,
+   384
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0176",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   936,
+   1404
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0177",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   432,
+   648
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0178",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   280,
+   420
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0179",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0180",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   480,
+   720
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0181",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   248,
+   372
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0182",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   440,
+   660
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0183",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   520,
+   780
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0184",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   728,
+   1092
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0185",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   496,
+   744
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0186",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   216,
+   324
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0187",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   376,
+   564
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0188",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0189",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   176,
+   264
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0190",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   280,
+   420
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0191",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   584,
+   876
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0192",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   584,
+   876
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0193",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   576,
+   864
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0194",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   400,
+   600
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0195",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   600,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0196",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   280,
+   420
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0197",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   400,
+   600
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0198",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0199",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0200",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   544,
+   816
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0201",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   584,
+   876
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0202",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   560,
+   840
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0203",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   304,
+   456
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0204",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   400,
+   600
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0205",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   744,
+   1116
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0206",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   872,
+   1308
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0207",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   680,
+   1020
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0208",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   280,
+   420
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0209",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   552,
+   828
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0210",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   360,
+   540
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0211",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   904,
+   1356
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0212",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   928,
+   1392
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0213",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   400,
+   600
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0214",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   440,
+   660
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0215",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   456,
+   684
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0216",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0217",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0218",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   384,
+   576
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0219",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0220",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   296,
+   444
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0221",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0222",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   272,
+   408
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0223",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   632,
+   948
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0224",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   376,
+   564
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0225",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   480,
+   720
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0226",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0227",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   336,
+   504
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0228",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   752,
+   1128
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0229",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   424,
+   636
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0230",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   504,
+   756
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0231",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   816,
+   1224
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0232",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   472,
+   708
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0233",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   768,
+   1152
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0234",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   688,
+   1032
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0235",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0236",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   408,
+   612
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0237",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0238",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   296,
+   444
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0239",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   464,
+   696
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0240",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0241",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   536,
+   804
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0242",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0243",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   376,
+   564
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0244",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   456,
+   684
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0245",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0246",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   688,
+   1032
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0247",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   304,
+   456
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0248",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   144,
+   216
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0249",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0250",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0251",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   864,
+   1296
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0252",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   568,
+   852
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0253",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0254",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   312,
+   468
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0255",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   176,
+   264
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0256",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   640,
+   960
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0257",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   472,
+   708
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0258",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   176,
+   264
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0259",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   656,
+   984
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0260",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   256,
+   384
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0261",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   544,
+   816
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0262",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   896,
+   1344
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0263",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0264",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   424,
+   636
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0265",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   472,
+   708
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0266",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   520,
+   780
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0267",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   504,
+   756
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0268",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   464,
+   696
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0269",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   424,
+   636
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0270",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   632,
+   948
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0271",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   240,
+   360
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0272",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   560,
+   840
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0273",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   616,
+   924
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0274",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   304,
+   456
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0275",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   592,
+   888
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0276",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   352,
+   528
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0277",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0278",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   496,
+   744
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0279",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   616,
+   924
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0280",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   208,
+   312
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0281",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   616,
+   924
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0282",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   464,
+   696
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0283",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   264,
+   396
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0284",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   224,
+   336
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0285",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0286",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0287",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0288",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   920,
+   1380
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0289",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   272,
+   408
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0290",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   752,
+   1128
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0291",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   216,
+   324
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0292",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   440,
+   660
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0293",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0294",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   720,
+   1080
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0295",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   256,
+   384
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0296",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   400,
+   600
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0297",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   512,
+   768
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0298",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   648,
+   972
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "hist-0299",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   192,
+   288
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0000",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0001",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   240,
+   360
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0002",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0003",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   496,
+   744
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0004",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   352,
+   528
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0005",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   616,
+   924
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0006",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0007",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   336,
+   504
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0008",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   912,
+   1368
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0009",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0010",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   880,
+   1320
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0011",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   656,
+   984
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0012",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   224,
+   336
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0013",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   280,
+   420
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0014",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   264,
+   396
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0015",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   440,
+   660
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0016",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   424,
+   636
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0017",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0018",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   352,
+   528
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0018-dup",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   352,
+   528
+  ],
+  "flags": [],
+  "duplicate_of": "new-0018"
+ },
+ {
+  "job_id": "new-0019",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   312,
+   468
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0020",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0021",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "injection",
+  "fair_price_band": [
+   248,
+   372
+  ],
+  "flags": [
+   "prompt_injection"
+  ]
+ },
+ {
+  "job_id": "new-0022",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   440,
+   660
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0023",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   536,
+   804
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0024",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   568,
+   852
+  ],
+  "flags": [
+   "unpaid_work"
+  ]
+ },
+ {
+  "job_id": "new-0025",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   528,
+   792
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0026",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   736,
+   1104
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0027",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": [
+   "unpaid_work"
+  ]
+ },
+ {
+  "job_id": "new-0028",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   368,
+   552
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0029",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   768,
+   1152
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0030",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   240,
+   360
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0031",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": [
+   "unpaid_work"
+  ]
+ },
+ {
+  "job_id": "new-0031-dup",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": [
+   "unpaid_work"
+  ],
+  "duplicate_of": "new-0031"
+ },
+ {
+  "job_id": "new-0032",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   296,
+   444
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0033",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0033-dup",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": [
+   "off_platform_contact"
+  ],
+  "duplicate_of": "new-0033"
+ },
+ {
+  "job_id": "new-0034",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   688,
+   1032
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0035",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   240,
+   360
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0036",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   568,
+   852
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0037",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0038",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   520,
+   780
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0039",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   200,
+   300
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0039-dup",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   200,
+   300
+  ],
+  "flags": [],
+  "duplicate_of": "new-0039"
+ },
+ {
+  "job_id": "new-0040",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   376,
+   564
+  ],
+  "flags": [
+   "unpaid_work"
+  ]
+ },
+ {
+  "job_id": "new-0041",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   312,
+   468
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0042",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   736,
+   1104
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0043",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   800,
+   1200
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0044",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0045",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   312,
+   468
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0046",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0047",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   512,
+   768
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0048",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   504,
+   756
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0049",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   624,
+   936
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0050",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   744,
+   1116
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0051",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   384,
+   576
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0052",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   712,
+   1068
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0053",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   376,
+   564
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0054",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   720,
+   1080
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0055",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   152,
+   228
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0055-dup",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   152,
+   228
+  ],
+  "flags": [],
+  "duplicate_of": "new-0055"
+ },
+ {
+  "job_id": "new-0056",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   856,
+   1284
+  ],
+  "flags": [
+   "unpaid_work"
+  ]
+ },
+ {
+  "job_id": "new-0057",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0058",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   832,
+   1248
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0059",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   808,
+   1212
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0060",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   640,
+   960
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0061",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   928,
+   1392
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0061-dup",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   928,
+   1392
+  ],
+  "flags": [
+   "off_platform_contact"
+  ],
+  "duplicate_of": "new-0061"
+ },
+ {
+  "job_id": "new-0062",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   408,
+   612
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0063",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   248,
+   372
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0064",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   424,
+   636
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0065",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   272,
+   408
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0066",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   424,
+   636
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0067",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   432,
+   648
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0068",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   496,
+   744
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0069",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   600,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0070",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   280,
+   420
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0071",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   288,
+   432
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0072",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0073",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   592,
+   888
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0074",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   184,
+   276
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0075",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   424,
+   636
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0076",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   296,
+   444
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0077",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "injection",
+  "fair_price_band": [
+   376,
+   564
+  ],
+  "flags": [
+   "prompt_injection"
+  ]
+ },
+ {
+  "job_id": "new-0078",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   712,
+   1068
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0079",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   248,
+   372
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0080",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   400,
+   600
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0081",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   664,
+   996
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0082",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0083",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0084",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   576,
+   864
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0085",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0086",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   576,
+   864
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0087",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0088",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   304,
+   456
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0089",
+  "category": "ai_ml",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": [
+   "unpaid_work"
+  ]
+ },
+ {
+  "job_id": "new-0090",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   400,
+   600
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0091",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "offplatform",
+  "fair_price_band": [
+   784,
+   1176
+  ],
+  "flags": [
+   "off_platform_contact"
+  ]
+ },
+ {
+  "job_id": "new-0092",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   568,
+   852
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0093",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   560,
+   840
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0094",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   416,
+   624
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0095",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "injection",
+  "fair_price_band": [
+   152,
+   228
+  ],
+  "flags": [
+   "prompt_injection"
+  ]
+ },
+ {
+  "job_id": "new-0096",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0096-dup",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": [],
+  "duplicate_of": "new-0096"
+ },
+ {
+  "job_id": "new-0097",
+  "category": "data_analysis",
+  "is_scam": true,
+  "scam_type": "injection",
+  "fair_price_band": [
+   232,
+   348
+  ],
+  "flags": [
+   "prompt_injection"
+  ]
+ },
+ {
+  "job_id": "new-0098",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   152,
+   228
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0099",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   720,
+   1080
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0100",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   544,
+   816
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0101",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0102",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   824,
+   1236
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0103",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   296,
+   444
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0104",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   224,
+   336
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0104-dup",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   224,
+   336
+  ],
+  "flags": [],
+  "duplicate_of": "new-0104"
+ },
+ {
+  "job_id": "new-0105",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   880,
+   1320
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0106",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   608,
+   912
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0107",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0108",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   544,
+   816
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0109",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0109-dup",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   320,
+   480
+  ],
+  "flags": [],
+  "duplicate_of": "new-0109"
+ },
+ {
+  "job_id": "new-0110",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   848,
+   1272
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0111",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   824,
+   1236
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0112",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   328,
+   492
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0113",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0114",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   392,
+   588
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0115",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   344,
+   516
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0116",
+  "category": "web_dev",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   672,
+   1008
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0117",
+  "category": "ai_ml",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   360,
+   540
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0118",
+  "category": "data_analysis",
+  "is_scam": false,
+  "scam_type": null,
+  "fair_price_band": [
+   216,
+   324
+  ],
+  "flags": []
+ },
+ {
+  "job_id": "new-0119",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   696,
+   1044
+  ],
+  "flags": [
+   "unpaid_work"
+  ]
+ },
+ {
+  "job_id": "new-0119-dup",
+  "category": "web_dev",
+  "is_scam": true,
+  "scam_type": "unpaid",
+  "fair_price_band": [
+   696,
+   1044
+  ],
+  "flags": [
+   "unpaid_work"
+  ],
+  "duplicate_of": "new-0119"
+ }
+]

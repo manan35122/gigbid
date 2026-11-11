@@ -1,0 +1,362 @@
+{
+ "client-000": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-001": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-002": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.15
+ },
+ "client-003": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-004": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-005": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-006": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-007": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-008": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-009": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-010": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-011": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-012": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-013": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-014": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-015": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-016": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-017": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-018": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-019": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-020": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-021": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-022": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-023": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.15
+ },
+ "client-024": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-025": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-026": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-027": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-028": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-029": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.15
+ },
+ "client-030": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-031": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.15
+ },
+ "client-032": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-033": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-034": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-035": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-036": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-037": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-038": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-039": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-040": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-041": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-042": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-043": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-044": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-045": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-046": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-047": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-048": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-049": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.15
+ },
+ "client-050": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-051": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.15
+ },
+ "client-052": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-053": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-054": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-055": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-056": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ },
+ "client-057": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": false,
+  "reply_bias": 0.7
+ },
+ "client-058": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.15
+ },
+ "client-059": {
+  "must_have_skills": [],
+  "budget_ceiling": null,
+  "dislikes_generic": true,
+  "reply_bias": 0.7
+ }
+}
