@@ -31,6 +31,8 @@ models:
   embeddings: BAAI/bge-small-en-v1.5      # runs on CPU via fastembed
   reranker: Xenova/ms-marco-MiniLM-L-6-v2 # will verify support in step 5
 
+strong_evidence_score: 0.65
+partial_evidence_score: 0.55
 budgets:
   max_graph_steps: 30
   max_revisions: 2
@@ -41,7 +43,9 @@ thresholds:
   minimum_fit_score: 0.60
   maximum_risk_score: 0.70
 
-policy:                    # the change request will land here
-  connects_per_bid: 4
+policy:
+  min_proposal_words: 20
   max_proposal_words: 300
+  max_connects_per_bid: 10   # starting guess, tune later
   banned_phrases: ["guarantee", "100% success", "whatsapp", "telegram", "paypal"]
+
