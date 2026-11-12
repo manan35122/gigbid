@@ -1,26 +1,47 @@
 marketplace:
-  mode: gigsim
+  mode: gigsim            # gigsim | upwork
   max_requests_per_minute: 20
 
 models:
-  profile: open
-  nodes:
-    scout: qwen3-4b
-    analyst: qwen3-4b
-    risk_assessor: qwen3-4b
-    fit_matcher: qwen3-4b
-    pricing: qwen3-4b
-    writer: configure-your-model
-    critic: configure-your-model
-    client_liaison: configure-your-model
-  embeddings: nomic-embed-text
-  reranker: bge-reranker-v2-m3
+  profile: open           # open | paid
+  profiles:
+    open:
+      provider: groq
+      tiers:
+        small: openai/gpt-oss-20b
+        strong: openai/gpt-oss-120b
+        alt: qwen/qwen3.8-27b       # second open config for the comparison
+      fallback_small: openai/gpt-oss-20b
+    paid:
+      provider: openai
+      tiers:
+        small: configure-later
+        strong: configure-later
+  nodes:                  # node -> tier
+    scout: small
+    analyst: small
+    risk_assessor: small
+    fit_matcher: small
+    pricing: small
+    writer: strong
+    verifier: small
+    critic: strong
+    compliance: small
+    client_liaison: strong
+  embeddings: BAAI/bge-small-en-v1.5      # runs on CPU via fastembed
+  reranker: Xenova/ms-marco-MiniLM-L-6-v2 # will verify support in step 5
 
 budgets:
   max_graph_steps: 30
   max_revisions: 2
   max_tokens_per_job: 12000
+  weekly_connects_default: 100
 
 thresholds:
   minimum_fit_score: 0.60
   maximum_risk_score: 0.70
+
+policy:                    # the change request will land here
+  connects_per_bid: 4
+  max_proposal_words: 300
+  banned_phrases: ["guarantee", "100% success", "whatsapp", "telegram", "paypal"]

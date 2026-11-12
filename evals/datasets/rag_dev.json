@@ -1,0 +1,3684 @@
+[
+ {
+  "id": "ai_engineer-1-0",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a travel company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-3"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-1",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a logistics company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-3"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-2",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a travel company looking for a freelancer. Scope: a model that predicts which subscribers will cancel next month. Please share relevant past work.",
+  "gold_projects": [
+   "churn_model"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-rev-1"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-3",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a fintech company looking for a freelancer. Scope: packaging our models so they ship reliably with experiment tracking and automated checks. Please share relevant past work.",
+  "gold_projects": [
+   "mlops_deploy"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-12",
+   "ai_engineer-rev-5"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-4",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a travel company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-14",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-5",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a fintech company looking for a freelancer. Scope: automatic detection of scratches and flaws in product photos on a factory line. Please share relevant past work.",
+  "gold_projects": [
+   "defect_vision"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-16",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-rev-2"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-6",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a retail company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-14",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-7",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a SaaS company looking for a freelancer. Scope: automatically sort incoming customer emails into the right queue. Please share relevant past work.",
+  "gold_projects": [
+   "ticket_nlp"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-11",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-4"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-8",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a fintech company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-3"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-9",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a retail company looking for a freelancer. Scope: automatically sort incoming customer emails into the right queue. Please share relevant past work.",
+  "gold_projects": [
+   "ticket_nlp"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-11",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-4"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-10",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a healthcare company looking for a freelancer. Scope: weekly sales forecasts for our product groups with proper backtesting. Please share relevant past work.",
+  "gold_projects": [
+   "demand_forecast"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-13",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-1-11",
+  "persona_id": "ai_engineer",
+  "n_requirements": 1,
+  "query": "We are a retail company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-14",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-0",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a retail company looking for a freelancer. Scope: a model that predicts which subscribers will cancel next month Also, weekly sales forecasts for our product groups with proper backtesting. Please share relevant past work.",
+  "gold_projects": [
+   "churn_model",
+   "demand_forecast"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-1",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a real estate company looking for a freelancer. Scope: weekly sales forecasts for our product groups with proper backtesting Also, adapt an open language model to answer questions in our specialised domain. Please share relevant past work.",
+  "gold_projects": [
+   "demand_forecast",
+   "llm_finetune"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-2",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a logistics company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain Also, automatically sort incoming customer emails into the right queue. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune",
+   "ticket_nlp"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-4"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-3",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a education company looking for a freelancer. Scope: automatically sort incoming customer emails into the right queue Also, a model that predicts which subscribers will cancel next month. Please share relevant past work.",
+  "gold_projects": [
+   "ticket_nlp",
+   "churn_model"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-4"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-4",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a healthcare company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-5",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a education company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain Also, packaging our models so they ship reliably with experiment tracking and automated checks. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune",
+   "mlops_deploy"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-5"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-6",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a healthcare company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain Also, automatically sort incoming customer emails into the right queue. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune",
+   "ticket_nlp"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-4"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-7",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a real estate company looking for a freelancer. Scope: packaging our models so they ship reliably with experiment tracking and automated checks Also, automatic detection of scratches and flaws in product photos on a factory line. Please share relevant past work.",
+  "gold_projects": [
+   "mlops_deploy",
+   "defect_vision"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-16",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-rev-2",
+   "ai_engineer-rev-5"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-8",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a education company looking for a freelancer. Scope: weekly sales forecasts for our product groups with proper backtesting Also, a model that predicts which subscribers will cancel next month. Please share relevant past work.",
+  "gold_projects": [
+   "demand_forecast",
+   "churn_model"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-9",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a healthcare company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, weekly sales forecasts for our product groups with proper backtesting. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support",
+   "demand_forecast"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-14",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-6",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-10",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a education company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-2-11",
+  "persona_id": "ai_engineer",
+  "n_requirements": 2,
+  "query": "We are a retail company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-0",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a logistics company looking for a freelancer. Scope: weekly sales forecasts for our product groups with proper backtesting Also, packaging our models so they ship reliably with experiment tracking and automated checks Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "demand_forecast",
+   "mlops_deploy",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-14",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-6",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-1",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a SaaS company looking for a freelancer. Scope: a model that predicts which subscribers will cancel next month Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, adapt an open language model to answer questions in our specialised domain. Please share relevant past work.",
+  "gold_projects": [
+   "churn_model",
+   "rag_support",
+   "llm_finetune"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-15",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-2",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a healthcare company looking for a freelancer. Scope: packaging our models so they ship reliably with experiment tracking and automated checks Also, adapt an open language model to answer questions in our specialised domain Also, weekly sales forecasts for our product groups with proper backtesting. Please share relevant past work.",
+  "gold_projects": [
+   "mlops_deploy",
+   "llm_finetune",
+   "demand_forecast"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-3",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a education company looking for a freelancer. Scope: automatically sort incoming customer emails into the right queue Also, packaging our models so they ship reliably with experiment tracking and automated checks Also, a model that predicts which subscribers will cancel next month. Please share relevant past work.",
+  "gold_projects": [
+   "ticket_nlp",
+   "mlops_deploy",
+   "churn_model"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-5"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-4",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a real estate company looking for a freelancer. Scope: automatic detection of scratches and flaws in product photos on a factory line Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, weekly sales forecasts for our product groups with proper backtesting. Please share relevant past work.",
+  "gold_projects": [
+   "defect_vision",
+   "rag_support",
+   "demand_forecast"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-16",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-2",
+   "ai_engineer-rev-6",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-5",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a fintech company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, adapt an open language model to answer questions in our specialised domain Also, weekly sales forecasts for our product groups with proper backtesting. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support",
+   "llm_finetune",
+   "demand_forecast"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-6",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-6",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a retail company looking for a freelancer. Scope: a model that predicts which subscribers will cancel next month Also, packaging our models so they ship reliably with experiment tracking and automated checks Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "churn_model",
+   "mlops_deploy",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-7",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a fintech company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, adapt an open language model to answer questions in our specialised domain Also, packaging our models so they ship reliably with experiment tracking and automated checks. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support",
+   "llm_finetune",
+   "mlops_deploy"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-8",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a travel company looking for a freelancer. Scope: packaging our models so they ship reliably with experiment tracking and automated checks Also, automatically sort incoming customer emails into the right queue Also, a model that predicts which subscribers will cancel next month. Please share relevant past work.",
+  "gold_projects": [
+   "mlops_deploy",
+   "ticket_nlp",
+   "churn_model"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-5"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-9",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a SaaS company looking for a freelancer. Scope: automatically sort incoming customer emails into the right queue Also, a model that predicts which subscribers will cancel next month Also, packaging our models so they ship reliably with experiment tracking and automated checks. Please share relevant past work.",
+  "gold_projects": [
+   "ticket_nlp",
+   "churn_model",
+   "mlops_deploy"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-5"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-10",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a SaaS company looking for a freelancer. Scope: packaging our models so they ship reliably with experiment tracking and automated checks Also, adapt an open language model to answer questions in our specialised domain Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "mlops_deploy",
+   "llm_finetune",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-3-11",
+  "persona_id": "ai_engineer",
+  "n_requirements": 3,
+  "query": "We are a education company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain Also, a model that predicts which subscribers will cancel next month Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune",
+   "churn_model",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-15",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-0",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a logistics company looking for a freelancer. Scope: weekly sales forecasts for our product groups with proper backtesting Also, automatically sort incoming customer emails into the right queue Also, automatic detection of scratches and flaws in product photos on a factory line Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "demand_forecast",
+   "ticket_nlp",
+   "defect_vision",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-16",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-2",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-6",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-1",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a retail company looking for a freelancer. Scope: a model that predicts which subscribers will cancel next month Also, adapt an open language model to answer questions in our specialised domain Also, automatically sort incoming customer emails into the right queue Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval. Please share relevant past work.",
+  "gold_projects": [
+   "churn_model",
+   "llm_finetune",
+   "ticket_nlp",
+   "rag_support"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-15",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-2",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a retail company looking for a freelancer. Scope: a model that predicts which subscribers will cancel next month Also, weekly sales forecasts for our product groups with proper backtesting Also, adapt an open language model to answer questions in our specialised domain Also, automatic detection of scratches and flaws in product photos on a factory line. Please share relevant past work.",
+  "gold_projects": [
+   "churn_model",
+   "demand_forecast",
+   "llm_finetune",
+   "defect_vision"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-15",
+   "ai_engineer-cs-16",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-2",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-3",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a SaaS company looking for a freelancer. Scope: weekly sales forecasts for our product groups with proper backtesting Also, automatically sort incoming customer emails into the right queue Also, automatic detection of scratches and flaws in product photos on a factory line Also, packaging our models so they ship reliably with experiment tracking and automated checks. Please share relevant past work.",
+  "gold_projects": [
+   "demand_forecast",
+   "ticket_nlp",
+   "defect_vision",
+   "mlops_deploy"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-16",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-2",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-4",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a logistics company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, weekly sales forecasts for our product groups with proper backtesting Also, packaging our models so they ship reliably with experiment tracking and automated checks Also, a model that predicts which subscribers will cancel next month. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support",
+   "demand_forecast",
+   "mlops_deploy",
+   "churn_model"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-6",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-5",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a travel company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, automatically sort incoming customer emails into the right queue Also, automatic detection of scratches and flaws in product photos on a factory line Also, packaging our models so they ship reliably with experiment tracking and automated checks. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support",
+   "ticket_nlp",
+   "defect_vision",
+   "mlops_deploy"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-16",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-2",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-6",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a SaaS company looking for a freelancer. Scope: a model that predicts which subscribers will cancel next month Also, automatically sort incoming customer emails into the right queue Also, adapt an open language model to answer questions in our specialised domain Also, weekly sales forecasts for our product groups with proper backtesting. Please share relevant past work.",
+  "gold_projects": [
+   "churn_model",
+   "ticket_nlp",
+   "llm_finetune",
+   "demand_forecast"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-15",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-7",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a logistics company looking for a freelancer. Scope: a model that predicts which subscribers will cancel next month Also, packaging our models so they ship reliably with experiment tracking and automated checks Also, weekly sales forecasts for our product groups with proper backtesting Also, automatic detection of scratches and flaws in product photos on a factory line. Please share relevant past work.",
+  "gold_projects": [
+   "churn_model",
+   "mlops_deploy",
+   "demand_forecast",
+   "defect_vision"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-15",
+   "ai_engineer-cs-16",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-2",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-8",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a fintech company looking for a freelancer. Scope: weekly sales forecasts for our product groups with proper backtesting Also, automatically sort incoming customer emails into the right queue Also, a model that predicts which subscribers will cancel next month Also, packaging our models so they ship reliably with experiment tracking and automated checks. Please share relevant past work.",
+  "gold_projects": [
+   "demand_forecast",
+   "ticket_nlp",
+   "churn_model",
+   "mlops_deploy"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-9",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a SaaS company looking for a freelancer. Scope: packaging our models so they ship reliably with experiment tracking and automated checks Also, weekly sales forecasts for our product groups with proper backtesting Also, automatically sort incoming customer emails into the right queue Also, a model that predicts which subscribers will cancel next month. Please share relevant past work.",
+  "gold_projects": [
+   "mlops_deploy",
+   "demand_forecast",
+   "ticket_nlp",
+   "churn_model"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-01",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-08",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-15",
+   "ai_engineer-readme-1",
+   "ai_engineer-code-1",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-1",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-6"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-10",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a retail company looking for a freelancer. Scope: adapt an open language model to answer questions in our specialised domain Also, automatically sort incoming customer emails into the right queue Also, a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, weekly sales forecasts for our product groups with proper backtesting. Please share relevant past work.",
+  "gold_projects": [
+   "llm_finetune",
+   "ticket_nlp",
+   "rag_support",
+   "demand_forecast"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-03",
+   "ai_engineer-cs-04",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-10",
+   "ai_engineer-cs-11",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-17",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-3",
+   "ai_engineer-code-3",
+   "ai_engineer-readme-4",
+   "ai_engineer-code-4",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-3",
+   "ai_engineer-rev-4",
+   "ai_engineer-rev-6",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "ai_engineer-4-11",
+  "persona_id": "ai_engineer",
+  "n_requirements": 4,
+  "query": "We are a logistics company looking for a freelancer. Scope: a search assistant that answers questions from our help-centre articles and needs precise retrieval Also, weekly sales forecasts for our product groups with proper backtesting Also, packaging our models so they ship reliably with experiment tracking and automated checks Also, automatic detection of scratches and flaws in product photos on a factory line. Please share relevant past work.",
+  "gold_projects": [
+   "rag_support",
+   "demand_forecast",
+   "mlops_deploy",
+   "defect_vision"
+  ],
+  "gold_ids": [
+   "ai_engineer-cs-00",
+   "ai_engineer-cs-02",
+   "ai_engineer-cs-05",
+   "ai_engineer-cs-06",
+   "ai_engineer-cs-07",
+   "ai_engineer-cs-09",
+   "ai_engineer-cs-12",
+   "ai_engineer-cs-13",
+   "ai_engineer-cs-14",
+   "ai_engineer-cs-16",
+   "ai_engineer-readme-0",
+   "ai_engineer-code-0",
+   "ai_engineer-readme-2",
+   "ai_engineer-code-2",
+   "ai_engineer-rev-0",
+   "ai_engineer-rev-2",
+   "ai_engineer-rev-5",
+   "ai_engineer-rev-6",
+   "ai_engineer-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-0",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a SaaS company looking for a freelancer. Scope: containerise our services and automate testing and releases. Please share relevant past work.",
+  "gold_projects": [
+   "ci_docker"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-rev-5"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-1",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a SaaS company looking for a freelancer. Scope: a secure backend API with token login and protection against abuse. Please share relevant past work.",
+  "gold_projects": [
+   "rest_api"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-rev-2"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-2",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a travel company looking for a freelancer. Scope: our front end feels slow and needs profiling and speed-ups. Please share relevant past work.",
+  "gold_projects": [
+   "react_perf"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-rev-6"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-3",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a fintech company looking for a freelancer. Scope: a secure backend API with token login and protection against abuse. Please share relevant past work.",
+  "gold_projects": [
+   "rest_api"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-rev-2"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-4",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a healthcare company looking for a freelancer. Scope: containerise our services and automate testing and releases. Please share relevant past work.",
+  "gold_projects": [
+   "ci_docker"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-rev-5"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-5",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a logistics company looking for a freelancer. Scope: an online shop with card payments that loads fast on phones. Please share relevant past work.",
+  "gold_projects": [
+   "storefront"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-rev-1"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-6",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a healthcare company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-3"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-7",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a logistics company looking for a freelancer. Scope: a secure backend API with token login and protection against abuse. Please share relevant past work.",
+  "gold_projects": [
+   "rest_api"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-rev-2"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-8",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a retail company looking for a freelancer. Scope: an online shop with card payments that loads fast on phones. Please share relevant past work.",
+  "gold_projects": [
+   "storefront"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-rev-1"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-9",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a education company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-10",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a travel company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-3"
+  ]
+ },
+ {
+  "id": "fullstack_dev-1-11",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 1,
+  "query": "We are a retail company looking for a freelancer. Scope: an online shop with card payments that loads fast on phones. Please share relevant past work.",
+  "gold_projects": [
+   "storefront"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-rev-1"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-0",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a education company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers Also, an online shop with card payments that loads fast on phones. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard",
+   "storefront"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-1",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a fintech company looking for a freelancer. Scope: a secure backend API with token login and protection against abuse Also, move our old PHP website to a modern framework without breaking existing links. Please share relevant past work.",
+  "gold_projects": [
+   "rest_api",
+   "php_migration"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-4"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-2",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a fintech company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers Also, a secure backend API with token login and protection against abuse. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard",
+   "rest_api"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-3",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a fintech company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly Also, a secure backend API with token login and protection against abuse. Please share relevant past work.",
+  "gold_projects": [
+   "realtime",
+   "rest_api"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-4",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a retail company looking for a freelancer. Scope: move our old PHP website to a modern framework without breaking existing links Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "php_migration",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-5",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a education company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly Also, a secure backend API with token login and protection against abuse. Please share relevant past work.",
+  "gold_projects": [
+   "realtime",
+   "rest_api"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-6",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a healthcare company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers Also, our front end feels slow and needs profiling and speed-ups. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard",
+   "react_perf"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-6",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-7",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a education company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "realtime",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-8",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a healthcare company looking for a freelancer. Scope: a secure backend API with token login and protection against abuse Also, an online shop with card payments that loads fast on phones. Please share relevant past work.",
+  "gold_projects": [
+   "rest_api",
+   "storefront"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-2"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-9",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a real estate company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers Also, live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard",
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-10",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a fintech company looking for a freelancer. Scope: containerise our services and automate testing and releases Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "ci_docker",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-5",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-2-11",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 2,
+  "query": "We are a real estate company looking for a freelancer. Scope: our front end feels slow and needs profiling and speed-ups Also, a secure backend API with token login and protection against abuse. Please share relevant past work.",
+  "gold_projects": [
+   "react_perf",
+   "rest_api"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-6"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-0",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a healthcare company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers Also, containerise our services and automate testing and releases Also, live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard",
+   "ci_docker",
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-5",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-1",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a travel company looking for a freelancer. Scope: our front end feels slow and needs profiling and speed-ups Also, live in-app alerts that reach thousands of users instantly Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "react_perf",
+   "realtime",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-6",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-2",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a SaaS company looking for a freelancer. Scope: move our old PHP website to a modern framework without breaking existing links Also, an internal dashboard with user roles that shows our key numbers Also, our front end feels slow and needs profiling and speed-ups. Please share relevant past work.",
+  "gold_projects": [
+   "php_migration",
+   "analytics_dashboard",
+   "react_perf"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-6",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-3",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a healthcare company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly Also, move our old PHP website to a modern framework without breaking existing links Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "realtime",
+   "php_migration",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-4",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a education company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers Also, our front end feels slow and needs profiling and speed-ups Also, containerise our services and automate testing and releases. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard",
+   "react_perf",
+   "ci_docker"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-5",
+   "fullstack_dev-rev-6",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-5",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a SaaS company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly Also, containerise our services and automate testing and releases Also, a secure backend API with token login and protection against abuse. Please share relevant past work.",
+  "gold_projects": [
+   "realtime",
+   "ci_docker",
+   "rest_api"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-5"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-6",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a travel company looking for a freelancer. Scope: containerise our services and automate testing and releases Also, our front end feels slow and needs profiling and speed-ups Also, move our old PHP website to a modern framework without breaking existing links. Please share relevant past work.",
+  "gold_projects": [
+   "ci_docker",
+   "react_perf",
+   "php_migration"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-5",
+   "fullstack_dev-rev-6"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-7",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a healthcare company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly Also, our front end feels slow and needs profiling and speed-ups Also, move our old PHP website to a modern framework without breaking existing links. Please share relevant past work.",
+  "gold_projects": [
+   "realtime",
+   "react_perf",
+   "php_migration"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-6"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-8",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a education company looking for a freelancer. Scope: move our old PHP website to a modern framework without breaking existing links Also, our front end feels slow and needs profiling and speed-ups Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "php_migration",
+   "react_perf",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-6",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-9",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a retail company looking for a freelancer. Scope: move our old PHP website to a modern framework without breaking existing links Also, an internal dashboard with user roles that shows our key numbers Also, live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "php_migration",
+   "analytics_dashboard",
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-10",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a travel company looking for a freelancer. Scope: an online shop with card payments that loads fast on phones Also, containerise our services and automate testing and releases Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "storefront",
+   "ci_docker",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-5",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-3-11",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 3,
+  "query": "We are a education company looking for a freelancer. Scope: our front end feels slow and needs profiling and speed-ups Also, move our old PHP website to a modern framework without breaking existing links Also, live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "react_perf",
+   "php_migration",
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-6"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-0",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a logistics company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers Also, a secure backend API with token login and protection against abuse Also, containerise our services and automate testing and releases Also, an online shop with card payments that loads fast on phones. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard",
+   "rest_api",
+   "ci_docker",
+   "storefront"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-5",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-1",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a travel company looking for a freelancer. Scope: move our old PHP website to a modern framework without breaking existing links Also, an online shop with card payments that loads fast on phones Also, a secure backend API with token login and protection against abuse Also, live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "php_migration",
+   "storefront",
+   "rest_api",
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-4"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-2",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a logistics company looking for a freelancer. Scope: an online shop with card payments that loads fast on phones Also, a secure backend API with token login and protection against abuse Also, live in-app alerts that reach thousands of users instantly Also, containerise our services and automate testing and releases. Please share relevant past work.",
+  "gold_projects": [
+   "storefront",
+   "rest_api",
+   "realtime",
+   "ci_docker"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-5"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-3",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a SaaS company looking for a freelancer. Scope: containerise our services and automate testing and releases Also, live in-app alerts that reach thousands of users instantly Also, an online shop with card payments that loads fast on phones Also, move our old PHP website to a modern framework without breaking existing links. Please share relevant past work.",
+  "gold_projects": [
+   "ci_docker",
+   "realtime",
+   "storefront",
+   "php_migration"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-5"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-4",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a fintech company looking for a freelancer. Scope: an online shop with card payments that loads fast on phones Also, move our old PHP website to a modern framework without breaking existing links Also, a secure backend API with token login and protection against abuse Also, our front end feels slow and needs profiling and speed-ups. Please share relevant past work.",
+  "gold_projects": [
+   "storefront",
+   "php_migration",
+   "rest_api",
+   "react_perf"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-6"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-5",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a healthcare company looking for a freelancer. Scope: an online shop with card payments that loads fast on phones Also, live in-app alerts that reach thousands of users instantly Also, a secure backend API with token login and protection against abuse Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "storefront",
+   "realtime",
+   "rest_api",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-6",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a travel company looking for a freelancer. Scope: a secure backend API with token login and protection against abuse Also, an online shop with card payments that loads fast on phones Also, an internal dashboard with user roles that shows our key numbers Also, live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "rest_api",
+   "storefront",
+   "analytics_dashboard",
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-7",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a travel company looking for a freelancer. Scope: a secure backend API with token login and protection against abuse Also, an online shop with card payments that loads fast on phones Also, live in-app alerts that reach thousands of users instantly Also, move our old PHP website to a modern framework without breaking existing links. Please share relevant past work.",
+  "gold_projects": [
+   "rest_api",
+   "storefront",
+   "realtime",
+   "php_migration"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-4"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-8",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a real estate company looking for a freelancer. Scope: containerise our services and automate testing and releases Also, a secure backend API with token login and protection against abuse Also, move our old PHP website to a modern framework without breaking existing links Also, live in-app alerts that reach thousands of users instantly. Please share relevant past work.",
+  "gold_projects": [
+   "ci_docker",
+   "rest_api",
+   "php_migration",
+   "realtime"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-5"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-9",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a education company looking for a freelancer. Scope: an internal dashboard with user roles that shows our key numbers Also, our front end feels slow and needs profiling and speed-ups Also, a secure backend API with token login and protection against abuse Also, containerise our services and automate testing and releases. Please share relevant past work.",
+  "gold_projects": [
+   "analytics_dashboard",
+   "react_perf",
+   "rest_api",
+   "ci_docker"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-5",
+   "fullstack_dev-rev-6",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-10",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a fintech company looking for a freelancer. Scope: move our old PHP website to a modern framework without breaking existing links Also, a secure backend API with token login and protection against abuse Also, containerise our services and automate testing and releases Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "php_migration",
+   "rest_api",
+   "ci_docker",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-02",
+   "fullstack_dev-cs-04",
+   "fullstack_dev-cs-05",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-09",
+   "fullstack_dev-cs-11",
+   "fullstack_dev-cs-12",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-16",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-2",
+   "fullstack_dev-code-2",
+   "fullstack_dev-readme-4",
+   "fullstack_dev-code-4",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-2",
+   "fullstack_dev-rev-4",
+   "fullstack_dev-rev-5",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "fullstack_dev-4-11",
+  "persona_id": "fullstack_dev",
+  "n_requirements": 4,
+  "query": "We are a education company looking for a freelancer. Scope: live in-app alerts that reach thousands of users instantly Also, our front end feels slow and needs profiling and speed-ups Also, an online shop with card payments that loads fast on phones Also, an internal dashboard with user roles that shows our key numbers. Please share relevant past work.",
+  "gold_projects": [
+   "realtime",
+   "react_perf",
+   "storefront",
+   "analytics_dashboard"
+  ],
+  "gold_ids": [
+   "fullstack_dev-cs-00",
+   "fullstack_dev-cs-01",
+   "fullstack_dev-cs-03",
+   "fullstack_dev-cs-06",
+   "fullstack_dev-cs-07",
+   "fullstack_dev-cs-08",
+   "fullstack_dev-cs-10",
+   "fullstack_dev-cs-13",
+   "fullstack_dev-cs-14",
+   "fullstack_dev-cs-15",
+   "fullstack_dev-cs-17",
+   "fullstack_dev-readme-0",
+   "fullstack_dev-code-0",
+   "fullstack_dev-readme-1",
+   "fullstack_dev-code-1",
+   "fullstack_dev-readme-3",
+   "fullstack_dev-code-3",
+   "fullstack_dev-rev-0",
+   "fullstack_dev-rev-1",
+   "fullstack_dev-rev-3",
+   "fullstack_dev-rev-6",
+   "fullstack_dev-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-1-0",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a fintech company looking for a freelancer. Scope: a tested, documented transformation layer on our data warehouse. Please share relevant past work.",
+  "gold_projects": [
+   "dbt_pipeline"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-08",
+   "data_analyst-cs-15",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-rev-1"
+  ]
+ },
+ {
+  "id": "data_analyst-1-1",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a retail company looking for a freelancer. Scope: automate our repetitive weekly spreadsheet reports. Please share relevant past work.",
+  "gold_projects": [
+   "excel_automation"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-06",
+   "data_analyst-cs-13",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-1-2",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a healthcare company looking for a freelancer. Scope: consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-05",
+   "data_analyst-cs-12",
+   "data_analyst-rev-5"
+  ]
+ },
+ {
+  "id": "data_analyst-1-3",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a healthcare company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-03",
+   "data_analyst-cs-10",
+   "data_analyst-cs-17",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-3"
+  ]
+ },
+ {
+  "id": "data_analyst-1-4",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a real estate company looking for a freelancer. Scope: consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-05",
+   "data_analyst-cs-12",
+   "data_analyst-rev-5"
+  ]
+ },
+ {
+  "id": "data_analyst-1-5",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a logistics company looking for a freelancer. Scope: an interactive sales report for regional managers with restricted access per region. Please share relevant past work.",
+  "gold_projects": [
+   "sales_dashboard"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-07",
+   "data_analyst-cs-14",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-rev-0",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-1-6",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a travel company looking for a freelancer. Scope: a tested, documented transformation layer on our data warehouse. Please share relevant past work.",
+  "gold_projects": [
+   "dbt_pipeline"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-08",
+   "data_analyst-cs-15",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-rev-1"
+  ]
+ },
+ {
+  "id": "data_analyst-1-7",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a fintech company looking for a freelancer. Scope: analyse our experiment results and tell us whether the new variant really won. Please share relevant past work.",
+  "gold_projects": [
+   "ab_test"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-09",
+   "data_analyst-cs-16",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-rev-2"
+  ]
+ },
+ {
+  "id": "data_analyst-1-8",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a retail company looking for a freelancer. Scope: consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-05",
+   "data_analyst-cs-12",
+   "data_analyst-rev-5"
+  ]
+ },
+ {
+  "id": "data_analyst-1-9",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a travel company looking for a freelancer. Scope: automate our repetitive weekly spreadsheet reports. Please share relevant past work.",
+  "gold_projects": [
+   "excel_automation"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-06",
+   "data_analyst-cs-13",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-1-10",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a retail company looking for a freelancer. Scope: show where users drop off by acquisition channel over time. Please share relevant past work.",
+  "gold_projects": [
+   "cohort_retention"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-04",
+   "data_analyst-cs-11",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-4"
+  ]
+ },
+ {
+  "id": "data_analyst-1-11",
+  "persona_id": "data_analyst",
+  "n_requirements": 1,
+  "query": "We are a logistics company looking for a freelancer. Scope: a tested, documented transformation layer on our data warehouse. Please share relevant past work.",
+  "gold_projects": [
+   "dbt_pipeline"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-08",
+   "data_analyst-cs-15",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-rev-1"
+  ]
+ },
+ {
+  "id": "data_analyst-2-0",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a fintech company looking for a freelancer. Scope: analyse our experiment results and tell us whether the new variant really won Also, automate our repetitive weekly spreadsheet reports. Please share relevant past work.",
+  "gold_projects": [
+   "ab_test",
+   "excel_automation"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-06",
+   "data_analyst-cs-09",
+   "data_analyst-cs-13",
+   "data_analyst-cs-16",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-rev-2",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-2-1",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a logistics company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-03",
+   "data_analyst-cs-05",
+   "data_analyst-cs-10",
+   "data_analyst-cs-12",
+   "data_analyst-cs-17",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-3",
+   "data_analyst-rev-5"
+  ]
+ },
+ {
+  "id": "data_analyst-2-2",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a SaaS company looking for a freelancer. Scope: an interactive sales report for regional managers with restricted access per region Also, clean a large messy survey export and produce weighted summaries. Please share relevant past work.",
+  "gold_projects": [
+   "sales_dashboard",
+   "survey_cleaning"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-03",
+   "data_analyst-cs-07",
+   "data_analyst-cs-10",
+   "data_analyst-cs-14",
+   "data_analyst-cs-17",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-0",
+   "data_analyst-rev-3",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-2-3",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a travel company looking for a freelancer. Scope: a tested, documented transformation layer on our data warehouse Also, clean a large messy survey export and produce weighted summaries. Please share relevant past work.",
+  "gold_projects": [
+   "dbt_pipeline",
+   "survey_cleaning"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-03",
+   "data_analyst-cs-08",
+   "data_analyst-cs-10",
+   "data_analyst-cs-15",
+   "data_analyst-cs-17",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-1",
+   "data_analyst-rev-3"
+  ]
+ },
+ {
+  "id": "data_analyst-2-4",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a retail company looking for a freelancer. Scope: a tested, documented transformation layer on our data warehouse Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "dbt_pipeline",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-05",
+   "data_analyst-cs-08",
+   "data_analyst-cs-12",
+   "data_analyst-cs-15",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-rev-1",
+   "data_analyst-rev-5"
+  ]
+ },
+ {
+  "id": "data_analyst-2-5",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a real estate company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, show where users drop off by acquisition channel over time. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "cohort_retention"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-03",
+   "data_analyst-cs-04",
+   "data_analyst-cs-10",
+   "data_analyst-cs-11",
+   "data_analyst-cs-17",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-3",
+   "data_analyst-rev-4"
+  ]
+ },
+ {
+  "id": "data_analyst-2-6",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a logistics company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, analyse our experiment results and tell us whether the new variant really won. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "ab_test"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-03",
+   "data_analyst-cs-09",
+   "data_analyst-cs-10",
+   "data_analyst-cs-16",
+   "data_analyst-cs-17",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-2",
+   "data_analyst-rev-3"
+  ]
+ },
+ {
+  "id": "data_analyst-2-7",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a healthcare company looking for a freelancer. Scope: an interactive sales report for regional managers with restricted access per region Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "sales_dashboard",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-05",
+   "data_analyst-cs-07",
+   "data_analyst-cs-12",
+   "data_analyst-cs-14",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-rev-0",
+   "data_analyst-rev-5",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-2-8",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a SaaS company looking for a freelancer. Scope: a tested, documented transformation layer on our data warehouse Also, automate our repetitive weekly spreadsheet reports. Please share relevant past work.",
+  "gold_projects": [
+   "dbt_pipeline",
+   "excel_automation"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-06",
+   "data_analyst-cs-08",
+   "data_analyst-cs-13",
+   "data_analyst-cs-15",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-rev-1",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-2-9",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a real estate company looking for a freelancer. Scope: an interactive sales report for regional managers with restricted access per region Also, analyse our experiment results and tell us whether the new variant really won. Please share relevant past work.",
+  "gold_projects": [
+   "sales_dashboard",
+   "ab_test"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-02",
+   "data_analyst-cs-07",
+   "data_analyst-cs-09",
+   "data_analyst-cs-14",
+   "data_analyst-cs-16",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-rev-0",
+   "data_analyst-rev-2",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-2-10",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a retail company looking for a freelancer. Scope: analyse our experiment results and tell us whether the new variant really won Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "ab_test",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-05",
+   "data_analyst-cs-09",
+   "data_analyst-cs-12",
+   "data_analyst-cs-16",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-rev-2",
+   "data_analyst-rev-5"
+  ]
+ },
+ {
+  "id": "data_analyst-2-11",
+  "persona_id": "data_analyst",
+  "n_requirements": 2,
+  "query": "We are a healthcare company looking for a freelancer. Scope: analyse our experiment results and tell us whether the new variant really won Also, show where users drop off by acquisition channel over time. Please share relevant past work.",
+  "gold_projects": [
+   "ab_test",
+   "cohort_retention"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-04",
+   "data_analyst-cs-09",
+   "data_analyst-cs-11",
+   "data_analyst-cs-16",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-2",
+   "data_analyst-rev-4"
+  ]
+ },
+ {
+  "id": "data_analyst-3-0",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a SaaS company looking for a freelancer. Scope: an interactive sales report for regional managers with restricted access per region Also, clean a large messy survey export and produce weighted summaries Also, analyse our experiment results and tell us whether the new variant really won. Please share relevant past work.",
+  "gold_projects": [
+   "sales_dashboard",
+   "survey_cleaning",
+   "ab_test"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-02",
+   "data_analyst-cs-03",
+   "data_analyst-cs-07",
+   "data_analyst-cs-09",
+   "data_analyst-cs-10",
+   "data_analyst-cs-14",
+   "data_analyst-cs-16",
+   "data_analyst-cs-17",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-0",
+   "data_analyst-rev-2",
+   "data_analyst-rev-3",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-3-1",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a retail company looking for a freelancer. Scope: automate our repetitive weekly spreadsheet reports Also, analyse our experiment results and tell us whether the new variant really won Also, clean a large messy survey export and produce weighted summaries. Please share relevant past work.",
+  "gold_projects": [
+   "excel_automation",
+   "ab_test",
+   "survey_cleaning"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-03",
+   "data_analyst-cs-06",
+   "data_analyst-cs-09",
+   "data_analyst-cs-10",
+   "data_analyst-cs-13",
+   "data_analyst-cs-16",
+   "data_analyst-cs-17",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-2",
+   "data_analyst-rev-3",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-3-2",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a retail company looking for a freelancer. Scope: a tested, documented transformation layer on our data warehouse Also, an interactive sales report for regional managers with restricted access per region Also, clean a large messy survey export and produce weighted summaries. Please share relevant past work.",
+  "gold_projects": [
+   "dbt_pipeline",
+   "sales_dashboard",
+   "survey_cleaning"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-01",
+   "data_analyst-cs-03",
+   "data_analyst-cs-07",
+   "data_analyst-cs-08",
+   "data_analyst-cs-10",
+   "data_analyst-cs-14",
+   "data_analyst-cs-15",
+   "data_analyst-cs-17",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-0",
+   "data_analyst-rev-1",
+   "data_analyst-rev-3",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-3-3",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a fintech company looking for a freelancer. Scope: a tested, documented transformation layer on our data warehouse Also, show where users drop off by acquisition channel over time Also, analyse our experiment results and tell us whether the new variant really won. Please share relevant past work.",
+  "gold_projects": [
+   "dbt_pipeline",
+   "cohort_retention",
+   "ab_test"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-02",
+   "data_analyst-cs-04",
+   "data_analyst-cs-08",
+   "data_analyst-cs-09",
+   "data_analyst-cs-11",
+   "data_analyst-cs-15",
+   "data_analyst-cs-16",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-1",
+   "data_analyst-rev-2",
+   "data_analyst-rev-4"
+  ]
+ },
+ {
+  "id": "data_analyst-3-4",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a travel company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, a tested, documented transformation layer on our data warehouse Also, show where users drop off by acquisition channel over time. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "dbt_pipeline",
+   "cohort_retention"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-03",
+   "data_analyst-cs-04",
+   "data_analyst-cs-08",
+   "data_analyst-cs-10",
+   "data_analyst-cs-11",
+   "data_analyst-cs-15",
+   "data_analyst-cs-17",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-1",
+   "data_analyst-rev-3",
+   "data_analyst-rev-4"
+  ]
+ },
+ {
+  "id": "data_analyst-3-5",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a logistics company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, show where users drop off by acquisition channel over time Also, an interactive sales report for regional managers with restricted access per region. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "cohort_retention",
+   "sales_dashboard"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-03",
+   "data_analyst-cs-04",
+   "data_analyst-cs-07",
+   "data_analyst-cs-10",
+   "data_analyst-cs-11",
+   "data_analyst-cs-14",
+   "data_analyst-cs-17",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-0",
+   "data_analyst-rev-3",
+   "data_analyst-rev-4",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-3-6",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a education company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, show where users drop off by acquisition channel over time Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "cohort_retention",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-03",
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-10",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-17",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-3",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5"
+  ]
+ },
+ {
+  "id": "data_analyst-3-7",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a fintech company looking for a freelancer. Scope: automate our repetitive weekly spreadsheet reports Also, consolidate month-end figures from several systems into one reconciled view Also, show where users drop off by acquisition channel over time. Please share relevant past work.",
+  "gold_projects": [
+   "excel_automation",
+   "finance_report",
+   "cohort_retention"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-06",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-13",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-3-8",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a education company looking for a freelancer. Scope: show where users drop off by acquisition channel over time Also, automate our repetitive weekly spreadsheet reports Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "cohort_retention",
+   "excel_automation",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-06",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-13",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-3-9",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a logistics company looking for a freelancer. Scope: analyse our experiment results and tell us whether the new variant really won Also, consolidate month-end figures from several systems into one reconciled view Also, clean a large messy survey export and produce weighted summaries. Please share relevant past work.",
+  "gold_projects": [
+   "ab_test",
+   "finance_report",
+   "survey_cleaning"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-03",
+   "data_analyst-cs-05",
+   "data_analyst-cs-09",
+   "data_analyst-cs-10",
+   "data_analyst-cs-12",
+   "data_analyst-cs-16",
+   "data_analyst-cs-17",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-2",
+   "data_analyst-rev-3",
+   "data_analyst-rev-5"
+  ]
+ },
+ {
+  "id": "data_analyst-3-10",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a education company looking for a freelancer. Scope: analyse our experiment results and tell us whether the new variant really won Also, a tested, documented transformation layer on our data warehouse Also, show where users drop off by acquisition channel over time. Please share relevant past work.",
+  "gold_projects": [
+   "ab_test",
+   "dbt_pipeline",
+   "cohort_retention"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-02",
+   "data_analyst-cs-04",
+   "data_analyst-cs-08",
+   "data_analyst-cs-09",
+   "data_analyst-cs-11",
+   "data_analyst-cs-15",
+   "data_analyst-cs-16",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-1",
+   "data_analyst-rev-2",
+   "data_analyst-rev-4"
+  ]
+ },
+ {
+  "id": "data_analyst-3-11",
+  "persona_id": "data_analyst",
+  "n_requirements": 3,
+  "query": "We are a SaaS company looking for a freelancer. Scope: show where users drop off by acquisition channel over time Also, clean a large messy survey export and produce weighted summaries Also, a tested, documented transformation layer on our data warehouse. Please share relevant past work.",
+  "gold_projects": [
+   "cohort_retention",
+   "survey_cleaning",
+   "dbt_pipeline"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-03",
+   "data_analyst-cs-04",
+   "data_analyst-cs-08",
+   "data_analyst-cs-10",
+   "data_analyst-cs-11",
+   "data_analyst-cs-15",
+   "data_analyst-cs-17",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-1",
+   "data_analyst-rev-3",
+   "data_analyst-rev-4"
+  ]
+ },
+ {
+  "id": "data_analyst-4-0",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a SaaS company looking for a freelancer. Scope: show where users drop off by acquisition channel over time Also, an interactive sales report for regional managers with restricted access per region Also, automate our repetitive weekly spreadsheet reports Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "cohort_retention",
+   "sales_dashboard",
+   "excel_automation",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-06",
+   "data_analyst-cs-07",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-13",
+   "data_analyst-cs-14",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-0",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5",
+   "data_analyst-rev-6",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-4-1",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a healthcare company looking for a freelancer. Scope: an interactive sales report for regional managers with restricted access per region Also, show where users drop off by acquisition channel over time Also, automate our repetitive weekly spreadsheet reports Also, clean a large messy survey export and produce weighted summaries. Please share relevant past work.",
+  "gold_projects": [
+   "sales_dashboard",
+   "cohort_retention",
+   "excel_automation",
+   "survey_cleaning"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-03",
+   "data_analyst-cs-04",
+   "data_analyst-cs-06",
+   "data_analyst-cs-07",
+   "data_analyst-cs-10",
+   "data_analyst-cs-11",
+   "data_analyst-cs-13",
+   "data_analyst-cs-14",
+   "data_analyst-cs-17",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-0",
+   "data_analyst-rev-3",
+   "data_analyst-rev-4",
+   "data_analyst-rev-6",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-4-2",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a travel company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, an interactive sales report for regional managers with restricted access per region Also, a tested, documented transformation layer on our data warehouse Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "sales_dashboard",
+   "dbt_pipeline",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-01",
+   "data_analyst-cs-03",
+   "data_analyst-cs-05",
+   "data_analyst-cs-07",
+   "data_analyst-cs-08",
+   "data_analyst-cs-10",
+   "data_analyst-cs-12",
+   "data_analyst-cs-14",
+   "data_analyst-cs-15",
+   "data_analyst-cs-17",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-0",
+   "data_analyst-rev-1",
+   "data_analyst-rev-3",
+   "data_analyst-rev-5",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-4-3",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a travel company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, automate our repetitive weekly spreadsheet reports Also, analyse our experiment results and tell us whether the new variant really won Also, a tested, documented transformation layer on our data warehouse. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "excel_automation",
+   "ab_test",
+   "dbt_pipeline"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-02",
+   "data_analyst-cs-03",
+   "data_analyst-cs-06",
+   "data_analyst-cs-08",
+   "data_analyst-cs-09",
+   "data_analyst-cs-10",
+   "data_analyst-cs-13",
+   "data_analyst-cs-15",
+   "data_analyst-cs-16",
+   "data_analyst-cs-17",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-1",
+   "data_analyst-rev-2",
+   "data_analyst-rev-3",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-4-4",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a travel company looking for a freelancer. Scope: clean a large messy survey export and produce weighted summaries Also, a tested, documented transformation layer on our data warehouse Also, analyse our experiment results and tell us whether the new variant really won Also, automate our repetitive weekly spreadsheet reports. Please share relevant past work.",
+  "gold_projects": [
+   "survey_cleaning",
+   "dbt_pipeline",
+   "ab_test",
+   "excel_automation"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-01",
+   "data_analyst-cs-02",
+   "data_analyst-cs-03",
+   "data_analyst-cs-06",
+   "data_analyst-cs-08",
+   "data_analyst-cs-09",
+   "data_analyst-cs-10",
+   "data_analyst-cs-13",
+   "data_analyst-cs-15",
+   "data_analyst-cs-16",
+   "data_analyst-cs-17",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-rev-1",
+   "data_analyst-rev-2",
+   "data_analyst-rev-3",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-4-5",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a SaaS company looking for a freelancer. Scope: show where users drop off by acquisition channel over time Also, analyse our experiment results and tell us whether the new variant really won Also, an interactive sales report for regional managers with restricted access per region Also, a tested, documented transformation layer on our data warehouse. Please share relevant past work.",
+  "gold_projects": [
+   "cohort_retention",
+   "ab_test",
+   "sales_dashboard",
+   "dbt_pipeline"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-01",
+   "data_analyst-cs-02",
+   "data_analyst-cs-04",
+   "data_analyst-cs-07",
+   "data_analyst-cs-08",
+   "data_analyst-cs-09",
+   "data_analyst-cs-11",
+   "data_analyst-cs-14",
+   "data_analyst-cs-15",
+   "data_analyst-cs-16",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-0",
+   "data_analyst-rev-1",
+   "data_analyst-rev-2",
+   "data_analyst-rev-4",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-4-6",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a retail company looking for a freelancer. Scope: show where users drop off by acquisition channel over time Also, an interactive sales report for regional managers with restricted access per region Also, analyse our experiment results and tell us whether the new variant really won Also, a tested, documented transformation layer on our data warehouse. Please share relevant past work.",
+  "gold_projects": [
+   "cohort_retention",
+   "sales_dashboard",
+   "ab_test",
+   "dbt_pipeline"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-01",
+   "data_analyst-cs-02",
+   "data_analyst-cs-04",
+   "data_analyst-cs-07",
+   "data_analyst-cs-08",
+   "data_analyst-cs-09",
+   "data_analyst-cs-11",
+   "data_analyst-cs-14",
+   "data_analyst-cs-15",
+   "data_analyst-cs-16",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-0",
+   "data_analyst-rev-1",
+   "data_analyst-rev-2",
+   "data_analyst-rev-4",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-4-7",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a retail company looking for a freelancer. Scope: an interactive sales report for regional managers with restricted access per region Also, a tested, documented transformation layer on our data warehouse Also, consolidate month-end figures from several systems into one reconciled view Also, show where users drop off by acquisition channel over time. Please share relevant past work.",
+  "gold_projects": [
+   "sales_dashboard",
+   "dbt_pipeline",
+   "finance_report",
+   "cohort_retention"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-01",
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-07",
+   "data_analyst-cs-08",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-14",
+   "data_analyst-cs-15",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-1",
+   "data_analyst-code-1",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-0",
+   "data_analyst-rev-1",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-4-8",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a logistics company looking for a freelancer. Scope: consolidate month-end figures from several systems into one reconciled view Also, analyse our experiment results and tell us whether the new variant really won Also, automate our repetitive weekly spreadsheet reports Also, show where users drop off by acquisition channel over time. Please share relevant past work.",
+  "gold_projects": [
+   "finance_report",
+   "ab_test",
+   "excel_automation",
+   "cohort_retention"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-06",
+   "data_analyst-cs-09",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-13",
+   "data_analyst-cs-16",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-2",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-4-9",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a healthcare company looking for a freelancer. Scope: show where users drop off by acquisition channel over time Also, clean a large messy survey export and produce weighted summaries Also, an interactive sales report for regional managers with restricted access per region Also, consolidate month-end figures from several systems into one reconciled view. Please share relevant past work.",
+  "gold_projects": [
+   "cohort_retention",
+   "survey_cleaning",
+   "sales_dashboard",
+   "finance_report"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-03",
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-07",
+   "data_analyst-cs-10",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-14",
+   "data_analyst-cs-17",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-0",
+   "data_analyst-rev-3",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5",
+   "data_analyst-rev-7"
+  ]
+ },
+ {
+  "id": "data_analyst-4-10",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a logistics company looking for a freelancer. Scope: automate our repetitive weekly spreadsheet reports Also, show where users drop off by acquisition channel over time Also, consolidate month-end figures from several systems into one reconciled view Also, analyse our experiment results and tell us whether the new variant really won. Please share relevant past work.",
+  "gold_projects": [
+   "excel_automation",
+   "cohort_retention",
+   "finance_report",
+   "ab_test"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-02",
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-06",
+   "data_analyst-cs-09",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-13",
+   "data_analyst-cs-16",
+   "data_analyst-readme-2",
+   "data_analyst-code-2",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-2",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5",
+   "data_analyst-rev-6"
+  ]
+ },
+ {
+  "id": "data_analyst-4-11",
+  "persona_id": "data_analyst",
+  "n_requirements": 4,
+  "query": "We are a SaaS company looking for a freelancer. Scope: consolidate month-end figures from several systems into one reconciled view Also, show where users drop off by acquisition channel over time Also, clean a large messy survey export and produce weighted summaries Also, an interactive sales report for regional managers with restricted access per region. Please share relevant past work.",
+  "gold_projects": [
+   "finance_report",
+   "cohort_retention",
+   "survey_cleaning",
+   "sales_dashboard"
+  ],
+  "gold_ids": [
+   "data_analyst-cs-00",
+   "data_analyst-cs-03",
+   "data_analyst-cs-04",
+   "data_analyst-cs-05",
+   "data_analyst-cs-07",
+   "data_analyst-cs-10",
+   "data_analyst-cs-11",
+   "data_analyst-cs-12",
+   "data_analyst-cs-14",
+   "data_analyst-cs-17",
+   "data_analyst-readme-0",
+   "data_analyst-code-0",
+   "data_analyst-readme-3",
+   "data_analyst-code-3",
+   "data_analyst-readme-4",
+   "data_analyst-code-4",
+   "data_analyst-rev-0",
+   "data_analyst-rev-3",
+   "data_analyst-rev-4",
+   "data_analyst-rev-5",
+   "data_analyst-rev-7"
+  ]
+ }
+]

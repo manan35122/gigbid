@@ -1,7 +1,13 @@
 import importlib
 
-VARIANTS = {"v0": "rag.variants.v0_naive"}  # add v1, v2, v3... here as they are built
+VARIANTS = {
+    "v0": ("rag.variants.v0_naive", "retrieve"),
+    "v1": ("rag.variants.v1_decompose", "retrieve_v0"),
+    "v2": ("rag.variants.v2_hybrid", "retrieve"),
+    "v1_v2": ("rag.variants.v1_decompose", "retrieve_v2"),
+}
 
 
 def get_retriever(name: str = "v0"):
-    return importlib.import_module(VARIANTS[name]).retrieve
+    mod, fn = VARIANTS[name]
+    return getattr(importlib.import_module(mod), fn)
