@@ -41,7 +41,8 @@ async def approval(state):
     answer = interrupt(dict(
         job_id=state["job_id"], title=state["job"]["title"], draft=d, price=q, risk_report=risk,
         claims=[dict(c, evidence={i: ev[i] for i in c["evidence_ids"] if i in ev}) for c in cv["claims"]],
-        preview=pv, warnings=warnings, edited=bool(state.get("edits"))))
+        preview=pv, warnings=warnings, edited=bool(state.get("edits")),
+        critique=crit, compliance=state["compliance_verdict"], removed=cv["removed"]))
     action = answer.get("action") if isinstance(answer, dict) else None
     if action not in ("approve", "edit"):  # fail closed: anything else is a rejection
         answer = {"action": "reject", "reason": (answer or {}).get("reason", "rejected")}

@@ -2,7 +2,11 @@
 import json
 from contextlib import asynccontextmanager
 from typing import Literal
+import asyncio
 
+from agent.llm import chat, prompt
+from agent.nodes.compliance import compliance
+from rag.verify import verify
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from langgraph.types import Command
@@ -101,4 +105,70 @@ async def decision(persona: str, job_id: str, body: Decision):
     if not any(t.interrupts for t in st.tasks):
         raise HTTPException(409, "no pending approval for this job")
     await graph.ainvoke(Command(resume=body.model_dump()), c)
+    return await snapshot(graph, c)
+
+COLUMNS = ["drafted", "submitted", "viewed", "replied", "interview", "hired", "lost"]
+OUTCOME_COL = {"replied": "replied", "interview": "interview", "hired": "hired", "ignored": "lost"}
+
+
+@app.get("/api/pipeline")
+async def pipeline(persona: str = "ai_engineer"):
+    graph = app.state.graph
+    cols = {k: [] for k in COLUMNS}
+    try:
+        jobs = await adapter.search_jobs("", 200, 0)
+        props = await adapter.list_proposals()
+    except MarketplaceUnavailable as e:
+        raise HTTPException(503, f"marketplace unavailable: {e}")
+    titles = {j["job_id"]: j["title"] for j in jobs}
+    for j in jobs:
+        st = await graph.aget_state(cfg(persona, j["job_id"]))
+        if st.values and st.values.get("status") == "needs_approval":
+            cols["drafted"].append(dict(job_id=j["job_id"], title=j["title"],
+                                        bid=(st.values.get("price_quote") or {}).get("bid_amount")))
+    for p in props:
+        st = await graph.aget_state(cfg(persona, p["job_id"]))
+        if not (st.values and st.values.get("submission")):
+            continue  # proposals of other personas / not made by GigBid
+        col = OUTCOME_COL.get(p.get("outcome"), "submitted")
+        cols[col].append(dict(job_id=p["job_id"], title=titles.get(p["job_id"], p["job_id"]),
+                              bid=p["bid_amount"], connects=p.get("connects_spent"), proposal_id=p["id"]))
+    return dict(columns=cols, order=COLUMNS)
+
+class Regen(BaseModel):
+    sentence: str
+    instruction: str | None = None
+
+
+@app.post("/api/runs/{persona}/{job_id}/regenerate")
+async def regenerate(persona: str, job_id: str, body: Regen):
+    graph, c = app.state.graph, cfg(persona, job_id)
+    st = await graph.aget_state(c)
+    if not any(t.interrupts for t in st.tasks):
+        raise HTTPException(409, "no pending approval for this job")
+    v = st.values
+    d = v["proposal_draft"]
+    if body.sentence not in d["cover_letter"]:
+        raise HTTPException(422, "that sentence is not in the current draft")
+    ev = v.get("evidence", [])
+    ev_txt = "\n".join(f"[{e['evidence_id']}] {e['title']}: {e['text']}" for e in ev)
+    j = v["job"]
+    user = (f"<job_post>\n{j['title']}\n{j['description']}\n</job_post>\n<evidence>\n{ev_txt}\n</evidence>\n"
+            f"<full_letter>\n{d['cover_letter']}\n</full_letter>\n"
+            f"<sentence_to_rewrite>\n{body.sentence}\n</sentence_to_rewrite>\n"
+            f"INSTRUCTION: {body.instruction or 'Rewrite it to be more specific to this job.'}")
+    new = (await asyncio.to_thread(chat, "writer", prompt("rewrite_sentence"), user, 1500)).strip().strip('"')
+    if not new:
+        raise HTTPException(502, "the model returned nothing")
+    letter = d["cover_letter"].replace(body.sentence, new, 1)
+    res = await asyncio.to_thread(verify, letter, ev)          # claims are re-verified
+    comp = await compliance({"proposal_draft": dict(d, cover_letter=res["clean_text"])})  # and re-checked
+    cv = dict(v["claim_verification"], claims=res["claims"],
+              removed=v["claim_verification"]["removed"] +
+              [x["sentence"] for x in res["claims"] if x["verdict"] == "unsupported"])
+    await graph.aupdate_state(c, {"proposal_draft": comp["proposal_draft"],
+                                  "compliance_verdict": comp["compliance_verdict"],
+                                  "claim_verification": cv, "status": comp["status"]},
+                              as_node="compliance")
+    await graph.ainvoke(None, c)   # runs preview, then pauses at approval again
     return await snapshot(graph, c)

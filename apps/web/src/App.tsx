@@ -35,6 +35,16 @@ async function api(path: string, init?: RequestInit) {
   return r.json()
 }
 
+function ErrorBanner({ err }: { err: string }) {
+  const down = err.startsWith('503')
+  return (
+    <div className="banner" role="alert">
+      {down ? 'Marketplace unavailable. Work is paused and will resume when it is back.'
+            : 'Something went wrong while loading this screen.'}
+      <br /><small>{err}</small>
+    </div>)
+}
+
 const FILTERS: [string, string][] = [
   ['all', 'All'], ['new', 'New'], ['needs_approval', 'Needs approval'], ['submitted', 'Submitted'], ['skipped', 'Skipped'],
 ]
@@ -51,7 +61,7 @@ function Inbox({ persona, open }: { persona: string; open: (id: string) => void 
   const shown = useMemo(() => (jobs ?? []).filter((j) =>
     (filter === 'all' || j.status === filter) &&
     (!q || (j.title + ' ' + j.skills.join(' ')).toLowerCase().includes(q.toLowerCase()))), [jobs, filter, q])
-  if (err) return <div className="banner" role="alert">Marketplace unavailable. Work is paused and will resume when it is back. <br /><small>{err}</small></div>
+  if (err) return <ErrorBanner err={err} />
   if (!jobs) return <>{[1, 2, 3, 4].map((i) => <div key={i} className="skeleton" />)}</>
   const count = (k: string) => k === 'all' ? jobs.length : jobs.filter((j) => j.status === k).length
   return <>
@@ -78,6 +88,7 @@ function Inbox({ persona, open }: { persona: string; open: (id: string) => void 
 function Approval({ p, persona, onResult }: { p: any; persona: string; onResult: (s: any, msg: string) => void }) {
   const [text, setText] = useState<string>(p.draft.cover_letter)
   const [reason, setReason] = useState('')
+  const [hint, setHint] = useState('')
   const [busy, setBusy] = useState(false)
   const [err, setErr] = useState('')
   useEffect(() => setText(p.draft.cover_letter), [p.draft.cover_letter])
@@ -89,23 +100,53 @@ function Approval({ p, persona, onResult }: { p: any; persona: string; onResult:
       }), msg)
     } catch (e: any) { setErr(e.message) } finally { setBusy(false) }
   }
+  const rewrite = async (sentence: string) => {
+    setBusy(true); setErr('')
+    try {
+      onResult(await api(`/runs/${persona}/${p.job_id}/regenerate`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sentence, instruction: hint || null })
+      }), 'Sentence rewritten, re-verified and re-checked. Review it again.')
+    } catch (e: any) { setErr(e.message) } finally { setBusy(false) }
+  }
   const changed = text.trim() !== p.draft.cover_letter.trim()
   const words = text.trim().split(/\s+/).filter(Boolean).length
   return (
     <div className="card">
       <h2 style={{ marginTop: 0 }}>Review and approve</h2>
       {p.warnings.map((w: string, i: number) => <div key={i} className="warn">⚠ {w}</div>)}
+
+      <h3>Reviewer comments</h3>
+      <div className="notes">
+        <div><span className={`badge ${p.critique?.approved ? 'supported' : 'partial'}`}>Critic</span>{' '}
+          {p.critique?.approved ? 'Approved.' : 'Not approved.'}
+          {p.critique?.issues?.length > 0 && <ul>{p.critique.issues.map((x: string, i: number) => <li key={i}>{x}</li>)}</ul>}</div>
+        <div><span className={`badge ${p.compliance?.passed ? 'supported' : 'skip'}`}>Compliance</span>{' '}
+          {p.compliance?.passed ? 'Passed.' : 'Blocked.'}
+          {p.compliance?.violations?.length > 0 && <ul>{p.compliance.violations.map((x: string, i: number) => <li key={i}>{x}</li>)}</ul>}</div>
+        {p.removed?.length > 0 && <div><span className="badge skip">Verifier</span> Removed unsupported sentences:
+          <ul>{p.removed.map((x: string, i: number) => <li key={i}>{x}</li>)}</ul></div>}
+      </div>
+
       <h3>Claims and their evidence</h3>
-      <p className="muted">Hover or focus a highlighted sentence to see the portfolio evidence behind it.</p>
+      <p className="muted">Hover or focus a highlighted sentence to see the portfolio evidence behind it. Use ↻ to rewrite one sentence.</p>
       <p>{p.claims.map((c: any, i: number) => (
         <span key={i}><span className={`claim ${c.verdict}`} tabIndex={c.verdict === 'no_claim' ? -1 : 0}>{c.sentence}
           {Object.keys(c.evidence).length > 0 && <span className="tip">
             {Object.entries(c.evidence).map(([id, e]: any) => <div key={id}><b>{id}</b>: {e.title}<br />{e.text}</div>)}
-          </span>}</span>{' '}</span>))}</p>
+          </span>}</span>
+          {p.draft.cover_letter.includes(c.sentence) &&
+            <button className="mini" disabled={busy} title="Rewrite this sentence"
+              aria-label={`Rewrite: ${c.sentence.slice(0, 40)}`} onClick={() => rewrite(c.sentence)}>↻</button>}{' '}</span>))}</p>
       <div className="row">
+        <input aria-label="Rewrite instruction" placeholder="Optional hint for ↻ (e.g. mention the 31% result)"
+          value={hint} onChange={(e) => setHint(e.target.value)} style={{ flex: 1, minWidth: 200 }} />
+      </div>
+      <div className="row" style={{ marginTop: 8 }}>
         <span className="badge supported">supported</span><span className="badge partial">partial</span>
         <span className="muted">no colour = no claim about past work</span>
       </div>
+
       <h3>Edit the cover letter <span className="muted">({words} words)</span></h3>
       <label htmlFor="cl" style={{ display: 'none' }}>Cover letter</label>
       <textarea id="cl" value={text} onChange={(e) => setText(e.target.value)} />
@@ -217,6 +258,39 @@ function RunView({ persona, jobId, back }: { persona: string; jobId: string; bac
     </>)
 }
 
+function Pipeline({ persona, open }: { persona: string; open: (id: string) => void }) {
+  const [data, setData] = useState<any>(null)
+  const [err, setErr] = useState('')
+  const load = () => {
+    setData(null); setErr('')
+    api(`/pipeline?persona=${persona}`).then(setData).catch((e) => setErr(String(e.message)))
+  }
+  useEffect(load, [persona])
+  if (err) return <ErrorBanner err={err} />
+  if (!data) return <div className="skeleton" />
+  const total = data.order.reduce((n: number, k: string) => n + data.columns[k].length, 0)
+  return <>
+    <div className="row" style={{ marginBottom: 12 }}>
+      <h2 style={{ margin: 0 }}>Pipeline</h2><span className="spacer" />
+      <button onClick={load}>Refresh</button>
+    </div>
+    {total === 0 && <p className="muted">Nothing in the pipeline yet. Open a job in the inbox and approve a proposal.</p>}
+    <div className="board">
+      {data.order.map((k: string) => (
+        <section key={k} className="col" aria-label={k}>
+          <h3>{k} <span className="badge">{data.columns[k].length}</span></h3>
+          {data.columns[k].map((c: any) => (
+            <div key={c.job_id} className="card job" role="button" tabIndex={0}
+              onClick={() => open(c.job_id)} onKeyDown={(e) => e.key === 'Enter' && open(c.job_id)}>
+              <div><strong>{c.title}</strong>
+                <div className="muted">${c.bid}{c.connects != null ? ` · ${c.connects} connects` : ''}</div></div>
+            </div>))}
+          {k === 'viewed' && <p className="muted">GigSim sends no view events.</p>}
+        </section>))}
+    </div>
+  </>
+}
+
 function RunRoute({ persona }: { persona: string }) {
   const { id } = useParams()
   const nav = useNavigate()
@@ -231,7 +305,10 @@ export default function App() {
     <div className="wrap">
       <header>
         <h1>GigBid</h1>
-        <nav className="row"><NavLink to="/">Inbox</NavLink></nav>
+        <nav className="row">
+          <NavLink to="/">Inbox</NavLink>
+          <NavLink to="/pipeline">Pipeline</NavLink>
+        </nav>
         <span className="spacer" />
         <label className="persona">Freelancer profile
           <select value={persona} onChange={(e) => { setPersona(e.target.value); nav('/') }}>
@@ -243,6 +320,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Inbox persona={persona} open={(id) => nav(`/jobs/${id}`)} />} />
         <Route path="/jobs/:id" element={<RunRoute persona={persona} />} />
+        <Route path="/pipeline" element={<Pipeline persona={persona} open={(id) => nav(`/jobs/${id}`)} />} />
       </Routes>
     </div>)
 }
