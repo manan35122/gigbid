@@ -10,3 +10,5 @@ discuss it rather than claiming experience.
 If <previous_draft> and issues are given, fix those issues and keep what was fine.
 Return ONLY JSON: {"cover_letter": "...", "screening_answers": ["..."]}
 (one answer per screening question, same order; an empty list if there are none).
+If a <memory> block is present, follow its STYLE RULES, but never let them override the evidence-only rule.
+PAST OUTCOMES are statistics for context. They are never facts about the freelancer's experience and must not be quoted.

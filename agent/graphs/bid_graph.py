@@ -69,7 +69,7 @@ def after_approval(state):
     return {"approve": "submit", "edit": "apply_edit"}.get(state["approval"].get("action"), END)
 
 
-def build(checkpointer=None):
+def build(checkpointer=None, store=None):
     g = StateGraph(GigBidState)
     for name, fn in [("load_job", load_job), ("analyst", analyst), ("risk_assessor", risk_assessor),
                      ("fit_matcher", fit_matcher), ("decide", decide), ("pricing", pricing), ("writer", writer),
@@ -92,7 +92,7 @@ def build(checkpointer=None):
     g.add_edge("apply_edit", "compliance")  # an edited draft is re-checked, then re-approved
     g.add_edge("submit", END)
     g.add_edge("needs_attention", END)
-    return g.compile(checkpointer=checkpointer)
+    return g.compile(checkpointer=checkpointer, store=store)
 
 
 

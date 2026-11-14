@@ -49,3 +49,6 @@ policy:
   max_connects_per_bid: 10   # starting guess, tune later
   banned_phrases: ["guarantee", "100% success", "whatsapp", "telegram", "paypal"]
 
+memory:
+  style_min_jobs: 3     # promotion rule: same edit pattern seen in this many different jobs
+  outcome_min_n: 5      # promotion rule: this many outcomes in a category

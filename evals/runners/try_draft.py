@@ -22,6 +22,8 @@ async def main(persona, n):
                      f"critic_ok={s['critique']['approved']}"]
         print(*line)
         if s.get("status") == "ready_for_approval" and not shown:
+            for c in s["claim_verification"]["claims"]:
+                print("   ", c["verdict"], c["evidence_ids"], c["sentence"][:90])
             shown = True
             print("--- price:", s["price_quote"]["rationale"])
             print("--- DRAFT:\n", s["proposal_draft"]["cover_letter"])

@@ -291,6 +291,49 @@ function Pipeline({ persona, open }: { persona: string; open: (id: string) => vo
   </>
 }
 
+function Settings({ persona }: { persona: string }) {
+  const [mem, setMem] = useState<any>(null)
+  const [err, setErr] = useState('')
+  const load = () => api(`/memory/${persona}`).then(setMem).catch((e) => setErr(String(e.message)))
+  useEffect(() => { setMem(null); setErr(''); load() }, [persona])
+  const forget = async (kind: string, key: string) => {
+    await api(`/memory/${persona}/${kind}/${encodeURIComponent(key)}`, { method: 'DELETE' })
+    load()
+  }
+  if (err) return <ErrorBanner err={err} />
+  if (!mem) return <div className="skeleton" />
+  const needS = mem.rules.style_min_jobs, needO = mem.rules.outcome_min_n
+  const pendingS = mem.style_candidates.filter((c: any) => !mem.style.some((s: any) => s.key === c.key))
+  return <>
+    <h2>Settings</h2>
+    <div className="card">
+      <h3 style={{ marginTop: 0 }}>What GigBid has learned about your writing</h3>
+      <p className="muted">A pattern becomes a rule only after you made the same kind of edit in {needS} different jobs.</p>
+      {!mem.style.length && <p className="muted">No style rules yet.</p>}
+      {mem.style.map((s: any) => (
+        <div key={s.key} className="row" style={{ justifyContent: 'space-between', padding: '6px 0' }}>
+          <div>{s.rule}<div className="muted">Learned from {s.evidence_jobs.length} jobs: {s.evidence_jobs.join(', ')}</div></div>
+          <button className="danger" onClick={() => forget('style', s.key)}>Delete</button>
+        </div>))}
+      {pendingS.length > 0 && <><h4>Not yet promoted</h4>
+        {pendingS.map((c: any) => <div key={c.key} className="muted">{c.rule} ({c.jobs.length}/{needS} jobs)</div>)}</>}
+    </div>
+    <div className="card">
+      <h3 style={{ marginTop: 0 }}>What worked, by job category</h3>
+      <p className="muted">Shown once a category has {needO} outcomes. Small samples, so treat as hints only.</p>
+      {!mem.outcome.length && <p className="muted">No outcome memory yet.</p>}
+      {mem.outcome.map((o: any) => (
+        <div key={o.key} className="row" style={{ justifyContent: 'space-between', padding: '6px 0' }}>
+          <div>{o.summary}</div>
+          <button className="danger" onClick={() => forget('outcome', o.key)}>Delete</button>
+        </div>))}
+      {mem.outcome_candidates.filter((c: any) => !mem.outcome.some((o: any) => o.key === c.key)).map((c: any) => (
+        <div key={c.key} className="muted">{c.key}: {Object.keys(c.jobs).length}/{needO} outcomes</div>))}
+    </div>
+    <p className="muted">Autonomy level, budgets and saved searches come next.</p>
+  </>
+}
+
 function RunRoute({ persona }: { persona: string }) {
   const { id } = useParams()
   const nav = useNavigate()
@@ -308,6 +351,7 @@ export default function App() {
         <nav className="row">
           <NavLink to="/">Inbox</NavLink>
           <NavLink to="/pipeline">Pipeline</NavLink>
+          <NavLink to="/settings">Settings</NavLink>
         </nav>
         <span className="spacer" />
         <label className="persona">Freelancer profile
@@ -321,6 +365,7 @@ export default function App() {
         <Route path="/" element={<Inbox persona={persona} open={(id) => nav(`/jobs/${id}`)} />} />
         <Route path="/jobs/:id" element={<RunRoute persona={persona} />} />
         <Route path="/pipeline" element={<Pipeline persona={persona} open={(id) => nav(`/jobs/${id}`)} />} />
+        <Route path="/settings" element={<Settings persona={persona} />} />
       </Routes>
     </div>)
 }

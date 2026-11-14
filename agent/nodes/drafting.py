@@ -5,6 +5,7 @@ import re
 
 from agent.handoffs import Critique, ProposalDraft
 from agent.llm import chat, prompt
+from agent.memory.store import category_of, load_context
 from agent.nodes.common import cfg, step
 from rag.verify import verify
 
@@ -13,11 +14,17 @@ def _json(out: str) -> dict:
     return json.loads(re.search(r"\{.*\}", out, re.S).group(0))
 
 
-async def writer(state):
+async def writer(state, *, store=None):
     j, spec, ev = state["job"], state["job_spec"], state.get("evidence", [])
     ev_txt = "\n".join(f"[{e['evidence_id']}] {e['title']} ({e['type']}): {e['text']}" for e in ev)
     user = (f"<job_post>\n{j['title']}\n{j['description']}\n</job_post>\n"
             f"SCREENING QUESTIONS: {json.dumps(spec['screening_questions'])}\n<evidence>\n{ev_txt}\n</evidence>")
+    mem = await load_context(store, state["persona_id"], category_of(j["required_skills"]))
+    if mem["rules"] or mem["outcome"]:
+        user += ("\n<memory>\nSTYLE RULES learned from the freelancer's own edits:\n"
+                 + "\n".join(f"- {r}" for r in mem["rules"])
+                 + (f"\nPAST OUTCOMES (context only): {mem['outcome']}" if mem["outcome"] else "")
+                 + "\n</memory>")
     prev, crit = state.get("proposal_draft"), state.get("critique")
     if prev and crit and crit.get("send_back"):
         user += (f"\n<previous_draft>\n{prev['cover_letter']}\n</previous_draft>\n"
@@ -30,7 +37,8 @@ async def writer(state):
                               screening_answers=answers, revision=state.get("revisions", 0))
     except Exception as e:
         return {"status": "needs_attention", "errors": [f"writer failed: {e}"], **step("writer", error=str(e))}
-    return {"proposal_draft": draft.model_dump(), **step("writer", words=len(draft.cover_letter.split()))}
+    return {"proposal_draft": draft.model_dump(),
+            **step("writer", words=len(draft.cover_letter.split()), style_rules=len(mem["rules"]))}
 
 
 async def verifier(state):

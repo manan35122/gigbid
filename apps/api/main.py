@@ -3,7 +3,11 @@ import json
 from contextlib import asynccontextmanager
 from typing import Literal
 import asyncio
+import logging
 
+from agent.memory.promotion_rules import record_edit, record_outcome
+from agent.memory.store import category_of, open_store
+from agent.nodes.common import cfg as load_cfg
 from agent.llm import chat, prompt
 from agent.nodes.compliance import compliance
 from rag.verify import verify
@@ -22,8 +26,9 @@ adapter = GigSimAdapter()  # read-only job listing for the inbox; agents still g
 
 @asynccontextmanager
 async def lifespan(app):
-    async with saver() as cp:
-        app.state.graph = build(cp)
+    async with saver() as cp, open_store() as store:
+        app.state.store = store
+        app.state.graph = build(cp, store)
         yield
 
 
@@ -104,8 +109,38 @@ async def decision(persona: str, job_id: str, body: Decision):
     st = await graph.aget_state(c)
     if not any(t.interrupts for t in st.tasks):
         raise HTTPException(409, "no pending approval for this job")
+    before, job = st.values["proposal_draft"]["cover_letter"], st.values["job"]
     await graph.ainvoke(Command(resume=body.model_dump()), c)
-    return await snapshot(graph, c)
+    snap = await snapshot(graph, c)
+    try:  # memory must never break an approval
+        if body.action == "edit" and body.edited_text:
+            await record_edit(app.state.store, persona, job_id, before, body.edited_text)
+        sub = snap.get("submission")
+        if sub:
+            await record_outcome(app.state.store, persona, category_of(job["required_skills"]),
+                                 job_id, sub.get("outcome") or "ignored", sub.get("cover_letter", ""))
+    except Exception:
+        logging.exception("memory update failed")
+    return snap
+
+
+@app.get("/api/memory/{persona}")
+async def memory(persona: str):
+    s = app.state.store
+
+    async def ns(name):
+        return [dict(key=i.key, **i.value) for i in await s.asearch((persona, name), limit=100)]
+    return dict(style=await ns("style"), style_candidates=await ns("style_candidates"),
+                outcome=await ns("outcome"), outcome_candidates=await ns("outcome_candidates"),
+                rules=load_cfg()["memory"])
+
+
+@app.delete("/api/memory/{persona}/{kind}/{key}")
+async def forget(persona: str, kind: Literal["style", "outcome"], key: str):
+    s = app.state.store
+    await s.adelete((persona, kind), key)
+    await s.adelete((persona, kind + "_candidates"), key)   # reset the counter so it must be re-earned
+    return {"deleted": key}
 
 COLUMNS = ["drafted", "submitted", "viewed", "replied", "interview", "hired", "lost"]
 OUTCOME_COL = {"replied": "replied", "interview": "interview", "hired": "hired", "ignored": "lost"}
