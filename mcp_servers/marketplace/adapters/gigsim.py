@@ -69,3 +69,7 @@ class GigSimAdapter:
     async def send_message(self, proposal_id: str, text: str, idempotency_key: str):
         return await self._call("POST", "/messages",
                                 json=dict(proposal_id=proposal_id, text=text, idempotency_key=idempotency_key))
+
+
+    async def list_proposals(self):
+        return await self._call("GET", "/proposals")
