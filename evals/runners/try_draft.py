@@ -31,6 +31,8 @@ async def main(persona, n):
             print("--- removed claims:", s["claim_verification"]["removed"])
             print("--- critique:", s["critique"]["issues"])
             print("--- compliance:", s["compliance_verdict"]["violations"])
+            if s.get("errors"):
+             print("   ERRORS:", s["errors"])
 
 
 asyncio.run(main(sys.argv[1], int(sys.argv[2])))

@@ -22,7 +22,7 @@ async def main(persona, n):
             run_id.set(f"measure:{persona}:{jid}:{stamp}")
             s = await graph.ainvoke({"job_id": jid, "persona_id": persona},
                                     {"configurable": {"thread_id": f"measure:{stamp}:{persona}:{jid}"}})
-            print(jid, s.get("status"))
+            print(jid, s.get("status"), s.get("errors") or "")
     out = summarize()
     (ROOT / "evals" / "results").mkdir(parents=True, exist_ok=True)
     (ROOT / "evals" / "results" / "usage.json").write_text(json.dumps(out, indent=1), encoding="utf-8")
