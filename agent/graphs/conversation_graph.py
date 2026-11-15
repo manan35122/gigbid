@@ -11,13 +11,26 @@ from agent.mcp_client import call
 from agent.nodes.common import step
 from agent.state import ConversationState
 
-OFFPLATFORM = re.compile(r"whatsapp|telegram|paypal|skype|outside (of )?the platform|ignore (all )?(previous|prior)", re.I)
-FORBIDDEN = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+|https?://\S+|\+?\d[\d\s().-]{8,}\d|guarantee|whatsapp|telegram|paypal", re.I)
+OFFPLATFORM = re.compile(
+    r"whatsapp|telegram|paypal|skype|outside (of )?the platform|ignore (all )?(previous|prior)", re.I)
+FORBIDDEN = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+|https?://\S+|guarantee|whatsapp|telegram|paypal", re.I)
+PHONE = re.compile(r"(?<![\d-])\+?\d[\d\s().-]{8,}\d(?![\d:-])")
+DATE = re.compile(r"\d{4}-\d{2}-\d{2}([T ]\d{2}:\d{2})?")
+
+
+def unsafe(text: str) -> bool:
+    """Contact details, guarantees, off-platform words. Dates and times are allowed."""
+    no_dates = DATE.sub("", text)
+    return bool(FORBIDDEN.search(no_dates) or PHONE.search(no_dates))
+
+
 def clean_text(t: str) -> str:
+    """Normalise typographic characters the model likes to emit."""
     for a, b in {"\u2011": "-", "\u2010": "-", "\u2013": "-", "\u2014": "-", "\u2019": "'", "\u2018": "'",
                  "\u201c": '"', "\u201d": '"', "\u202f": " ", "\u00a0": " "}.items():
         t = t.replace(a, b)
     return t.strip()
+
 
 async def load(state):
     try:
@@ -27,7 +40,8 @@ async def load(state):
             return {"status": "no_message", **step("load")}
         return {"message": client[-1], "status": "running", **step("load")}
     except Exception as e:
-        return {"status": "needs_attention", "errors": [f"marketplace unavailable: {e}"], **step("load", error=str(e))}
+        return {"status": "needs_attention", "errors": [f"marketplace unavailable: {e}"],
+                **step("load", error=str(e))}
 
 
 async def classify(state):
@@ -41,7 +55,9 @@ async def classify(state):
         pass
     if OFFPLATFORM.search(text):  # rule layer: cannot be talked out of it by the model
         intent = {"intent": "scam_signal", "reason": "off-platform or instruction-like text"}
-    return {"intent": intent, **step("classify", intent=intent.get("intent"))}
+    flagged = intent.get("intent") == "scam_signal"
+    return {"intent": intent, **({"status": "scam_flagged"} if flagged else {}),
+            **step("classify", intent=intent.get("intent"))}
 
 
 def after_classify(state):
@@ -57,7 +73,8 @@ async def draft(state):
         try:
             slots = (await call("liaison", "workspace", "free_slots", {}))[:3]
         except Exception as e:
-            return {"status": "needs_attention", "errors": [f"calendar unavailable: {e}"], **step("draft", error=str(e))}
+            return {"status": "needs_attention", "errors": [f"calendar unavailable: {e}"],
+                    **step("draft", error=str(e))}
     try:
         ev = await call("liaison", "portfolio", "search_evidence",
                         {"requirement": text[:500], "k": 3, "persona_id": state["persona_id"]})
@@ -67,8 +84,7 @@ async def draft(state):
     user = (f"INTENT: {intent}\nSLOTS: {json.dumps([s['start'] for s in slots])}\n"
             f"<evidence>\n{ev_txt}\n</evidence>\n<client_message>\n{text}\n</client_message>")
     reply = clean_text(await asyncio.to_thread(chat, "client_liaison", prompt("liaison_reply"), user, 1500))
-    bad = FORBIDDEN.findall(reply)
-    if bad or not reply:  # guard: unsafe output is dropped, human writes it instead
+    if not reply or unsafe(reply):  # guard: unsafe output is dropped, human writes it instead
         return {"reply": "", "slots": slots, "errors": ["draft blocked by compliance; write the reply yourself"],
                 **step("draft", blocked=True)}
     return {"reply": reply, "slots": slots, **step("draft", words=len(reply.split()))}
@@ -81,8 +97,8 @@ async def approval(state):
     action = ans.get("action") if isinstance(ans, dict) else None
     if action not in ("approve", "edit"):
         return {"approval": {"action": "reject"}, "status": "rejected", **step("approval", action="reject")}
-    text = (ans.get("edited_text") or state.get("reply") or "").strip()
-    if not text or FORBIDDEN.search(text):
+    text = clean_text(ans.get("edited_text") or state.get("reply") or "")
+    if not text or unsafe(text):
         return {"approval": {"action": "reject"}, "status": "needs_attention",
                 "errors": ["reply empty or breaks marketplace rules"], **step("approval", action="blocked")}
     return {"approval": {"action": action, "text": text, "slot": ans.get("slot")}, "status": "approved",
@@ -90,7 +106,8 @@ async def approval(state):
 
 
 def after_approval(state):
-    return "send" if state["approval"].get("action") in ("approve", "edit") and state["status"] == "approved" else END
+    ok = state["approval"].get("action") in ("approve", "edit") and state["status"] == "approved"
+    return "send" if ok else END
 
 
 async def send(state):

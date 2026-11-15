@@ -333,6 +333,73 @@ function Settings({ persona }: { persona: string }) {
     <p className="muted">Autonomy level, budgets and saved searches come next.</p>
   </>
 }
+function Messages({ persona }: { persona: string }) {
+  const [convs, setConvs] = useState<any[] | null>(null)
+  const [err, setErr] = useState('')
+  const [sel, setSel] = useState<string | null>(null)
+  const [snap, setSnap] = useState<any>(null)
+  const [text, setText] = useState('')
+  const [slot, setSlot] = useState('')
+  const [busy, setBusy] = useState(false)
+  const [notice, setNotice] = useState('')
+  const load = () => api(`/conversations?persona=${persona}`).then(setConvs).catch((e) => setErr(String(e.message)))
+  useEffect(() => { setConvs(null); setErr(''); setSel(null); setSnap(null); load() }, [persona])
+
+  const open = async (pid: string) => {
+    setSel(pid); setSnap(null); setNotice(''); setBusy(true)
+    try {
+      const s = await api(`/conversations/${persona}/${pid}/draft`, { method: 'POST' })
+      setSnap(s); setText(s.pending?.reply ?? ''); setSlot('')
+    } catch (e: any) { setErr(e.message) } finally { setBusy(false) }
+  }
+  const decide = async (body: any, msg: string) => {
+    setBusy(true)
+    try {
+      const s = await api(`/conversations/${persona}/${sel}/decision`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+      setSnap(s); setNotice(msg); load()
+    } catch (e: any) { setErr(e.message) } finally { setBusy(false) }
+  }
+  if (err) return <ErrorBanner err={err} />
+  if (!convs) return <div className="skeleton" />
+  const p = snap?.pending
+  return <>
+    <h2>Messages</h2>
+    {!convs.length && <p className="muted">No client messages yet. They appear when a client replies to a submitted proposal.</p>}
+    {convs.map((c) => (
+      <div key={c.proposal_id} className={`card job ${sel === c.proposal_id ? 'sel' : ''}`} role="button" tabIndex={0}
+        onClick={() => open(c.proposal_id)} onKeyDown={(e) => e.key === 'Enter' && open(c.proposal_id)}>
+        <div><strong>{c.title}</strong><div className="muted">{c.last}</div></div>
+        <span className={`badge ${c.status}`}>{c.status}</span>
+      </div>))}
+    {sel && <div className="card">
+      {busy && !snap && <p><span className="spin" /> Reading the message and drafting a reply…</p>}
+      {notice && <div className="notice" role="status">{notice}</div>}
+      {snap && <>
+        <p><b>Client:</b> {snap.message?.text}</p>
+        <p><span className={`badge ${snap.intent?.intent === 'scam_signal' ? 'skip' : 'partial'}`}>{snap.intent?.intent}</span>{' '}
+          <span className="muted">{snap.intent?.reason}</span></p>
+        {snap.intent?.intent === 'scam_signal' && <div className="banner" role="alert">
+          This looks like a scam or an instruction attempt. No reply was drafted. Do not share payment details or move off-platform.</div>}
+        {snap.errors.length > 0 && <div className="warn">{snap.errors.join('; ')}</div>}
+        {snap.sent && <p className="notice">Reply sent.</p>}
+        {p && <>
+          {p.slots.length > 0 && <><h3>Interview slot to hold (optional)</h3>
+            <div className="row">{p.slots.map((s: any) => (
+              <button key={s.start} className={`chip ${slot === s.start ? 'active' : ''}`}
+                onClick={() => setSlot(slot === s.start ? '' : s.start)}>{s.start.replace('T', ' ').slice(0, 16)}</button>))}</div></>}
+          <h3>Suggested reply</h3>
+          <textarea aria-label="Reply" value={text} onChange={(e) => setText(e.target.value)} />
+          <div className="actions"><div className="row">
+            <button className="primary" disabled={busy || !text.trim()}
+              onClick={() => decide(text.trim() === p.reply.trim() ? { action: 'approve', slot: slot || null }
+                : { action: 'edit', edited_text: text, slot: slot || null }, 'Reply sent.')}>Approve and send</button>
+            <button className="danger" disabled={busy} onClick={() => decide({ action: 'reject' }, 'Discarded. Nothing was sent.')}>Discard</button>
+          </div></div></>}
+      </>}
+    </div>}
+  </>
+}
 
 function RunRoute({ persona }: { persona: string }) {
   const { id } = useParams()
@@ -352,6 +419,7 @@ export default function App() {
           <NavLink to="/">Inbox</NavLink>
           <NavLink to="/pipeline">Pipeline</NavLink>
           <NavLink to="/settings">Settings</NavLink>
+          <NavLink to="/messages">Messages</NavLink>
         </nav>
         <span className="spacer" />
         <label className="persona">Freelancer profile
@@ -366,6 +434,7 @@ export default function App() {
         <Route path="/jobs/:id" element={<RunRoute persona={persona} />} />
         <Route path="/pipeline" element={<Pipeline persona={persona} open={(id) => nav(`/jobs/${id}`)} />} />
         <Route path="/settings" element={<Settings persona={persona} />} />
+        <Route path="/messages" element={<Messages persona={persona} />} />
       </Routes>
     </div>)
 }
