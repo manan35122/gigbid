@@ -4,6 +4,7 @@ from contextlib import asynccontextmanager
 from typing import Literal
 import asyncio
 import logging
+from agent.graphs.conversation_graph import build as build_conv
 
 from agent.memory.promotion_rules import record_edit, record_outcome
 from agent.memory.store import category_of, open_store
@@ -29,6 +30,7 @@ async def lifespan(app):
     async with saver() as cp, open_store() as store:
         app.state.store = store
         app.state.graph = build(cp, store)
+        app.state.conv = build_conv(cp, store)
         yield
 
 
@@ -207,3 +209,63 @@ async def regenerate(persona: str, job_id: str, body: Regen):
                               as_node="compliance")
     await graph.ainvoke(None, c)   # runs preview, then pauses at approval again
     return await snapshot(graph, c)
+
+def conv_cfg(persona, pid):
+    return {"configurable": {"thread_id": f"conv:{persona}:{pid}"}}
+
+
+async def conv_snapshot(c):
+    st = await app.state.conv.aget_state(c)
+    v, pending = st.values, None
+    for t in st.tasks:
+        for i in t.interrupts:
+            pending = i.value
+    return dict(status=v.get("status"), intent=v.get("intent"), message=v.get("message"),
+                pending=pending, sent=v.get("sent"), errors=v.get("errors", []))
+
+
+@app.get("/api/conversations")
+async def conversations(persona: str = "ai_engineer"):
+    try:
+        props = await adapter.list_proposals()
+        msgs = await adapter.list_messages("")
+    except MarketplaceUnavailable as e:
+        raise HTTPException(503, f"marketplace unavailable: {e}")
+    out = []
+    for p in props:
+        st = await app.state.graph.aget_state(cfg(persona, p["job_id"]))
+        if not (st.values and st.values.get("submission")):
+            continue
+        mine = [m for m in msgs if m["proposal_id"] == p["id"]]
+        if not mine:
+            continue
+        cs = await app.state.conv.aget_state(conv_cfg(persona, p["id"]))
+        out.append(dict(proposal_id=p["id"], job_id=p["job_id"],
+                        title=(st.values.get("job") or {}).get("title", p["job_id"]),
+                        outcome=p.get("outcome"), last=mine[-1]["text"], messages=mine,
+                        status=cs.values.get("status") if cs.values else "new"))
+    return out
+
+
+@app.post("/api/conversations/{persona}/{proposal_id}/draft")
+async def conv_draft(persona: str, proposal_id: str):
+    c = conv_cfg(persona, proposal_id)
+    if not (await app.state.conv.aget_state(c)).values:
+        await app.state.conv.ainvoke({"persona_id": persona, "proposal_id": proposal_id}, c)
+    return await conv_snapshot(c)
+
+
+class ConvDecision(BaseModel):
+    action: Literal["approve", "edit", "reject"]
+    edited_text: str | None = None
+    slot: str | None = None
+
+
+@app.post("/api/conversations/{persona}/{proposal_id}/decision")
+async def conv_decision(persona: str, proposal_id: str, body: ConvDecision):
+    c = conv_cfg(persona, proposal_id)
+    st = await app.state.conv.aget_state(c)
+    if not any(t.interrupts for t in st.tasks):
+        raise HTTPException(409, "no pending reply for this conversation")
+    await app.state.conv.ainvoke(Command(resume=body.model_dump()), c)
+    return await conv_snapshot(c)

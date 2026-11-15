@@ -32,3 +32,19 @@ class GigBidState(TypedDict, total=False):
     errors: Annotated[list[str], operator.add]
     preview: dict[str, Any]
     edits: Annotated[list[dict[str, Any]], operator.add]
+
+
+class ConversationState(TypedDict, total=False):
+    persona_id: str
+    job_id: str
+    proposal_id: str
+    message: dict[str, Any]
+    intent: dict[str, Any]
+    slots: list[dict[str, Any]]
+    reply: str
+    approval: dict[str, Any]
+    sent: dict[str, Any]
+    status: str
+    steps: Annotated[int, operator.add]
+    trace: Annotated[list[dict[str, Any]], operator.add]
+    errors: Annotated[list[str], operator.add]

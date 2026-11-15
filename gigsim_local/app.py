@@ -31,7 +31,7 @@ def policy():
 
 
 JOBS = {j["job_id"]: j for j in load("jobs_stream")}
-HIST = load("jobs_history")
+HIST = load("jobs_history_real") if (DATA / "jobs_history_real.json").exists() else load("jobs_history")
 CLIENTS = {c["client_id"]: c for c in load("clients")}
 HIDDEN = load("clients_hidden")
 S: dict = {}
@@ -83,6 +83,23 @@ def admin_reset(authorization: str = Header(default="")):
         raise HTTPException(401, "invalid token")
     reset()
     return {"reset": True}
+
+class FakeMsg(BaseModel):
+    proposal_id: str
+    text: str
+
+
+@app.post("/admin/client_message")
+def admin_client_message(m: FakeMsg, authorization: str = Header(default="")):
+    """TEST ONLY: inject a client message so the conversation graph can be exercised."""
+    if authorization != f"Bearer {TOKEN}":
+        raise HTTPException(401, "invalid token")
+    if m.proposal_id not in S["proposals"]:
+        raise HTTPException(404, "proposal not found")
+    rec = dict(id=f"msg-{len(S['messages']) + 1:04d}", proposal_id=m.proposal_id,
+               sender="client", text=m.text, at=time.time())
+    S["messages"].append(rec)
+    return rec
 
 
 @api.get("/jobs")

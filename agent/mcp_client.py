@@ -10,6 +10,9 @@ SERVERS = {
                     "transport": "streamable_http"},
     "portfolio": {"url": os.getenv("PORTFOLIO_MCP_URL", "http://localhost:8102/mcp"),
                   "transport": "streamable_http"},
+    
+    "workspace": {"url": os.getenv("WORKSPACE_MCP_URL", "http://localhost:8103/mcp"),
+                  "transport": "streamable_http"},
 }
 ALLOW = {
     "load_job": {"marketplace.get_job", "marketplace.get_client_history"},
@@ -19,7 +22,8 @@ ALLOW = {
     "pricing": {"marketplace.get_price_history", "marketplace.get_connects_balance"},
     "writer": {"portfolio.search_evidence"},
     "critic": {"portfolio.search_evidence"},
-    "liaison": {"marketplace.list_messages"},
+    "liaison": {"marketplace.list_messages", "workspace.free_slots", "portfolio.search_evidence"},
+    "liaison_send": {"marketplace.send_message", "workspace.create_tentative_hold"},
     "preview": {"marketplace.create_proposal_draft"},
     "submit": {"marketplace.create_proposal_draft", "marketplace.submit_proposal"},
 }
