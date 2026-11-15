@@ -2,7 +2,7 @@
    (back to writer at most twice) -> compliance. Approval interrupt + Postgres checkpointer come in 9e."""
 from langgraph.graph import END, START, StateGraph
 from langgraph.types import Send
-
+from agent.llm import run_tokens
 from agent.handoffs import BidDecision
 from agent.nodes.analysis import analyst, fit_matcher, load_job, risk_assessor
 from agent.nodes.common import cfg, step
@@ -44,12 +44,14 @@ def after_decide(state):
 def after_writer(state):
     return END if state.get("status") == "needs_attention" else "verifier"
 
-def over_budget(state):  # C4 step budget (the token budget comes with tracing)
-    return state.get("steps", 0) >= cfg()["budgets"]["max_graph_steps"]
+def over_budget(state):  # C4: step budget and token budget
+    b = cfg()["budgets"]
+    return state.get("steps", 0) >= b["max_graph_steps"] or run_tokens() > b["max_tokens_per_job"]
 
 
 async def needs_attention(state):
-    return {"status": "needs_attention", "errors": [f"step budget exceeded ({state.get('steps', 0)} steps)"],
+    return {"status": "needs_attention",
+            "errors": [f"budget exceeded ({state.get('steps', 0)} steps, {run_tokens()} tokens)"],
             **step("needs_attention")}
 
 

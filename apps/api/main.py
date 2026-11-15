@@ -9,7 +9,8 @@ from agent.graphs.conversation_graph import build as build_conv
 from agent.memory.promotion_rules import record_edit, record_outcome
 from agent.memory.store import category_of, open_store
 from agent.nodes.common import cfg as load_cfg
-from agent.llm import chat, prompt
+from agent.llm import chat, prompt, run_id
+from agent.usage import summarize
 from agent.nodes.compliance import compliance
 from rag.verify import verify
 from fastapi import FastAPI, HTTPException
@@ -85,6 +86,7 @@ async def stream(persona: str, job_id: str):
     graph, c = app.state.graph, cfg(persona, job_id)
 
     async def gen():
+        run_id.set(f"{persona}:{job_id}")
         if not (await graph.aget_state(c)).values:
             try:
                 async for chunk in graph.astream({"job_id": job_id, "persona_id": persona}, c,
@@ -108,6 +110,7 @@ class Decision(BaseModel):
 @app.post("/api/runs/{persona}/{job_id}/decision")
 async def decision(persona: str, job_id: str, body: Decision):
     graph, c = app.state.graph, cfg(persona, job_id)
+    run_id.set(f"{persona}:{job_id}")
     st = await graph.aget_state(c)
     if not any(t.interrupts for t in st.tasks):
         raise HTTPException(409, "no pending approval for this job")
@@ -249,6 +252,7 @@ async def conversations(persona: str = "ai_engineer"):
 
 @app.post("/api/conversations/{persona}/{proposal_id}/draft")
 async def conv_draft(persona: str, proposal_id: str):
+    run_id.set(f"conv:{persona}:{proposal_id}")
     c = conv_cfg(persona, proposal_id)
     if not (await app.state.conv.aget_state(c)).values:
         await app.state.conv.ainvoke({"persona_id": persona, "proposal_id": proposal_id}, c)
@@ -263,9 +267,14 @@ class ConvDecision(BaseModel):
 
 @app.post("/api/conversations/{persona}/{proposal_id}/decision")
 async def conv_decision(persona: str, proposal_id: str, body: ConvDecision):
+    run_id.set(f"conv:{persona}:{proposal_id}")
     c = conv_cfg(persona, proposal_id)
     st = await app.state.conv.aget_state(c)
     if not any(t.interrupts for t in st.tasks):
         raise HTTPException(409, "no pending reply for this conversation")
     await app.state.conv.ainvoke(Command(resume=body.model_dump()), c)
     return await conv_snapshot(c)
+
+@app.get("/api/usage")
+def usage():
+    return summarize()
