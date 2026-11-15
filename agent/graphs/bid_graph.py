@@ -11,6 +11,7 @@ from agent.nodes.drafting import critic, verifier, writer
 from agent.nodes.pricing import pricing
 from agent.state import GigBidState
 from agent.nodes.approval import apply_edit, approval, preview, submit
+from agent.nodes.scout import NS, fingerprint
 
 
 
@@ -20,8 +21,20 @@ def fan_out(state):
     return [Send(n, state) for n in ("analyst", "risk_assessor", "fit_matcher")]
 
 
-async def decide(state):
+async def decide(state, *, store=None):
     t, risk, fit = cfg()["thresholds"], state["risk_report"], state["fit_report"]
+
+    # duplicate guard: a repost of a job we already bid on is skipped
+    if store is not None:
+        try:
+            hit = await store.aget((state["persona_id"], NS), fingerprint(state["job"]))
+            if hit and hit.value["job_id"] != state["job_id"]:
+                d = BidDecision(action="skip", reasons=[f"duplicate of {hit.value['job_id']}"])
+                return {"decision": d.model_dump(), "status": "skipped",
+                        **step("decide", action="skip", duplicate=True)}
+        except Exception:
+            pass  # dedup must never block a decision
+
     hard = {"prompt_injection", "off_platform_contact", "unpaid_work"} & set(risk["flags"])
     if hard:
         d = BidDecision(action="skip", reasons=[f"risk flags: {sorted(hard)}"])
@@ -33,9 +46,16 @@ async def decide(state):
         d = BidDecision(action="watch", reasons=[f"fit {fit['score']} slightly below threshold"])
     else:
         d = BidDecision(action="bid", reasons=[f"fit {fit['score']}, risk {risk['score']}"])
+
+    # register the fingerprint so a later repost is recognised
+    if store is not None and d.action == "bid":
+        try:
+            await store.aput((state["persona_id"], NS), fingerprint(state["job"]), {"job_id": state["job_id"]})
+        except Exception:
+            pass
+
     status = {"skip": "skipped", "watch": "watching", "bid": "running"}[d.action]
     return {"decision": d.model_dump(), "status": status, **step("decide", action=d.action)}
-
 
 def after_decide(state):
     return "pricing" if state["decision"]["action"] == "bid" else END
