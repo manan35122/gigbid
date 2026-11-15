@@ -36,3 +36,7 @@ def retrieve_v0(persona_id, query, k=5, filters=None):
 def retrieve_v2(persona_id, query, k=5, filters=None):
     from rag.variants.v2_hybrid import retrieve
     return retrieve_with(retrieve, persona_id, query, k, filters)
+
+def retrieve_v3(persona_id, query, k=5, filters=None):
+    from rag.variants.v3_rerank import retrieve
+    return retrieve_with(retrieve, persona_id, query, k, filters)

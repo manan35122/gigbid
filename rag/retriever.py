@@ -5,6 +5,8 @@ VARIANTS = {
     "v1": ("rag.variants.v1_decompose", "retrieve_v0"),
     "v2": ("rag.variants.v2_hybrid", "retrieve"),
     "v1_v2": ("rag.variants.v1_decompose", "retrieve_v2"),
+    "v3": ("rag.variants.v3_rerank", "retrieve"),
+    "v1_v3": ("rag.variants.v1_decompose", "retrieve_v3"),
 }
 
 
