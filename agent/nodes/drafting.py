@@ -45,6 +45,9 @@ async def verifier(state):
     d, ev = state["proposal_draft"], state.get("evidence", [])
     valid = {e["evidence_id"] for e in ev}
     results = [await asyncio.to_thread(verify, d["cover_letter"], ev)]
+    if not all(r.get("grader_ok", True) for r in results):
+     return {"status": "needs_attention", "errors": ["claim verifier unavailable (model error); draft not checked"],
+            **step("verifier", error="grader_unavailable")}
     answers = []
     for a in d["screening_answers"]:
         if not a.strip():

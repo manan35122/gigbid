@@ -57,3 +57,10 @@ pricing:                # USD per 1M tokens. From memory: VERIFY on groq.com/pri
   openai/gpt-oss-20b: {in: 0.075, out: 0.30}
   openai/gpt-oss-120b: {in: 0.15, out: 0.60}
   qwen/qwen3.8-27b: {in: null, out: null}
+
+
+worker:
+  scout_every_minutes: 30     # demo value. For live mode use hours, see docs/RUNBOOK.md
+  scout_batch: 10             # max new jobs analysed per scout run (polite scheduling)
+  saved_searches: [""]        # keywords; "" = all jobs
+  personas: [ai_engineer]

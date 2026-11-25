@@ -1,0 +1,7 @@
+agent
+apps
+evals
+gigsim_local
+mcp_servers
+rag
+worker

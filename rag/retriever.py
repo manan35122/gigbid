@@ -7,6 +7,7 @@ VARIANTS = {
     "v1_v2": ("rag.variants.v1_decompose", "retrieve_v2"),
     "v3": ("rag.variants.v3_rerank", "retrieve"),
     "v1_v3": ("rag.variants.v1_decompose", "retrieve_v3"),
+    "v8": ("rag.variants.v8_corrective", "retrieve"),
 }
 
 

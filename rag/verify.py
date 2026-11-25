@@ -14,13 +14,13 @@ def verify(draft: str, evidence: list[dict]) -> dict:
     sents = split_claims(draft)
     ev = "\n".join(f"[{e['evidence_id']}] {e['title']}: {e['text']}" for e in evidence)
     user = f"<evidence>\n{ev}\n</evidence>\n<sentences>\n{json.dumps(list(enumerate(sents)))}\n</sentences>"
-    verdicts = {}
+    verdicts, grader_ok = {}, True
     try:
         out = chat("verifier", prompt("verify_claim"), user, max_tokens=2500)
         m = re.search(r"\[.*\]", out, re.S)
         verdicts = {v["i"]: v for v in json.loads(m.group(0))}
     except Exception:
-        pass  # fail closed: anything not graded is treated as unsupported below
+        grader_ok = False # fail closed: anything not graded is treated as unsupported below
     claims = []
     for i, s in enumerate(sents):
         v = verdicts.get(i, {})
@@ -29,5 +29,5 @@ def verify(draft: str, evidence: list[dict]) -> dict:
     kept = [c["sentence"] for c in claims if c["verdict"] != "unsupported"]
     graded = [c for c in claims if c["verdict"] != "no_claim"]
     unsup = sum(c["verdict"] == "unsupported" for c in graded)
-    return dict(claims=claims, clean_text=" ".join(kept),
-                unsupported=unsup, unsupported_rate=round(unsup / len(graded), 3) if graded else 0.0)
+    return dict(claims=claims, clean_text=" ".join(kept), grader_ok=grader_ok,
+                unsupported=unsup, unsupported_rate=round(unsup / len(graded), 3) if graded else 0.0))

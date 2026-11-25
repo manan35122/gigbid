@@ -6,10 +6,18 @@ from agent.nodes.common import cfg, step
 
 RULES = {
     "email": re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+"),
-    "phone": re.compile(r"\+?\d[\d\s().-]{8,}\d"),
+    "phone": re.compile(r"(?<![\d.,%-])\+?\d[\d\s().-]{8,}\d(?![\d%]|[.,-]\d)"),
     "link": re.compile(r"https?://\S+|www\.\S+", re.I),
     "guarantee": re.compile(r"\bguarantee[sd]?\b|100\s*%\s*(success|satisf)|risk[- ]free", re.I),
 }
+UNICODE = {"\u2011": "-", "\u2010": "-", "\u2013": "-", "\u2014": "-", "\u2019": "'", "\u2018": "'",
+           "\u201c": '"', "\u201d": '"', "\u202f": " ", "\u00a0": " ", "\u200b": ""}
+
+
+def normalise(t: str) -> str:
+    for a, b in UNICODE.items():
+        t = t.replace(a, b)
+    return t.strip()
 
 
 async def compliance(state):
@@ -17,7 +25,7 @@ async def compliance(state):
 
     def clean(text: str) -> str:
         keep = []
-        for s in re.split(r"(?<=[.!?])\s+|\n+", text.strip()):
+        for s in re.split(r"(?<=[.!?])\s+|\n+", normalise(text)):
             hit = [n for n, rx in RULES.items() if rx.search(s)] + [b for b in pol["banned_phrases"] if b in s.lower()]
             if hit:
                 viol.extend(f"{h}: removed '{s[:60]}'" for h in hit)

@@ -106,7 +106,8 @@ def build(checkpointer=None, store=None):
     g.add_conditional_edges("decide", after_decide, ["pricing", END])
     g.add_edge("pricing", "writer")
     g.add_conditional_edges("writer", after_writer, ["verifier", END])
-    g.add_edge("verifier", "critic")
+    g.add_conditional_edges("verifier", lambda s: END if s.get("status") == "needs_attention" else "critic",
+        ["critic", END])
     g.add_conditional_edges("critic", after_critic, ["writer", "compliance", "needs_attention"])
     g.add_conditional_edges("compliance", after_compliance, ["preview", "needs_attention", END])
     g.add_edge("preview", "approval")
